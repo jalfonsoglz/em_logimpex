@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <data noupdate="1">
+        <record id="operation_optype_01" model="eml.operation.type">
+            <field name="active">true</field>
+            <field name="name">Canje</field>
+            <field name="category">CANJE</field>
+        </record>
+        <record id="operation_optype_02" model="eml.operation.type">
+            <field name="active">true</field>
+            <field name="name">Exportación Carga</field>
+            <field name="category">EXPCA</field>
+        </record>
+        <record id="operation_optype_03" model="eml.operation.type">
+            <field name="active">true</field>
+            <field name="name">Exportación Vehículo</field>
+            <field name="category">EXPVE</field>
+        </record>
+        <record id="operation_optype_04" model="eml.operation.type">
+            <field name="active">true</field>
+            <field name="name">Importación Carga</field>
+            <field name="category">IMPCA</field>
+        </record>
+        <record id="operation_optype_05" model="eml.operation.type">
+            <field name="active">true</field>
+            <field name="name">Importación Temporal</field>
+            <field name="category">IMPTE</field>
+        </record>
+        <record id="operation_optype_06" model="eml.operation.type">
+            <field name="active">true</field>
+            <field name="name">Menaje</field>
+            <field name="category">MENAJ</field>
+        </record>
+        <record id="operation_optype_07" model="eml.operation.type">
+            <field name="active">true</field>
+            <field name="name">Mudanza Local</field>
+            <field name="category">MUDLO</field>
+        </record>
+        <record id="operation_optype_08" model="eml.operation.type">
+            <field name="active">true</field>
+            <field name="name">Operaciones Especiales Mudanzas</field>
+            <field name="category">OPESP</field>
+        </record>
+        <record id="operation_optype_09" model="eml.operation.type">
+            <field name="active">true</field>
+            <field name="name">Ret Carga</field>
+            <field name="category">RETCA</field>
+        </record>
+        <record id="operation_optype_10" model="eml.operation.type">
+            <field name="active">true</field>
+            <field name="name">Servicio Local</field>
+            <field name="category">SERLO</field>
+        </record>
+        </data>
+</odoo>

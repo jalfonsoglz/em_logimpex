@@ -1,0 +1,737 @@
+﻿id,country,active,name,code,category,note
+port_0001,base.ci,true,Abidjan,IVABJ,Puerto,.
+port_0002,base.sv,true,Acajutla,ESACJ,Puerto,.
+port_0003,base.mx,true,Acapulco,MXACP,Puerto,.
+port_0004,base.gh,true,Accra,GHACC,Puerto,.
+port_0005,base.au,true,Adelaide,ASPDL,Puerto,.
+port_0006,base.gr,true,Agria,GRARI,Puerto,.
+port_0007,base.kw,true,Al Fuhayhil,KUMHD,Puerto,.
+port_0008,base.kw,true,Al Kuwayt,KUALK,Puerto,.
+port_0009,base.us,true,Alabama,USALA,Puerto,.
+port_0010,base.au,true,Albany,ASALY,Puerto,.
+port_0011,base.ca,true,Alberton,CACPQ,Puerto,.
+port_0012,base.es,true,Algeciras,SPAGS,Puerto,.
+port_0013,base.ar,true,Almirante Brown,ARABN,Puerto,.
+port_0014,base.mx,true,Altamira,MXAEM,Puerto,.
+port_0015,base.nl,true,Amsterdam,NLAMS,Puerto,.
+port_0016,base.us,true,Anchorage,USANC,Puerto,.
+port_0017,base.pt,true,Angra (Harbour),POARQ,Puerto,.
+port_0018,base.ag,true,Antigua,UKSTJ,Puerto,.
+port_0019,base.cl,true,Antofagasta,CIAFA,Puerto,.
+port_0020,base.be,true,Antwerp,BEANW,Puerto,.
+port_0021,base.th,true,Ao Phuket,THAOP,Puerto,.
+port_0022,base.ng,true,Apapa,NILAG,Puerto,.
+port_0023,base.br,true,Aracaju,BRARC,Puerto,.
+port_0024,base.cl,true,Arica,CIARA,Puerto,.
+port_0025,base.nl,true,Aruba,NLOAS,Puerto,.
+port_0026,base.py,true,Asuncion,PAASU,Puerto,.
+port_0027,base.gr,true,Athens,GRPIR,Puerto,.
+port_0028,base.nz,true,Auckland,NZAUC,Puerto,.
+port_0029,base.pt,true,Azores,POHOR,Puerto,.
+port_0030,base.br,true,Bahia,BRBAH,Puerto,.
+port_0031,base.ar,true,Bahia Blanca,ARBBL,Puerto,.
+port_0032,base.ar,true,Bahia San Blas,ARSBC,Puerto,.
+port_0033,base.cl,true,Bahia San Gregorio,CIBAC,Puerto,.
+port_0034,base.ar,true,Bahia San Sebastian,ARBSX,Puerto,.
+port_0035,base.pa,true,Balboa,PNBLB,Puerto,.
+port_0036,base.us,true,Baltimore,USBLT,Puerto,.
+port_0037,base.ly,true,Banghazi,LYBNZ,Puerto,.
+port_0038,base.th,true,Bangkok,THBNK,Puerto,.
+port_0039,base.bb,true,Barbados,BBBWN,Puerto,.
+port_0040,base.es,true,Barcelona,SPBRE,Puerto,.
+port_0041,base.it,true,Bari,ITBPI,Puerto,.
+port_0042,base.cl,true,Barquito-Cha¤aral,CICLM,Puerto,.
+port_0043,base.ar,true,Barranqueras,ARBRQ,Puerto,.
+port_0044,base.co,true,Barranquilla,COBQA,Puerto,.
+port_0045,base.th,true,Bass Harbour,THBSH,Puerto,.
+port_0046,base.fr,true,Bayonne,FRBYE,Puerto,.
+port_0047,base.br,true,Belem,BRPAA,Puerto,.
+port_0048,base.gb,true,Belfast,UKBFT,Puerto,.
+port_0049,base.bz,true,Belize,UKBEZ,Puerto,.
+port_0050,base.br,true,Bello Horizonte,BRHOR,Puerto,.
+port_0051,base.mx,true,Benito Juarez,MXBJZ,Puerto,.
+port_0052,base.fr,true,Biarritz,FRBRZ,Puerto,.
+port_0053,base.es,true,Bilbao,SPBBO,Puerto,.
+port_0054,base.gb,true,Birminghan,UKBIR,Puerto,.
+port_0055,base.co,true,Bogota,COBGT,Puerto,.
+port_0056,base.it,true,Bolonia,ITBOL,Puerto,.
+port_0057,base.in,true,Bombay,INBQM,Puerto,.
+port_0058,base.cu,true,Boqueron,CUCMN,Puerto,.
+port_0059,base.us,true,Boston,USBOQ,Puerto,.
+port_0060,base.gb,true,Boston UK,UKBOS,Puerto,.
+port_0061,base.fr,true,Boulogne-Sur-Mer,FRBSM,Puerto,.
+port_0062,base.de,true,Bremen,GEBMN,Puerto,.
+port_0063,base.de,true,Bremerhaven,GEBHV,Puerto,.
+port_0064,base.it,true,Brescia,ITBRE,Puerto,.
+port_0065,base.fr,true,Brest,FRBES,Puerto,.
+port_0066,base.gb,true,Brighton,UKBIG,Puerto,.
+port_0067,base.it,true,Brindisi,ITBIB,Puerto,.
+port_0068,base.au,true,Brisbane,ASBBN,Puerto,.
+port_0069,base.gb,true,Bristol,UKBRI,Puerto,.
+port_0070,base.us,true,Brooklyn,USBBD,Puerto,.
+port_0071,base.my,true,Brunei Town,MYBNU,Puerto,.
+port_0072,base.be,true,Brussels,BEBXL,Puerto,.
+port_0073,base.lr,true,Buchanan,LIBCH,Puerto,.
+port_0074,base.co,true,Buenaventura,COBFA,Puerto,.
+port_0075,base.ar,true,Buenos Aires,ARBAI,Puerto,.
+port_0076,base.br,true,Cabedello,BRCBL,Puerto,.
+port_0077,base.cl,true,Cabo Negro,CICNX,Puerto,.
+port_0078,base.es,true,Cadiz,SPCAZ,Puerto,.
+port_0079,base.fr,true,Caen,FRCNQ,Puerto,.
+port_0080,base.it,true,Cagliari,ITCGI,Puerto,.
+port_0081,base.fr,true,Calais,FRCAL,Puerto,.
+port_0082,base.in,true,Calcutta,INCAT,Puerto,.
+port_0083,base.cr,true,Caldera,CSCDR,Puerto,.
+port_0084,base.ar,true,Caleta Cordoba,ARCDB,Puerto,.
+port_0085,base.ar,true,Caleta Olivia,AROLV,Puerto,.
+port_0086,base.co,true,Cali,COCAL,Puerto,.
+port_0087,base.pe,true,Callao,PECAO,Puerto,.
+port_0088,base.ec,true,Callo,ECPQY,Puerto,.
+port_0089,base.ar,true,Campana,ARCMA,Puerto,.
+port_0090,base.mx,true,Campeche,MXCCE,Puerto,.
+port_0091,base.uy,true,Canelones,UYCAN,Puerto,.
+port_0092,base.fr,true,Cannes,FRCNN,Puerto,.
+port_0093,base.gh,true,Cape Coast,GHCPC,Puerto,.
+port_0094,base.za,true,Cape Town,SFCTO,Puerto,.
+port_0095,base.ve,true,Caracas,VECCV,Puerto,.
+port_0096,base.gb,true,Cardiff,UKCDF,Puerto,.
+port_0097,base.uy,true,Carmelo,UYCAR,Puerto,.
+port_0098,base.ar,true,Carmen De Patagones,ARCDP,Puerto,.
+port_0099,base.uy,true,Carrasco,UYCAO,Puerto,.
+port_0100,base.uy,true,Carro Largo,UYCAL,Puerto,.
+port_0101,base.co,true,Cartagena,COCGA,Puerto,.
+port_0102,base.es,true,Cartagena ES,SPCAF,Puerto,.
+port_0103,base.ma,true,Casablanca,MOCSA,Puerto,.
+port_0104,base.it,true,Castellammare,ITCTM,Puerto,.
+port_0105,base.it,true,Catania,ITCAI,Puerto,.
+port_0106,base.br,true,Ceara,BRPDM,Puerto,.
+port_0107,base.cl,true,Chacabuco,CIPCH,Puerto,.
+port_0108,base.cn,true,Chan Chiang,CHCNG,Puerto,.
+port_0109,base.cn,true,Changchun,CHANG,Puerto,.
+port_0110,base.us,true,Charleston,USCHR,Puerto,.
+port_0111,base.us,true,Charlotte,USRTR,Puerto,.
+port_0112,base.fr,true,Cherbourg,FRCEG,Puerto,.
+port_0113,base.us,true,Chicago,USCIG,Puerto,.
+port_0114,base.cn,true,Chiu Chiang,CHCXX,Puerto,.
+port_0115,base.cn,true,Chiwan,CHWAN,Puerto,.
+port_0116,base.cl,true,Chonchi,CICHO,Puerto,.
+port_0117,base.nz,true,Christchurch,NZPFT,Puerto,.
+port_0118,base.cn,true,Chung Ching,CHCUG,Puerto,.
+port_0119,base.cu,true,Cienfuegos,CUCNF,Puerto,.
+port_0120,base.cl,true,Cisnes,CICIS,Puerto,.
+port_0121,base.us,true,Cleveland,USCVD,Puerto,.
+port_0122,base.cl,true,Colina,CICLN,Puerto,.
+port_0123,base.pa,true,Colon,PNCXT,Puerto,.
+port_0124,base.ar,true,Col¢n,ARCOL,Puerto,.
+port_0125,base.uy,true,Colonia,UYCOA,Puerto,.
+port_0126,base.cl,true,Coloso,CICOL,Puerto,.
+port_0127,base.ar,true,Comodoro Rivadavia,ARCDD,Puerto,.
+port_0128,base.gn,true,Conakry,GVCOY,Puerto,.
+port_0129,base.cl,true,Concepcion CH,CITLC,Puerto,.
+port_0130,base.py,true,Concepcion,PACNP,Puerto,.
+port_0131,base.ar,true,Conception Del Uruguay,ARCDY,Puerto,.
+port_0132,base.ar,true,Concordia,ARCKA,Puerto,.
+port_0133,base.dk,true,Copenhagen,DACPG,Puerto,.
+port_0134,base.cl,true,Coquimbo,CICQO,Puerto,.
+port_0135,base.ni,true,Corinto,NUCTX,Puerto,.
+port_0136,base.ar,true,Corrientes,ARCOR,Puerto,.
+port_0137,base.mx,true,Cozumel,MXCZM,Puerto,.
+port_0138,base.pa,true,Cristobal,PNCRS,Puerto,.
+port_0139,base.nl,true,Curacao,NLWMS,Puerto,.
+port_0140,base.sn,true,Dakar,SGDAK,Puerto,.
+port_0141,base.cn,true,Dalian,CHDLN,Puerto,.
+port_0142,base.us,true,Davenport,USDAV,Puerto,.
+port_0143,base.gn,true,Debreeka,GVDEB,Puerto,.
+port_0144,base.ar,true,Decepcion,ARPFO,Puerto,.
+port_0145,base.ar,true,Diamante,ARDIA,Puerto,.
+port_0146,base.so,true,Djibouti,SODJB,Puerto,.
+port_0147,base.dm,true,Dominica,FRRSE,Puerto,.
+port_0148,base.cm,true,Douala,CMDUA,Puerto,.
+port_0149,base.gn,true,Dreger Harbour,GVDGH,Puerto,.
+port_0150,base.za,true,Durban,SFDUR,Puerto,.
+port_0151,base.de,true,Dusseldorf,GEDDF,Puerto,.
+port_0152,base.za,true,East London,SFELN,Puerto,.
+port_0153,base.es,true,El Ferrol,SPELF,Puerto,.
+port_0154,base.us,true,Elizabethport,USEZP,Puerto,.
+port_0155,base.ar,true,Empedrado,AREDO,Puerto,.
+port_0156,base.py,true,Encarnacion,PAENO,Puerto,.
+port_0157,base.ec,true,Esmeraldas,ECEDA,Puerto,.
+port_0158,base.ar,true,Esquina,ARESO,Puerto,.
+port_0159,base.tr,true,Estambul,TUIST,Puerto,.
+port_0160,base.gb,true,Felixstowe,UKFXW,Puerto,.
+port_0161,base.es,true,Ferrol,SPFER,Puerto,.
+port_0162,base.br,true,Florianopolis,BRFLO,Puerto,.
+port_0163,base.ng,true,Forcados,NIFOC,Puerto,.
+port_0164,base.ar,true,Formosa,ARPFA,Puerto,.
+port_0165,base.mq,true,Fort De France,FRFTF,Puerto,.
+port_0166,base.us,true,Fort Lauderdale,USFTL,Puerto,.
+port_0167,base.fr,true,Fos Sur Mer,FRFSM,Puerto,.
+port_0168,base.de,true,Frankfurt,GEFFU,Puerto,.
+port_0169,base.uy,true,Fray Bentos,UYFBN,Puerto,.
+port_0170,base.us,true,Freeport,USFRP,Puerto,.
+port_0171,base.sl,true,Freetown,SLFTN,Puerto,.
+port_0172,base.au,true,Fremantle,ASFRM,Puerto,.
+port_0173,base.cn,true,Fuzhou,CHFUZ,Puerto,.
+port_0174,base.us,true,Galveston,USGVS,Puerto,.
+port_0175,base.be,true,Gand,BEGNT,Puerto,.
+port_0176,base.gb,true,Gatwick,UKGAT,Puerto,.
+port_0177,base.pl,true,Gdansk,PLGDK,Puerto,.
+port_0178,base.pl,true,Gdynia,PLGDY,Puerto,.
+port_0179,base.ar,true,General Alvear,ARAVE,Puerto,.
+port_0180,base.ar,true,General Belgrano,ARBEL,Puerto,.
+port_0181,base.ar,true,General San Martin,ARGSM,Puerto,.
+port_0182,base.it,true,Genova,ITGEN,Puerto,.
+port_0183,base.be,true,Gent,BEGEN,Puerto,.
+port_0184,base.gy,true,George Town GY,UKGGT,Puerto,.
+port_0185,base.my,true,George Town,MYGTW,Puerto,.
+port_0186,base.es,true,Gijon,SPGIJ,Puerto,.
+port_0187,base.gb,true,Gloucester,UKGCT,Puerto,.
+port_0188,base.mx,true,Guadalajara,MXGUA,Puerto,.
+port_0189,base.cn,true,Guangzhou,CHGUA,Puerto,.
+port_0190,base.ve,true,Guanta,VEGUA,Puerto,.
+port_0191,base.ec,true,Guayaquil,ECGUQ,Puerto,.
+port_0192,base.vn,true,Haiphong,VNHAH,Puerto,.
+port_0193,base.ca,true,Halifax,CAHAL,Puerto,.
+port_0194,base.eg,true,Hamata,EGRGU,Puerto,.
+port_0195,base.de,true,Hamburgo,GEHAM,Puerto,.
+port_0196,base.vn,true,Hanoi,VNHAN,Puerto,.
+port_0197,base.fr,true,Havre,FRLEH,Puerto,.
+port_0198,base.fi,true,Helsingfors,FIHEL,Puerto,.
+port_0199,base.ar,true,Hernandarias,ARHES,Puerto,.
+port_0200,base.jp,true,Hiroshima,JAHRI,Puerto,.
+port_0201,base.vn,true,Ho Chi Minh (Saigon),VNHCM,Puerto,.
+port_0202,base.py,true,Hohenau,PAHHU,Puerto,.
+port_0203,base.cn,true,Hong Kong,CHHON,Puerto,.
+port_0204,base.ar,true,Ibicuy,ARIBC,Puerto,.
+port_0205,base.es,true,Ibiza,SPIBI,Puerto,.
+port_0206,base.br,true,Ilheus,BRILH,Puerto,.
+port_0207,base.pe,true,Ilo,PEILO,Puerto,.
+port_0208,base.br,true,Imbituba,BRIMB,Puerto,.
+port_0209,base.in,true,Inchon,INCHO,Puerto,.
+port_0210,base.cl,true,Iquique,CIIQQ,Puerto,.
+port_0211,base.pe,true,Iquitos,PEIQU,Puerto,.
+port_0212,base.br,true,Itajai,BRITJ,Puerto,.
+port_0213,base.py,true,Itapua,PAITA,Puerto,.
+port_0214,base.tr,true,Izmir,TUIZR,Puerto,.
+port_0215,base.ca,true,Jackson Bay,CAJKB,Puerto,.
+port_0216,base.id,true,Jakarta,IDJAK,Puerto,.
+port_0217,base.au,true,Jervis Bay,ASJRB,Puerto,.
+port_0218,base.za,true,Johannesburg,SFJOH,Puerto,.
+port_0219,base.uy,true,Jose Ignacio Terminal,UYJIT,Puerto,.
+port_0220,base.cl,true,Juan Fernandez,CIJFZ,Puerto,.
+port_0221,base.jp,true,Kagoshima,JAKGK,Puerto,.
+port_0222,base.ru,true,Kaliningrado,URKGB,Puerto,.
+port_0223,base.tw,true,Kaoshsiung,TWKSG,Puerto,.
+port_0224,base.tw,true,Keelung=Chilung,TWCIL,Puerto,.
+port_0225,base.jp,true,Kobe,JAKBH,Puerto,.
+port_0226,base.fi,true,Kotka,FIKOT,Puerto,.
+port_0227,base.ru,true,Kronshtadt,URKSH,Puerto,.
+port_0228,base.hn,true,La Ceiba,HOLCE,Puerto,.
+port_0229,base.es,true,La Coru¤a,SPLCU,Puerto,.
+port_0230,base.ve,true,La Guaira,VELGX,Puerto,.
+port_0231,base.uy,true,La Paloma,UYPLO,Puerto,.
+port_0232,base.ar,true,La Plata,ARLPL,Puerto,.
+port_0233,base.it,true,La Spezia,ITLSZ,Puerto,.
+port_0234,base.mt,true,La Valetta,MTVLE,Puerto,.
+port_0235,base.ca,true,Labrador,CAWMH,Puerto,.
+port_0236,base.es,true,Las Palmas,SPPEZ,Puerto,.
+port_0237,base.mx,true,Lazaro Cardenas,MXLCD,Puerto,.
+port_0238,base.gb,true,Leeds,UKLEE,Puerto,.
+port_0239,base.ga,true,Libreville,GBLBR,Puerto,.
+port_0240,base.be,true,Lieja,BELIE,Puerto,.
+port_0241,base.fr,true,Lille,FRLIL,Puerto,.
+port_0242,base.pe,true,Lima,PELIM,Puerto,.
+port_0243,base.cr,true,Limon,CSLIM,Puerto,.
+port_0244,base.cl,true,Lirquen,CILQW,Puerto,.
+port_0245,base.pt,true,Lisboa,POLIB,Puerto,.
+port_0246,base.gb,true,Liverpool,UKLVP,Puerto,.
+port_0247,base.gt,true,Livingston,GTLVO,Puerto,.
+port_0248,base.it,true,Livorno,ITLEG,Puerto,.
+port_0249,base.ao,true,Lobito,AOLOB,Puerto,.
+port_0250,base.tg,true,Lome,TOLOM,Puerto,.
+port_0251,base.gb,true,Londres,UKLNR,Puerto,.
+port_0252,base.us,true,Los Angeles,USLOS,Puerto,.
+port_0253,base.ao,true,Luanda,AOLUA,Puerto,.
+port_0254,base.cn,true,Lung Kou,CHLGK,Puerto,.
+port_0255,base.py,true,Luque,PALUQ,Puerto,.
+port_0256,base.fr,true,Lyon,FRLYN,Puerto,.
+port_0257,base.br,true,Maceio,BRMCE,Puerto,.
+port_0258,base.in,true,Madras,INMDR,Puerto,.
+port_0259,base.es,true,Madrid,SPMAD,Puerto,.
+port_0260,base.es,true,Malaga,SPMGA,Puerto,.
+port_0261,base.uy,true,Maldonado,UYMDO,Puerto,.
+port_0262,base.se,true,Malmo,SWMMO,Puerto,.
+port_0263,base.br,true,Manaos,BRMXO,Puerto,.
+port_0264,base.gb,true,Manchester,UKMCT,Puerto,.
+port_0265,base.in,true,Mangalore,INMQR,Puerto,.
+port_0266,base.ph,true,Manila,RPMNY,Puerto,.
+port_0267,base.ec,true,Manta,ECMTA,Puerto,.
+port_0268,base.mx,true,Manzanillo,MXMZN,Puerto,.
+port_0269,base.ar,true,Mar Del Plata,ARMPL,Puerto,.
+port_0270,base.ve,true,Maracaibo,VEMAR,Puerto,.
+port_0272,base.cu,true,Matanzas,CUMZS,Puerto,.
+port_0273,base.au,true,Melbourne,IIOXX,Puerto,.
+port_0274,base.ma,true,Melilla,MOMFI,Puerto,.
+port_0275,base.tr,true,Mersin,TUMER,Puerto,.
+port_0276,base.it,true,Messina,ITMES,Puerto,.
+port_0277,base.mx,true,M‚xico,MXMEX,Puerto,.
+port_0278,base.us,true,Miami,USMIA,Puerto,.
+port_0279,base.it,true,Milan,ITMIL,Puerto,.
+port_0280,base.us,true,Mississippi,USMIS,Puerto,.
+port_0281,base.so,true,Mogadiscio,SOMOG,Puerto,.
+port_0282,base.jp,true,Moji,JAMOJ,Puerto,.
+port_0283,base.lr,true,Monrovia,LIMVI,Puerto,.
+port_0284,base.uy,true,Montevideo,UYMVD,Puerto,.
+port_0285,base.ca,true,Montreal,CAMON,Puerto,.
+port_0286,base.ru,true,Moscu,URMOS,Puerto,.
+port_0287,base.jp,true,Nagasaki,JANAG,Puerto,.
+port_0288,base.jp,true,Nagoya,JANGY,Puerto,.
+port_0289,base.jp,true,Naha,JANAH,Puerto,.
+port_0290,base.it,true,Napoles,ITNAP,Puerto,.
+port_0291,base.no,true,Narvik,NONAR,Puerto,.
+port_0292,base.br,true,Natal,BRNAT,Puerto,.
+port_0293,base.ar,true,Necochea,ARNEC,Puerto,.
+port_0294,base.ca,true,New Brunswick,CASZJ,Puerto,.
+port_0295,base.in,true,New Delhi,INNDH,Puerto,.
+port_0296,base.us,true,New Jersey,USNJY,Puerto,.
+port_0297,base.us,true,New Orleans,USNWO,Puerto,.
+port_0298,base.us,true,New York,USNYO,Puerto,.
+port_0299,base.us,true,Newark,USPWK,Puerto,.
+port_0300,base.us,true,Newport,USNET,Puerto,.
+port_0301,base.cn,true,Ningbo,CHNGO,Puerto,.
+port_0302,base.us,true,Norfolk,USNFK,Puerto,.
+port_0303,base.ca,true,Nova Scotia,CAPCT,Puerto,.
+port_0304,base.uy,true,Nueva Palmira,UYNVP,Puerto,.
+port_0305,base.us,true,Oakland,USOAK,Puerto,.
+port_0306,base.py,true,Obligado,PAOBP,Puerto,.
+port_0307,base.ua,true,Odessa,URODS,Puerto,.
+port_0308,base.jp,true,Okinawa,JAOKI,Puerto,.
+port_0309,base.ca,true,Ontario,CAONT,Puerto,.
+port_0310,base.pt,true,Oporto,POPJQ,Puerto,.
+port_0311,base.dz,true,Oran,AGORA,Puerto,.
+port_0312,base.fr,true,Orly,FRORL,Puerto,.
+port_0313,base.fr,true,Orsay,FRORS,Puerto,.
+port_0314,base.jp,true,Osaka,JAOSA,Puerto,.
+port_0315,base.no,true,Oslo,NOSLO,Puerto,.
+port_0316,base.cl,true,Osorno,CIOSO,Puerto,.
+port_0317,base.ca,true,Ottawa,CAOTT,Puerto,.
+port_0318,base.pe,true,Paita,PEPAI,Puerto,.
+port_0319,base.it,true,Palermo,ITPAL,Puerto,.
+port_0320,base.pa,true,Panama City,PNPFZ,Puerto,.
+port_0321,base.my,true,Pangkor,MYPKR,Puerto,.
+port_0322,base.sr,true,Paramaribo,NSPRB,Puerto,.
+port_0323,base.ar,true,Parana,ARPNA,Puerto,.
+port_0324,base.br,true,Paranagua,BRPGU,Puerto,.
+port_0325,base.fr,true,Paris,FRPAR,Puerto,.
+port_0326,base.cl,true,Patache,CIPAT,Puerto,.
+port_0327,base.cn,true,Peking,CHPKI,Puerto,.
+port_0328,base.sl,true,Pepel,SLPEP,Puerto,.
+port_0329,base.au,true,Perth,UKPTH,Puerto,.
+port_0330,base.us,true,Philadelphia,USPHL,Puerto,.
+port_0331,base.py,true,Pilar,PAPIL,Puerto,.
+port_0332,base.tt,true,Point Fortin,TDPTF,Puerto,.
+port_0333,base.tt,true,Point Lisas,TDPNS,Puerto,.
+port_0334,base.tt,true,Pointe A Pierre,TDPPR,Puerto,.
+port_0335,base.za,true,Port Elizabeth,SFPFL,Puerto,.
+port_0336,base.us,true,Port Everglades,USPVG,Puerto,.
+port_0337,base.gb,true,Port Glasgow,UKPGW,Puerto,.
+port_0338,base.ng,true,Port Harcourt,NIPHR,Puerto,.
+port_0339,base.cr,true,Port Limon,CSPFW,Puerto,.
+port_0340,base.tt,true,Port Of Spain,TDPOP,Puerto,.
+port_0341,base.eg,true,Port Said,EGPQZ,Puerto,.
+port_0342,base.sd,true,Port Sudan,SDPUD,Puerto,.
+port_0343,base.gb,true,Portland,UKPKX,Puerto,.
+port_0344,base.br,true,Porto Alegre,BRPJW,Puerto,.
+port_0345,base.gb,true,Portsmouth,UKPTM,Puerto,.
+port_0346,base.cl,true,Pucon,CIPUC,Puerto,.
+port_0347,base.py,true,Puerto Antequera,PAPAN,Puerto,.
+port_0348,base.ar,true,Puerto Belgrano,ARPBE,Puerto,.
+port_0349,base.ar,true,Puerto Bermejo,ARPBJ,Puerto,.
+port_0350,base.ec,true,Puerto Bolivar,ECPBV,Puerto,.
+port_0351,base.ve,true,Puerto Cabello,VEPYU,Puerto,.
+port_0352,base.ni,true,Puerto Cabezas,NUPBZ,Puerto,.
+port_0353,base.hn,true,Puerto Castilla,HOPQC,Puerto,.
+port_0354,base.hn,true,Puerto Cortes,HOPYZ,Puerto,.
+port_0355,base.ar,true,Puerto Deseado,ARPQD,Puerto,.
+port_0356,base.ar,true,Puerto Goya,ARXPO,Puerto,.
+port_0357,base.ar,true,Puerto Ibicuy,ARPIY,Puerto,.
+port_0358,base.ar,true,Puerto Ingeniero White,ARPIW,Puerto,.
+port_0359,base.ar,true,Puerto Madryn,ARPJY,Puerto,.
+port_0360,base.cu,true,Puerto Manati,CUXPA,Puerto,.
+port_0361,base.cl,true,Puerto Montt,CIPXM,Puerto,.
+port_0362,base.ve,true,Puerto Ordaz,VEPDZ,Puerto,.
+port_0363,base.pe,true,Puerto Paita,PEXPP,Puerto,.
+port_0364,base.ar,true,Puerto Pilcomayo,ARPPY,Puerto,.
+port_0365,base.ar,true,Puerto Piramide,ARPRD,Puerto,.
+port_0366,base.do,true,Puerto Plata,DRXPQ,Puerto,.
+port_0367,base.ar,true,Puerto Quequen,ARPQQ,Puerto,.
+port_0368,base.gt,true,Puerto Quetzal,GTQTZ,Puerto,.
+port_0369,base.ar,true,Puerto San Carlos,ARXZF,Puerto,.
+port_0370,base.py,true,Puerto Sara,PAPSA,Puerto,.
+port_0371,base.py,true,Puerto Villa Franca,PAXQW,Puerto,.
+port_0372,base.py,true,Puerto Villa Oliva,PAXQE,Puerto,.
+port_0373,base.py,true,Puerto Villa Rosario,PAXQF,Puerto,.
+port_0374,base.cl,true,Punta Arenas,CIPAR,Puerto,.
+port_0375,base.uy,true,Punta Pereyra,UYPTP,Puerto,.
+port_0376,base.kr,true,Pusan,KSPUS,Puerto,.
+port_0377,base.cn,true,Qingdao,CHQIN,Puerto,.
+port_0378,base.ca,true,Quebec,CAQBC,Puerto,.
+port_0379,base.ca,true,Quebec Harbour,CAQHR,Puerto,.
+port_0380,base.ec,true,Quito,ECQUI,Puerto,.
+port_0381,base.ma,true,Rabat,MORAB,Puerto,.
+port_0382,base.ar,true,Rada La Plata,ARRLP,Puerto,.
+port_0383,base.ar,true,Ramallo,ARXPW,Puerto,.
+port_0384,base.eg,true,Ras Gharib,EGRGA,Puerto,.
+port_0385,base.eg,true,Ras Gimsah,EGRSG,Puerto,.
+port_0386,base.eg,true,Rashid,EGRSH,Puerto,.
+port_0387,base.ar,true,Recalada,ARRCD,Puerto,.
+port_0388,base.ar,true,Reconquista,ARPRQ,Puerto,.
+port_0389,base.ci,true,Rijeka,IVOXX,Puerto,.
+port_0390,base.cl,true,Rio Bueno,CIRBO,Puerto,.
+port_0391,base.br,true,Rio De Janeiro,BRRIO,Puerto,.
+port_0392,base.ar,true,Rio Gallegos,ARRGG,Puerto,.
+port_0393,base.ar,true,Rio Grande,ARRGD,Puerto,.
+port_0394,base.br,true,Rio Grande BR,BRRGN,Puerto,.
+port_0395,base.lr,true,Robert Port,LIRBP,Puerto,.
+port_0396,base.it,true,Roma,ITROM,Puerto,.
+port_0397,base.ar,true,Rosario,ARROS,Puerto,.
+port_0398,base.nl,true,Rotterdam,NLROT,Puerto,.
+port_0399,base.br,true,S.Caetano Do Sul,BRSCS,Puerto,.
+port_0400,base.uy,true,Salto,UYSLT,Puerto,.
+port_0401,base.br,true,Salvador,BRSVD,Puerto,.
+port_0402,base.ar,true,San Antonio AR,ARSLJ,Puerto,.
+port_0403,base.cl,true,San Antonio CH,CISOW,Puerto,.
+port_0404,base.py,true,San Antonio,PASAN,Puerto,.
+port_0405,base.ar,true,San Antonio-Alije,ARALJ,Puerto,.
+port_0406,base.us,true,San Diego,USSDW,Puerto,.
+port_0407,base.us,true,San Francisco,USSFC,Puerto,.
+port_0408,base.cr,true,San Jose CR,CSSJO,Puerto,.
+port_0409,base.gt,true,San Jose,GTSJS,Puerto,.
+port_0410,base.pr,true,San Juan,USSJU,Puerto,.
+port_0411,base.ni,true,San Juan Del Sur,NUSJL,Puerto,.
+port_0412,base.ar,true,San Julian,ARSJQ,Puerto,.
+port_0413,base.ar,true,San Lorenzo AR,ARSJT,Puerto,.
+port_0414,base.hn,true,San Lorenzo HN,HOSJW,Puerto,.
+port_0415,base.py,true,San Lorenzo,PASLZ,Puerto,.
+port_0416,base.ve,true,San Lorenzo VZ,VESJR,Puerto,.
+port_0417,base.ar,true,San Martin,ARSMV,Puerto,.
+port_0418,base.ar,true,San Matias-Alije,ARASM,Puerto,.
+port_0419,base.br,true,San Pablo,BRSPA,Puerto,.
+port_0420,base.ar,true,San Pedro,ARXSP,Puerto,.
+port_0421,base.es,true,San Sebastian,SPSSE,Puerto,.
+port_0422,base.cl,true,San Vicente,CISVC,Puerto,.
+port_0423,base.se,true,Sandvik,SWSWK,Puerto,.
+port_0424,base.br,true,Santa Catarina,BRSTC,Puerto,.
+port_0425,base.ar,true,Santa Cruz,ARSXZ,Puerto,.
+port_0426,base.ar,true,Santa Fe,ARSFG,Puerto,.
+port_0427,base.cu,true,Santa Lucia,CUSFU,Puerto,.
+port_0428,base.co,true,Santa Marta,COSXF,Puerto,.
+port_0429,base.cl,true,Santiago,CISGO,Puerto,.
+port_0430,base.cu,true,Santiago De Cuba,CUSIU,Puerto,.
+port_0431,base.br,true,Santos,BRSTS,Puerto,.
+port_0432,base.br,true,Sao Francisco,BRSFS,Puerto,.
+port_0433,base.sd,true,Sawakin,SDSUA,Puerto,.
+port_0434,base.us,true,Seattle,USSJA,Puerto,.
+port_0435,base.pt,true,Setubal,POSBL,Puerto,.
+port_0436,base.ru,true,Sevastopol,URSXX,Puerto,.
+port_0437,base.cn,true,Shanghai,CHSHA,Puerto,.
+port_0438,base.kp,true,Shinho,KNSMP,Puerto,.
+port_0439,base.ve,true,Simon Bolivar,VESBO,Puerto,.
+port_0440,base.sg,true,Singapur,IIOOV,Puerto,.
+port_0441,base.ly,true,Sirte,LYSRT,Puerto,.
+port_0442,base.gr,true,Skopelos,GRSQO,Puerto,.
+port_0443,base.id,true,Soerabaja,IDSUY,Puerto,.
+port_0444,base.bg,true,Sofia,BUSOF,Puerto,.
+port_0445,base.pl,true,Sopot,PLZOP,Puerto,.
+port_0446,base.uy,true,Soriano,UYSOO,Puerto,.
+port_0447,base.gn,true,Sorong,GVSOX,Puerto,.
+port_0448,base.it,true,Sorrento,ITSOR,Puerto,.
+port_0449,base.gb,true,Southampton,UKSOU,Puerto,.
+port_0450,base.sn,true,St Louis,SGSTL,Puerto,.
+port_0451,base.se,true,Stockholm,SWSTO,Puerto,.
+port_0452,base.br,true,Suape,BRSUA,Puerto,.
+port_0453,base.eg,true,Suez Canal,EGSUC,Puerto,.
+port_0454,base.in,true,Surat,INSRA,Puerto,.
+port_0455,base.au,true,Sydney,ASSDN,Puerto,.
+port_0456,base.pe,true,Tacna,PETAC,Puerto,.
+port_0457,base.tw,true,Tai Chung,TWCHG,Puerto,.
+port_0458,base.tw,true,Taiwan,TWTAI,Puerto,.
+port_0459,base.cl,true,Talcahuano,CITAL,Puerto,.
+port_0460,base.us,true,Tampa,USTMP,Puerto,.
+port_0461,base.mx,true,Tampico,MXTPC,Puerto,.
+port_0462,base.ma,true,Tangier,MOTAN,Puerto,.
+port_0463,base.ly,true,Tarabulus (Tripoli),LYTRS,Puerto,.
+port_0464,base.it,true,Taranto,ITTRA,Puerto,.
+port_0465,base.hn,true,Tegucigalpa,HOTEG,Puerto,.
+port_0466,base.cl,true,Temuco,CITEM,Puerto,.
+port_0467,base.es,true,Tenerife,SPTUR,Puerto,.
+port_0468,base.dk,true,Thule,DATHU,Puerto,.
+port_0469,base.cn,true,Tianjin,CHTIA,Puerto,.
+port_0470,base.gb,true,Tilbury,UKTDX,Puerto,.
+port_0471,base.ly,true,Tobruch,LYTUP,Puerto,.
+port_0472,base.jp,true,Tokyo,JATOK,Puerto,.
+port_0473,base.cl,true,Tongoy,CITON,Puerto,.
+port_0474,base.ca,true,Toronto,CATOR,Puerto,.
+port_0475,base.fr,true,Toulouse,FRTOU,Puerto,.
+port_0476,base.ca,true,Trenton,CATTO,Puerto,.
+port_0477,base.br,true,Tubarao,BRTBR,Puerto,.
+port_0478,base.tn,true,Tunis,TSTUN,Puerto,.
+port_0479,base.fi,true,Turku,FITUR,Puerto,.
+port_0480,base.ar,true,Ushuaia,ARUSU,Puerto,.
+port_0481,base.it,true,Vado Ligure,ITVDL,Puerto,.
+port_0482,base.cl,true,Valdivia,CIVVA,Puerto,.
+port_0483,base.es,true,Valencia,SPVLC,Puerto,.
+port_0484,base.cl,true,Valparaiso,CIVLP,Puerto,.
+port_0485,base.bg,true,Varna,BUVAR,Puerto,.
+port_0486,base.pl,true,Varsovia,PLVAR,Puerto,.
+port_0487,base.cl,true,Ventana,CIVEN,Puerto,.
+port_0488,base.mx,true,Veracruz,MXVRC,Puerto,.
+port_0489,base.br,true,Victoria BR,BRVTR,Puerto,.
+port_0490,base.ca,true,Victoria,CAVIC,Puerto,.
+port_0491,base.es,true,Vigo,SPVGO,Puerto,.
+port_0492,base.ar,true,Villa Constitucion,ARVCO,Puerto,.
+port_0493,base.py,true,Villa Elisa,PAVEL,Puerto,.
+port_0494,base.py,true,Villa Hayes,PAVHS,Puerto,.
+port_0495,base.gr,true,Volos,GRVOL,Puerto,.
+port_0496,base.eg,true,Wadi Feiran,EGWAD,Puerto,.
+port_0497,base.za,true,Walvis Bay,SFWAL,Puerto,.
+port_0498,base.nz,true,Wellington,NZWEL,Puerto,.
+port_0499,base.cn,true,Wenzhou,CHWZU,Puerto,.
+port_0500,base.nl,true,Willemstad,NLWST,Puerto,.
+port_0501,base.ca,true,Winnipeg,CAWNP,Puerto,.
+port_0502,base.cn,true,Xiamen,CHXMN,Puerto,.
+port_0503,base.cn,true,Yantai,CHYAN,Puerto,.
+port_0504,base.ca,true,Yarmouth,CAYRM,Puerto,.
+port_0505,base.jp,true,Yokohama,JAYOK,Puerto,.
+port_0506,base.ar,true,Zarate,ARZAR,Puerto,.
+port_0507,base.be,true,Zeebrugge,BEZEE,Puerto,.
+airport_0001,base.ar,true,Aero Club Or n,ORA,Aeropuerto,.
+airport_0002,base.cl,true,Aer¢dromo Balmaceda,BBA,Aeropuerto,.
+airport_0003,base.cl,true,Aer¢dromo De La Independencia,QRC,Aeropuerto,.
+airport_0004,base.cl,true,Aer¢dromo Ricardo Garc¡a Posada,ESR,Aeropuerto,.
+airport_0005,base.ar,true,Aeroparque Jorge Newbery,AEP,Aeropuerto,.
+airport_0006,base.es,true,Aeropuerto Adolfo Su rez Madrid-Barajas,MAD,Aeropuerto,.
+airport_0007,base.ar,true,Aeropuerto Brigadier Mayor C‚sar Ra£l Ojeda,LUQ,Aeropuerto,.
+airport_0008,base.ar,true,Aeropuerto Capit n Vicente Almandos Almonacid,IRJ,Aeropuerto,.
+airport_0009,base.cl,true,Aeropuerto Carriel Sur,CCP,Aeropuerto,.
+airport_0010,base.cl,true,Aeropuerto Cerro Moreno,ANF,Aeropuerto,.
+airport_0011,base.ar,true,Aeropuerto Clorinda,CLX,Aeropuerto,.
+airport_0012,base.ar,true,Aeropuerto Comodoro Pierrestegui,COC,Aeropuerto,.
+airport_0013,base.ar,true,Aeropuerto Coronel Felipe Varela,CTC,Aeropuerto,.
+airport_0014,base.es,true,Aeropuerto De Albacete,ABC,Aeropuerto,.
+airport_0015,base.nl,true,Aeropuerto De µmsterdam-Schiphol,AMS,Aeropuerto,.
+airport_0016,base.es,true,Aeropuerto De Andorra-La Seu,LEU,Aeropuerto,.
+airport_0017,base.af,true,Aeropuerto De Bamiy n,BIN,Aeropuerto,.
+airport_0018,base.es,true,Aeropuerto De Barcelona-El Prat,BCN,Aeropuerto,.
+airport_0019,base.fr,true,Aeropuerto De Basilea-Mulhouse-Friburgo,MLH?,Aeropuerto,.
+airport_0020,base.de,true,Aeropuerto De Berl¡n-Tempelhof,THF,Aeropuerto,.
+airport_0021,base.es,true,Aeropuerto De Bilbao,BIO,Aeropuerto,.
+airport_0022,base.af,true,Aeropuerto De Bost,BST,Aeropuerto,.
+airport_0023,base.hu,true,Aeropuerto De Budapest-Ferenc Liszt,BUD,Aeropuerto,.
+airport_0024,base.fr,true,Aeropuerto De Burdeos-M‚rignac,BOD,Aeropuerto,.
+airport_0025,base.es,true,Aeropuerto De Castellon,CDT,Aeropuerto,.
+airport_0026,base.ie,true,Aeropuerto De Cork,ORK,Aeropuerto,.
+airport_0027,base.pt,true,Aeropuerto De Corvo,CVU,Aeropuerto,.
+airport_0028,base.ar,true,Aeropuerto De Curuz£ Cuati ,UZU,Aeropuerto,.
+airport_0029,base.gb,true,Aeropuerto De Edimburgo,EDI,Aeropuerto,.
+airport_0030,base.nl,true,Aeropuerto De Eindhoven,EIN,Aeropuerto,.
+airport_0031,base.se,true,Aeropuerto De Estocolmo-Arlanda,ARN,Aeropuerto,.
+airport_0032,base.fr,true,Aeropuerto De Estrasburgo,SXB,Aeropuerto,.
+airport_0033,base.pt,true,Aeropuerto De Faro,FAO,Aeropuerto,.
+airport_0034,base.af,true,Aeropuerto De Fayzabad,FBD,Aeropuerto,.
+airport_0035,base.it,true,Aeropuerto De Florencia,FLR,Aeropuerto,.
+airport_0036,base.pt,true,Aeropuerto De Flores,FLW,Aeropuerto,.
+airport_0037,base.de,true,Aeropuerto De Fr ncfort Del Meno,FRA,Aeropuerto,.
+airport_0038,base.de,true,Aeropuerto De Fr ncfort-Hahn,HHN,Aeropuerto,.
+airport_0039,base.pt,true,Aeropuerto De Francisco S  Carneiro,OPO,Aeropuerto,.
+airport_0040,base.ar,true,Aeropuerto De General Pico,GPO,Aeropuerto,.
+airport_0041,base.gb,true,Aeropuerto De Gibraltar,GIB,Aeropuerto,.
+airport_0042,base.pt,true,Aeropuerto De Graciosa,GRW,Aeropuerto,.
+airport_0043,base.es,true,Aeropuerto De Granada,GRX,Aeropuerto,.
+airport_0044,base.ar,true,Aeropuerto De Gualeguaych£,GHU,Aeropuerto,.
+airport_0045,base.de,true,Aeropuerto De Hamburgo,HAM,Aeropuerto,.
+airport_0046,base.de,true,Aeropuerto De Hannover,HAJ,Aeropuerto,.
+airport_0047,base.gb,true,Aeropuerto De Heathrow,LHR,Aeropuerto,.
+airport_0048,base.de,true,Aeropuerto De Heligoland,HGL,Aeropuerto,.
+airport_0049,base.fi,true,Aeropuerto De Helsinki-Vantaa,HEL,Aeropuerto,.
+airport_0050,base.af,true,Aeropuerto De Herat,HEA,Aeropuerto,.
+airport_0051,base.pt,true,Aeropuerto De Horta,HOR,Aeropuerto,.
+airport_0052,base.in,true,Aeropuerto De Hubli,HBX,Aeropuerto,.
+airport_0053,base.es,true,Aeropuerto De Ibiza,IBZ,Aeropuerto,.
+airport_0054,base.gb,true,Aeropuerto De Inverness,INV,Aeropuerto,.
+airport_0055,base.ca,true,Aeropuerto De Iqaluit,YFB,Aeropuerto,.
+airport_0056,base.fi,true,Aeropuerto De Ivalo,IVL,Aeropuerto,.
+airport_0057,base.af,true,Aeropuerto De Jalalabad,JAA,Aeropuerto,.
+airport_0058,base.es,true,Aeropuerto De Jerez,XRY,Aeropuerto,.
+airport_0059,base.gb,true,Aeropuerto De Jersey,JER,Aeropuerto,.
+airport_0060,base.bd,true,Aeropuerto De Jessore,JSR,Aeropuerto,.
+airport_0061,base.ru,true,Aeropuerto De Kaliningrado-Jrabrovo,KGD,Aeropuerto,.
+airport_0062,base.au,true,Aeropuerto De La Isla Norfolk (En),NLK,Aeropuerto,.
+airport_0063,base.pt,true,Aeropuerto De Lajes,TER,Aeropuerto,.
+airport_0064,base.be,true,Aeropuerto De Lieja,LGG,Aeropuerto,.
+airport_0065,base.gb,true,Aeropuerto De Londres-Luton,LTN,Aeropuerto,.
+airport_0066,base.es,true,Aeropuerto De M laga-Costa Del Sol,AGP,Aeropuerto,.
+airport_0067,base.ec,true,Aeropuerto De Manta,MEC,Aeropuerto,.
+airport_0068,base.ma,true,Aeropuerto De Marrakech-Menara,RAK,Aeropuerto,.
+airport_0069,base.es,true,Aeropuerto De Melilla,MLN,Aeropuerto,.
+airport_0070,base.it,true,Aeropuerto De Mil n-Malpensa,MXP,Aeropuerto,.
+airport_0071,base.ca,true,Aeropuerto De Mont-Joli,YYY,Aeropuerto,.
+airport_0072,base.ar,true,Aeropuerto De Monte Caseros,MCS,Aeropuerto,.
+airport_0073,base.ca,true,Aeropuerto De Montreal-Saint Hubert,YHU,Aeropuerto,.
+airport_0074,base.it,true,Aeropuerto De N poles-Capodichino,NAP,Aeropuerto,.
+airport_0075,base.cy,true,Aeropuerto De Nicosia,NIC,Aeropuerto,.
+airport_0076,base.es,true,Aeropuerto De Pamplona,PNA,Aeropuerto,.
+airport_0077,base.fr,true,Aeropuerto De Par¡s-Charles De Gaulle,CDG,Aeropuerto,.
+airport_0078,base.fr,true,Aeropuerto De Par¡s-Orly,ORY,Aeropuerto,.
+airport_0079,base.pt,true,Aeropuerto De Pico,PIX,Aeropuerto,.
+airport_0080,base.me,true,Aeropuerto De Podgorica,TGD,Aeropuerto,.
+airport_0081,base.pt,true,Aeropuerto De Portela,LIS,Aeropuerto,.
+airport_0082,base.pt,true,Aeropuerto De Porto Santo,PXO,Aeropuerto,.
+airport_0083,base.ar,true,Aeropuerto De Presidencia Roque S enz Pe¤a,PRQ,Aeropuerto,.
+airport_0084,base.gb,true,Aeropuerto De Puerto Argentino/Stanley,PSY,Aeropuerto,.
+airport_0085,base.gt,true,Aeropuerto De Puerto Barrios ?Aeropuerto Internacional La Tierra De Dios?,PBR,Aeropuerto,.
+airport_0086,base.ca,true,Aeropuerto De Qikiqtarjuaq,YVM,Aeropuerto,.
+airport_0087,base.ca,true,Aeropuerto De Resolute Bay,YRB,Aeropuerto,.
+airport_0088,base.es,true,Aeropuerto De Reus,REU,Aeropuerto,.
+airport_0089,base.it,true,Aeropuerto De Roma-Fiumicino,FCO,Aeropuerto,.
+airport_0090,base.es,true,Aeropuerto De Sabadell,QSA,Aeropuerto,.
+airport_0091,base.pt,true,Aeropuerto De Santa Maria,SMA,Aeropuerto,.
+airport_0092,base.ar,true,Aeropuerto De Santa Rosa,RSA,Aeropuerto,.
+airport_0093,base.pt,true,Aeropuerto De SÆo Jorge,SJZ,Aeropuerto,.
+airport_0094,base.ar,true,Aeropuerto De Sauce Viejo,SFN,Aeropuerto,.
+airport_0095,base.es,true,Aeropuerto De Sevilla,SVQ,Aeropuerto,.
+airport_0096,base.es,true,Aeropuerto De Tenerife Norte,TFN,Aeropuerto,.
+airport_0097,base.es,true,Aeropuerto De Tenerife Sur,TFS,Aeropuerto,.
+airport_0098,base.hn,true,Aeropuerto De Toncont¡n,TGU,Aeropuerto,.
+airport_0099,base.fr,true,Aeropuerto De Toulouse Blagnac,TLS,Aeropuerto,.
+airport_0100,base.it,true,Aeropuerto De Trieste - Friuli Venezia Giulia,TRS,Aeropuerto,.
+airport_0101,base.fi,true,Aeropuerto De Turku,TUR,Aeropuerto,.
+airport_0102,base.es,true,Aeropuerto De Valencia,VLC,Aeropuerto,.
+airport_0103,base.at,true,Aeropuerto De Viena-Schwechat,VIE,Aeropuerto,.
+airport_0104,base.es,true,Aeropuerto De Vigo,VGO,Aeropuerto,.
+airport_0105,base.ar,true,Aeropuerto De Villa Reynolds,VME,Aeropuerto,.
+airport_0106,base.es,true,Aeropuerto De Villanubla,VLL,Aeropuerto,.
+airport_0107,base.br,true,Aeropuerto De Viracopos,VCP,Aeropuerto,.
+airport_0108,base.br,true,Aeropuerto De Vitoria Da Conquista,VDC,Aeropuerto,.
+airport_0109,base.hr,true,Aeropuerto De Zagreb-Pleso,ZAG,Aeropuerto,.
+airport_0110,base.es,true,Aeropuerto De Zaragoza,ZAZ,Aeropuerto,.
+airport_0111,base.ar,true,Aeropuerto Del Iber ,MDX,Aeropuerto,.
+airport_0112,base.py,true,Aeropuerto Doctor Fuster,PJC,Aeropuerto,.
+airport_0113,base.ar,true,Aeropuerto Dr. Diego Nicol s D¡az Colodrero,OYA,Aeropuerto,.
+airport_0114,base.ar,true,Aeropuerto General Enrique Mosconi/Tartagal,TTG,Aeropuerto,.
+airport_0115,base.ar,true,Aeropuerto General Justo Jos‚ De Urquiza,PRA,Aeropuerto,.
+airport_0116,base.br,true,Aeropuerto Internacional Afonso Pena,CWB,Aeropuerto,.
+airport_0117,base.cl,true,Aeropuerto Internacional Arturo Merino Ben¡tez,SCL,Aeropuerto,.
+airport_0118,base.ar,true,Aeropuerto Internacional Astor Piazzolla,MDQ,Aeropuerto,.
+airport_0119,base.tr,true,Aeropuerto Internacional Atatrk,IST,Aeropuerto,.
+airport_0120,base.ni,true,Aeropuerto Internacional Augusto C. Sandino,MGA,Aeropuerto,.
+airport_0121,base.il,true,Aeropuerto Internacional Ben Guri¢n,TLV,Aeropuerto,.
+airport_0122,base.mx,true,Aeropuerto Internacional Benito Ju rez,MEX,Aeropuerto,.
+airport_0123,base.co,true,Aeropuerto Internacional Bonilla Arag¢n,CLO,Aeropuerto,.
+airport_0124,base.cl,true,Aeropuerto Internacional Chacalluta,ARI,Aeropuerto,.
+airport_0125,base.us,true,Aeropuerto Internacional Chicago-O'Hare,ORD,Aeropuerto,.
+airport_0126,base.ar,true,Aeropuerto Internacional Comodoro Ricardo Salom¢n,LGS,Aeropuerto,.
+airport_0127,base.pt,true,Aeropuerto Internacional Cristiano Ronaldo,FNC,Aeropuerto,.
+airport_0128,base.cr,true,Aeropuerto Internacional Daniel Oduber,LIR,Aeropuerto,.
+airport_0129,base.kz,true,Aeropuerto Internacional De Astan ,TSE,Aeropuerto,.
+airport_0130,base.uy,true,Aeropuerto Internacional De Carrasco,MVD,Aeropuerto,.
+airport_0131,base.de,true,Aeropuerto Internacional De Colonia/Bonn Konrad Adenauer,CGN,Aeropuerto,.
+airport_0132,base.ae,true,Aeropuerto Internacional De Dub i,DXB,Aeropuerto,.
+airport_0133,base.sv,true,Aeropuerto Internacional De El Salvador San àscar Arnulfo Romero Y Gald mez,SAL,Aeropuerto,.
+airport_0134,base.us,true,Aeropuerto Internacional De Filadelfia,PHL,Aeropuerto,.
+airport_0135,base.ar,true,Aeropuerto Internacional De Formosa,FMA,Aeropuerto,.
+airport_0136,base.mx,true,Aeropuerto Internacional De Guadalajara,GDL,Aeropuerto,.
+airport_0137,base.hu,true,Aeropuerto Internacional De Gy”r-P‚r,QGY,Aeropuerto,.
+airport_0138,base.ca,true,Aeropuerto Internacional De Halifax-Stanfield,YHZ,Aeropuerto,.
+airport_0139,base.jp,true,Aeropuerto Internacional De Haneda,HND,Aeropuerto,.
+airport_0140,base.cn,true,Aeropuerto Internacional De Hong Kong,HKG,Aeropuerto,.
+airport_0141,base.sb,true,Aeropuerto Internacional De Honiara,HIR,Aeropuerto,.
+airport_0142,base.us,true,Aeropuerto Internacional De Honolulu,HNL,Aeropuerto,.
+airport_0143,base.kr,true,Aeropuerto Internacional De Incheon,ICN,Aeropuerto,.
+airport_0144,base.cu,true,Aeropuerto Internacional De Jardines Del Rey,CCC,Aeropuerto,.
+airport_0145,base.af,true,Aeropuerto Internacional De Kabul,KBL,Aeropuerto,.
+airport_0146,base.af,true,Aeropuerto Internacional De Kandahar,KDH,Aeropuerto,.
+airport_0147,base.is,true,Aeropuerto Internacional De Keflav¡k,KEF,Aeropuerto,.
+airport_0148,base.es,true,Aeropuerto Internacional De La Regi¢n De Murcia,RMU,Aeropuerto,.
+airport_0149,base.us,true,Aeropuerto Internacional De Los µngeles,LAX,Aeropuerto,.
+airport_0150,base.cn,true,Aeropuerto Internacional De Macao,MFM,Aeropuerto,.
+airport_0151,base.ve,true,Aeropuerto Internacional De Maiquet¡a Sim¢n Bol¡var,CCS,Aeropuerto,.
+airport_0152,base.us,true,Aeropuerto Internacional De Miami,MIA,Aeropuerto,.
+airport_0153,base.ru,true,Aeropuerto Internacional De Mosc£-Domod‚dovo,DME,Aeropuerto,.
+airport_0154,base.de,true,Aeropuerto Internacional De M£nich-Franz Josef Strauss,MUC,Aeropuerto,.
+airport_0155,base.ca,true,Aeropuerto Internacional De Ottawa,YOW,Aeropuerto,.
+airport_0156,base.ar,true,Aeropuerto Internacional De Paso De Los Libres,AOL,Aeropuerto,.
+airport_0157,base.do,true,Aeropuerto Internacional De Punta Cana,PUJ,Aeropuerto,.
+airport_0158,base.uy,true,Aeropuerto Internacional De Punta Del Este,PDP,Aeropuerto,.
+airport_0159,base.ar,true,Aeropuerto Internacional De Resistencia,RES,Aeropuerto,.
+airport_0160,base.us,true,Aeropuerto Internacional De Sacramento,SFM,Aeropuerto,.
+airport_0161,base.ar,true,Aeropuerto Internacional De Salta Mart¡n Miguel De Gemes,SLA,Aeropuerto,.
+airport_0162,base.ar,true,Aeropuerto Internacional De San Fernando,FDO,Aeropuerto,.
+airport_0163,base.br,true,Aeropuerto Internacional De SÆo Paulo-Guarulhos,GRU,Aeropuerto,.
+airport_0164,base.ro,true,Aeropuerto Internacional De Sibiu,SBZ,Aeropuerto,.
+airport_0165,base.sg,true,Aeropuerto Internacional De Singapur-Changi,SIN,Aeropuerto,.
+airport_0166,base.tw,true,Aeropuerto Internacional De Taiw n Taoyuan,TPE,Aeropuerto,.
+airport_0167,base.pa,true,Aeropuerto Internacional De Tocumen,PTY,Aeropuerto,.
+airport_0168,base.ca,true,Aeropuerto Internacional De Vancouver,YVR,Aeropuerto,.
+airport_0169,base.nz,true,Aeropuerto Internacional De Wellington,WLG,Aeropuerto,.
+airport_0170,base.tn,true,Aeropuerto Internacional De Yerba-Zarzis,DJE,Aeropuerto,.
+airport_0171,base.cl,true,Aeropuerto Internacional Diego Aracena,IQQ,Aeropuerto,.
+airport_0172,base.ar,true,Aeropuerto Internacional Doctor Fernando Piragine Niveyro,CNQ,Aeropuerto,.
+airport_0173,base.co,true,Aeropuerto Internacional El Dorado,BOG,Aeropuerto,.
+airport_0174,base.gr,true,Aeropuerto Internacional Eleftherios Venizelos,ATH,Aeropuerto,.
+airport_0175,base.mx,true,Aeropuerto Internacional General Ignacio Pesqueira Garc¡a,HMO,Aeropuerto,.
+airport_0176,base.mx,true,Aeropuerto Internacional General Roberto Fierro Villalobos,CUU,Aeropuerto,.
+airport_0177,base.ar,true,Aeropuerto Internacional Gob. Ram¢n Trejo Noel,RGA,Aeropuerto,.
+airport_0178,base.ar,true,Aeropuerto Internacional Gobernador Francisco Gabrielli,MDZ,Aeropuerto,.
+airport_0179,base.py,true,Aeropuerto Internacional Guaran¡,AGT,Aeropuerto,.
+airport_0180,base.qa,true,Aeropuerto Internacional Hamad,DOH,Aeropuerto,.
+airport_0181,base.ar,true,Aeropuerto Internacional Ing. Ambrosio Taravella,COR,Aeropuerto,.
+airport_0182,base.ca,true,Aeropuerto Internacional James Armstrong Richardson,YWG,Aeropuerto,.
+airport_0183,base.us,true,Aeropuerto Internacional James M. Cox-Dayton,DAY,Aeropuerto,.
+airport_0184,base.ca,true,Aeropuerto Internacional Jean-Lesage De Quebec,YQB,Aeropuerto,.
+airport_0185,base.us,true,Aeropuerto Internacional John F. Kennedy,JFK,Aeropuerto,.
+airport_0186,base.pe,true,Aeropuerto Internacional Jorge Ch vez,LIM,Aeropuerto,.
+airport_0187,base.do,true,Aeropuerto Internacional Jos‚ Francisco Pe¤a G¢mez,SDQ,Aeropuerto,.
+airport_0188,base.ec,true,Aeropuerto Internacional Jose Joaquin De Olmedo,GYE,Aeropuerto,.
+airport_0189,base.co,true,Aeropuerto Internacional Jos‚ Mar¡a Cordova,MDE,Aeropuerto,.
+airport_0190,base.cu,true,Aeropuerto Internacional Jos‚ Mart¡,HAV,Aeropuerto,.
+airport_0191,base.cr,true,Aeropuerto Internacional Juan Santamar¡a,SJO,Aeropuerto,.
+airport_0192,base.au,true,Aeropuerto Internacional Kingsford Smith,SYD,Aeropuerto,.
+airport_0193,base.gt,true,Aeropuerto Internacional La Aurora,GUA,Aeropuerto,.
+airport_0194,base.gr,true,Aeropuerto Internacional Macedonia,SKG,Aeropuerto,.
+airport_0195,base.ar,true,Aeropuerto Internacional Malvinas Argentinas,USH,Aeropuerto,.
+airport_0196,base.mx,true,Aeropuerto Internacional Mariano Escobedo,MTY,Aeropuerto,.
+airport_0197,base.ec,true,Aeropuerto Internacional Mariscal Lamar,CUE,Aeropuerto,.
+airport_0198,base.ec,true,Aeropuerto Internacional Mariscal Sucre,UIO,Aeropuerto,.
+airport_0199,base.cl,true,Aeropuerto Internacional Mataveri,IPC,Aeropuerto,.
+airport_0200,base.ar,true,Aeropuerto Internacional Ministro Pistarini,EZE,Aeropuerto,.
+airport_0201,base.ma,true,Aeropuerto Internacional Mohammed V,CMN,Aeropuerto,.
+airport_0202,base.gt,true,Aeropuerto Internacional Mundo Maya,FRS,Aeropuerto,.
+airport_0203,base.ca,true,Aeropuerto Internacional Pierre Elliott Trudeau,YUL,Aeropuerto,.
+airport_0204,base.br,true,Aeropuerto Internacional Pinto Martins,FOR,Aeropuerto,.
+airport_0205,base.cl,true,Aeropuerto Internacional Presidente Carlos Ib ¤ez Del Campo,PUQ,Aeropuerto,.
+airport_0206,base.ao,true,Aeropuerto Internacional Quatro De Fevereiro,LAD,Aeropuerto,.
+airport_0207,base.hn,true,Aeropuerto Internacional Ramon Villeda Morales,SAP,Aeropuerto,.
+airport_0208,base.nl,true,Aeropuerto Internacional Reina Beatrix,AUA,Aeropuerto,.
+airport_0209,base.sa,true,Aeropuerto Internacional Rey Khalid,RUH,Aeropuerto,.
+airport_0210,base.ar,true,Aeropuerto Internacional Rosario,ROS,Aeropuerto,.
+airport_0211,base.py,true,Aeropuerto Internacional Silvio Pettirossi,ASU,Aeropuerto,.
+airport_0212,base.ar,true,Aeropuerto Internacional Suboficial Ayudante Santiago Germano,AFA,Aeropuerto,.
+airport_0213,base.ar,true,Aeropuerto Internacional Teniente Luis Candelaria,BRC,Aeropuerto,.
+airport_0214,base.ar,true,Aeropuerto Internacional Termas De R¡o Hondo,RHD,Aeropuerto,.
+airport_0215,base.ca,true,Aeropuerto Internacional Toronto Pearson,YYZ,Aeropuerto,.
+airport_0216,base.ar,true,Aeropuerto Internacional Valle Del Conlara,RLO,Aeropuerto,.
+airport_0217,base.bo,true,Aeropuerto Internacional Viru Viru,VVI,Aeropuerto,.
+airport_0218,base.pt,true,Aeropuerto JoÆo Paulo Ii,PDL,Aeropuerto,.
+airport_0219,base.gr,true,Aeropuerto Nacional De K limnos,JKL,Aeropuerto,.
+airport_0220,base.us,true,Aeropuerto Regional Del Condado De Eagle,EGE,Aeropuerto,.
+airport_0221,base.mu,true,Aeropuerto Sir Ga‰tan Duval,RRG,Aeropuerto,.
+airport_0222,base.py,true,Aeropuerto Teniente Am¡n Ayub Gonz lez,ENO,Aeropuerto,.
+airport_0223,base.us,true,Aeropuerto Urbano Charles B. Wheeler,MKC,Aeropuerto,.
+airport_0224,base.ar,true,Aeropuerto Vicecomodoro µngel De La Paz Aragon‚s,SDE,Aeropuerto,.
+airport_0225,base.us,true,Aeropuerto William P. Hobby,HOU,Aeropuerto,.
+airport_0226,base.af,true,Base A‚rea De Bagram,BPM,Aeropuerto,.
+airport_0227,base.pt,true,Base A‚rea De Beja,BYJ,Aeropuerto,.
+airport_0228,base.gb,true,Base A‚rea De Monte Agradable,MPN,Aeropuerto,.
+airport_0229,base.us,true,"Las Vegas, Mc Carran International Airport",LAS,Aeropuerto,.
+airport_0230,base.us,true,Orlando International Airport,MCO,Aeropuerto,.

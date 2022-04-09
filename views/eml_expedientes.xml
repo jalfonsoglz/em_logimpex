@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="expedientes_tree" model="ir.ui.view">
+        <field name="name">eml.expedientes.tree</field>
+        <field name="model">eml.expedientes</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="operation_type" />
+                <field name="service_type" />
+                <field name="move_type" />
+                <field name="transportation_type" />
+                <field name="transportation_border" attrs="{'invisible': [('transportation_type', '!=', 'ground')]}" />
+                <field name="origin" />
+                <field name="destiny" />
+                <field name="start_date" />
+                <field name="end_date" />
+                <field name="partner_id" />
+                <field name="responsable_id" />
+                <field name="ref" />
+                <field name="load" />
+                <field name="unload" />
+                <field name="master" />
+                <field name="house" />
+                <field name="incoterm_id" />
+                <field name="amount" />
+                <field name="currency_id" />
+            </tree>
+        </field>
+    </record>
+    <record id="expedientes_form" model="ir.ui.view">
+        <field name="name">eml.expedientes.form</field>
+        <field name="model">eml.expedientes</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" />
+                            </h1>
+                        </div>
+                        <field name="active" invisible="1" />
+                        <field name="operation_type" />
+                        <field name="service_type" />
+                        <field name="move_type" />
+                        <field name="transportation_type" />
+                        <field name="transportation_border" attrs="{'invisible': [('transportation_type', '!=', 'ground')]}" />
+                        <field name="volumen" />
+                        <field name="weight" />
+                        <field name="weight_chargeable" />
+                        <field name="pza_num" />
+                        <field name="origin" />
+                        <field name="destiny" />
+                        <field name="start_date" />
+                        <field name="end_date" />
+                        <field name="partner_id" />
+                        <field name="responsable_id" widget="many2one_avatar_user" />
+                        <field name="ref" />
+                        <field name="pickup" />
+                        <field name="delivery" />
+                        <field name="load" />
+                        <field name="unload" />
+                        <field name="master" />
+                        <field name="house" />
+                        <field name="incoterm_id" />
+                        <field name="amount" />
+                        <field name="currency_id" />
+                        <field name="note" />
+                    </group>
+                    <notebook>
+                        <page string="Contenedores" name="containers_root">
+                        </page>
+                        <page string="Documentación" name="expedientes_docs_root">
+                            <group name="expedientes_docs">
+                                <group name="expedientes_docs_left">
+                                    <field name="doc_embarque" string="Documentos para Embarque" widget="pdf_viewer" />
+                                    <field name="doc_lista_empaque" string="Lista de Empaque" widget="pdf_viewer" />
+                                    <field name="doc_cert_origen" string="Certificado de Origen" widget="pdf_viewer" />
+                                </group>
+                                <group name="expedientes_docs_right">
+                                    <field name="doc_factura_comercial" string="Factura  Comercial" widget="pdf_viewer" />
+                                    <field name="doc_blawbbol" string="BL/AWB/BOL" widget="pdf_viewer" />
+                                    <field name="doc_ficha_tecnica" string="Ficha Técnica" widget="pdf_viewer" />
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers" />
+                    <field name="message_ids" widget="mail_thread" />
+                </div>
+            </form>
+        </field>
+    </record>
+    <record id="expedientes_search" model="ir.ui.view">
+        <field name="name">eml.expedientes.search</field>
+        <field name="model">eml.expedientes</field>
+        <field name="arch" type="xml">
+            <search string="Expedientes">
+                <field name="name" />
+                <field name="partner_id" />
+                <field name="ref" />
+                <field name="master" />
+                <field name="house" />
+                <field name="note" />
+                <separator />
+                <filter string="Cargo" name="service_type" domain="[('service_type', '=', 'load')]" />
+                <filter string="Mudanza" name="service_type" domain="[('service_type', '=', 'moving')]" />
+                <separator />
+                <filter string="Importación" name="move_type" domain="[('move_type', '=', 'import')]" />
+                <filter string="Exportación" name="move_type" domain="[('move_type', '=', 'export')]" />
+                <filter string="Nacional" name="move_type" domain="[('move_type', '=', 'national')]" />
+                <separator />
+                <filter string="Marítimo" name="transportation_type" domain="[('transportation_type', '=', 'marine')]" />
+                <filter string="Aéreo" name="transportation_type" domain="[('transportation_type', '=', 'air')]" />
+                <filter string="Terrestre" name="transportation_type" domain="[('transportation_type', '=', 'ground')]" />
+                <separator />
+                <filter string="Fecha Inicio" name="start_date" />
+                <filter string="Fecha Fin" name="end_date" />
+                <group expand="1" string="Group by">
+                    <separator />
+                    <filter string="Fecha Inicio" name="start_date" context="{'group_by':'start_date'}" />
+                    <filter string="Fecha Fin" name="end_date" context="{'group_by':'end_date'}" />
+                    <separator />
+                    <filter string="Tipo de Operación" name="operation_type" context="{'group_by':'operation_type'}" />
+                    <filter string="Cargo o Mudanza" name="service_type" context="{'group_by':'service_type'}" />
+                    <filter string="Imp / Exp / Nac" name="move_type" context="{'group_by':'move_type'}" />
+                    <filter string="Marítimo / Aéreo / Terrestre" name="transportation_type" context="{'group_by':'transportation_type'}" />
+                    <separator />
+                    <filter string="Origen" name="origin" context="{'group_by':'origin'}" />
+                    <filter string="Destino" name="destiny" context="{'group_by':'destiny'}" />
+                    <filter string="Carga" name="load" context="{'group_by':'load'}" />
+                    <filter string="Descarga" name="unload" context="{'group_by':'unload'}" />
+                    <separator />
+                    <filter string="Cliente" name="partner_id" context="{'group_by':'partner_id'}" />
+                    <filter string="Responsable" name="responsable_id" context="{'group_by':'responsable_id'}" />
+                    <separator />
+                    <filter string="Incoterms" name="incoterm_id" context="{'group_by':'incoterm_id'}" />
+                    <filter string="Moneda" name="currency_id" context="{'group_by':'currency_id'}" />
+                </group>
+            </search>
+        </field>
+    </record>
+    <record id="expedientes_view_gantt" model="ir.ui.view">
+        <field name="name">eml.expedientes.gantt</field>
+        <field name="model">eml.expedientes</field>
+        <field name="arch" type="xml">
+            <gantt date_start="start_date" date_stop="end_date" default_group_by='partner_id'>
+            </gantt>
+        </field>
+    </record>
+    <record id="action_eml_expedientes" model="ir.actions.act_window">
+        <field name="name">Expedientes</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">eml.expedientes</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first record!
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_eml_root"
+              name="Logimpex"
+              sequence="10"/>
+
+    <menuitem id="menu_eml_config"
+              name="Configuración"
+              parent="menu_eml_root"
+              sequence="30"/>
+
+    <menuitem id="menu_eml_expedientes"
+              name="Expedientes"
+              parent="menu_eml_root"
+              action="action_eml_expedientes"
+              sequence="10"/>
+
+</odoo>

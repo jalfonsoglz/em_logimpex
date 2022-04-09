@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<odoo>
+        <record id="module_logimpex_category" model="ir.module.category">
+            <field name="name">Logimpex</field>
+            <field name="description">Gestión de Expedientes de Importaciones, Exportaciones y Mudanzas</field>
+            <field name="sequence">17</field>
+        </record>
+        <record id="logimpex_group_user" model="res.groups">
+            <field name="name">Logimpex: Usuario</field>
+            <field name="category_id" ref="base.module_category_services"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+        <record id="logimpex_group_manager" model="res.groups">
+            <field name="name">Logimpex: Administrador</field>
+            <field name="implied_ids" eval="[(4, ref('logimpex_group_user'))]"/>
+            <field name="category_id" ref="base.module_category_services"/>
+            <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+        </record>
+</odoo>

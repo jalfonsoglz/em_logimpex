@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="containers_20BU" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Bulk Container</field>
+            <field name="size">20</field>
+            <field name="code">20BU</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20DC" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Dry Cargo</field>
+            <field name="size">20</field>
+            <field name="code">20DC</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20FR" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Flat Rack</field>
+            <field name="size">20</field>
+            <field name="code">20FR</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20HT" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Hard Top Container</field>
+            <field name="size">20</field>
+            <field name="code">20HT</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20HC" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' High Cube Container</field>
+            <field name="size">20</field>
+            <field name="code">20HC</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20IN" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Insulated Container</field>
+            <field name="size">20</field>
+            <field name="code">20IN</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20OT" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Open Top Container</field>
+            <field name="size">20</field>
+            <field name="code">20OT</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20PW" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Pallet Wide Container</field>
+            <field name="size">20</field>
+            <field name="code">20PW</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20PF" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Platform</field>
+            <field name="size">20</field>
+            <field name="code">20PF</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20RF" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Reefer Container</field>
+            <field name="size">20</field>
+            <field name="code">20RF</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20ST" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Standard Container</field>
+            <field name="size">20</field>
+            <field name="code">20ST</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20TK" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Tank Cylindrical</field>
+            <field name="size">20</field>
+            <field name="code">20TK</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_20VC" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">20' Ventilated Container</field>
+            <field name="size">20</field>
+            <field name="code">20VC</field>
+            <field name="teu">1</field>
+        </record>
+        <record id="containers_40BU" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Bulk Container</field>
+            <field name="size">40</field>
+            <field name="code">40BU</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40DC" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Dry Cargo</field>
+            <field name="size">40</field>
+            <field name="code">40DC</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40FR" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Flat Rack</field>
+            <field name="size">40</field>
+            <field name="code">40FR</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40HT" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Hard Top Container</field>
+            <field name="size">40</field>
+            <field name="code">40HT</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40HC" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' High Cube Container</field>
+            <field name="size">40</field>
+            <field name="code">40HC</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40HF" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' High Cube Flat Rack</field>
+            <field name="size">40</field>
+            <field name="code">40HF</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40HH" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' High Cube Hard Top Container</field>
+            <field name="size">40</field>
+            <field name="code">40HH</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40HP" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' High Cube Pallet Wide Container</field>
+            <field name="size">40</field>
+            <field name="code">40HP</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40RH" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' High Cube Reefer Container</field>
+            <field name="size">40</field>
+            <field name="code">40RH</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40IN" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Insulated Container</field>
+            <field name="size">40</field>
+            <field name="code">40IN</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40OT" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Open Top Container</field>
+            <field name="size">40</field>
+            <field name="code">40OT</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40PW" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Pallet Wide Container</field>
+            <field name="size">40</field>
+            <field name="code">40PW</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40PF" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Platform</field>
+            <field name="size">40</field>
+            <field name="code">40PF</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40RF" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Reefer Container</field>
+            <field name="size">40</field>
+            <field name="code">40RF</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40NR" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40 REEFER NO OPERATIVO</field>
+            <field name="size">40</field>
+            <field name="code">40NR</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40ST" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Standard Container</field>
+            <field name="size">40</field>
+            <field name="code">40ST</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_40TK" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">40' Tank Cylindrical</field>
+            <field name="size">40</field>
+            <field name="code">40TK</field>
+            <field name="teu">2</field>
+        </record>
+        <record id="containers_45HC" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">45' High Cube Container</field>
+            <field name="size">45</field>
+            <field name="code">45HC</field>
+            <field name="teu">2.25</field>
+        </record>
+        <record id="containers_45HR" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">45' High Cube Reefer</field>
+            <field name="size">45</field>
+            <field name="code">45HR</field>
+            <field name="teu">2.25</field>
+        </record>
+        <record id="containers_45PW" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">45' Pallet Wide Container</field>
+            <field name="size">45</field>
+            <field name="code">45PW</field>
+            <field name="teu">2.25</field>
+        </record>
+        <record id="containers_53ST" model="eml.containers.type">
+            <field name="active">True</field>
+            <field name="name">53' Standard Container</field>
+            <field name="size">53</field>
+            <field name="code">53ST</field>
+            <field name="teu">2.65</field>
+        </record>
+    </data>
+</odoo>

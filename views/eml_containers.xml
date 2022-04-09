@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="containers_tree" model="ir.ui.view">
+        <field name="name">eml.containers.tree</field>
+        <field name="model">eml.containers</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="containers_type" />
+                <field name="condition" />
+                <field name="weight" />
+                <field name="precinto" />
+                <field name="bultos" />
+                <field name="percent_usage" />
+            </tree>
+        </field>
+    </record>
+    <record id="containers_form" model="ir.ui.view">
+        <field name="name">eml.containers.form</field>
+        <field name="model">eml.containers</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" required="1" placeholder="Identificador del Contenedor..." />
+                        </h1>
+                    </div>
+                    <group col="2">
+                        <group>
+                            <field name="active" invisible="1" />
+                            <field name="containers_type" />
+                            <field name="condition" />
+                            <field name="weight" />
+                            <field name="percent_usage" />
+                        </group>
+                        <group>
+                            <field name="precinto" />
+                            <field name="bultos" />
+                            <field name="note" placeholder="Notas..." />
+                        </group>
+                    </group>
+                </sheet>
+                <!-- Chatter -->
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers" />
+                    <field name="message_ids" widget="mail_thread" />
+                </div>
+            </form>
+        </field>
+    </record>
+    <record id="containers_search" model="ir.ui.view">
+        <field name="name">eml.containers.search</field>
+        <field name="model">eml.containers</field>
+        <field name="arch" type="xml">
+            <search string="Contenedores">
+                <field name="name" />
+                <field name="weight" />
+                <field name="precinto" />
+                <field name="bultos" />
+                <separator />
+                <group expand="1" string="Group by">
+                    <filter string="Tipo de Contenedor" name="containers_type" context="{'group_by':'containers_type' }" />
+                    <filter string="Condición" name="condition" context="{'group_by':'condition' }" />
+                </group>
+            </search>
+        </field>
+    </record>
+     <record id="action_eml_containers" model="ir.actions.act_window">
+        <field name="name">Contenedores</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">eml.containers</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first record!
+            </p>
+        </field>
+    </record>
+        <menuitem id="menu_eml_containers"
+              name="Contenedores"
+              parent="menu_eml_root"
+              action="action_eml_containers"
+              sequence="20"/>
+</odoo>

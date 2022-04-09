@@ -1,0 +1,59 @@
+# -*- coding: utf-8 -*-
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
+
+from odoo import fields, models
+
+
+class EMLExpedientes(models.Model):
+	_inherit = ['mail.thread']
+	_name = 'eml.expedientes'
+	_description = 'Expedientes'
+	_rec_name = 'name'
+	_order = 'name desc'
+
+	# Información General del Expediente
+	active = fields.Boolean(string='Activo', default=True)
+	name = fields.Char(string='Nombre', required=True)
+	operation_type = fields.Many2one('eml.operation.type', string='Tipo de Operación', required=True)
+	service_type = fields.Selection([('load', 'Cargo'), ('moving', 'Mudanza')],
+	                                string='Cargo / Mudanza', required=True)
+	move_type = fields.Selection([('import', 'Importación'), ('export', 'Exportación'), ('national', 'Nacional')],
+	                             string='Imp / Exp / Nac', required=True)
+	transportation_type = fields.Selection([('marine', 'Marítimo'), ('air', 'Aéreo'), ('ground', 'Terrestre')],
+	                                       string='Marítimo / Aéreo / Terrestre', required=True)
+	transportation_border = fields.Many2one('eml.borders', string='Frontera')
+
+	# Información de Peso Volumen
+	volumen = fields.Float(string='Volumen (m³)')
+	weight = fields.Float(string='Peso (kg)')
+	weight_chargeable = fields.Float(string='Peso Cobrable (kg)')
+	pza_num = fields.Integer(string='# de Piezas')
+	amount = fields.Monetary(string='Valor')
+	currency_id = fields.Many2one('res.currency', string='Moneda')
+	note = fields.Text(string='Descripción')
+
+	# Información de Origen / Destino / Viaje
+	origin = fields.Many2one('res.country', string='Origen', required=True)
+	destiny = fields.Many2one('res.country', string='Destino', required=True)
+	start_date = fields.Date(string='Fecha Inicio', default=fields.Date.today, required=True)
+	end_date = fields.Date(string='Fecha Fin', default=fields.Date.today)
+	partner_id = fields.Many2one('res.partner', string='Cliente')
+	responsable_id = fields.Many2one('res.users', string='Responsable')
+
+	# Información de Seguimiento
+	ref = fields.Char(string='Referencia Interna')
+	pickup = fields.Char(string='Recolección')
+	load = fields.Many2one('eml.seaports.airports', string='Carga')
+	unload = fields.Many2one('eml.seaports.airports', string='Descarga')
+	delivery = fields.Char(string='Entrega')
+	master = fields.Char(string='Master')
+	house = fields.Char(string='House')
+	incoterm_id = fields.Many2one('account.incoterms', string='Incoterms')
+
+	# Campos de Documentación del Embarque
+	doc_embarque = fields.Binary(string="Documentos de Embarque")
+	doc_factura_comercial = fields.Binary(string="Factura Comercial")
+	doc_lista_empaque = fields.Binary(string="Lista de Empaque")
+	doc_blawbbol = fields.Binary(string="BL / AWB / BOL")
+	doc_cert_origen = fields.Binary(string="Certificado de Origen")
+	doc_ficha_tecnica = fields.Binary(string="Ficha Técnica")

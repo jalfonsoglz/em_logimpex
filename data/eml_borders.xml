@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="borders_front_one" model="eml.borders">
+            <field name="active">True</field>
+            <field name="name">Brownsville</field>
+            <field name="country" ref="base.mx" />
+        </record>
+        <record id="borders_front_2" model="eml.borders">
+            <field name="active">True</field>
+            <field name="name">Ciudad Hidalgo</field>
+            <field name="country" ref="base.mx" />
+        </record>
+        <record id="borders_front_3" model="eml.borders">
+            <field name="active">True</field>
+            <field name="name">Ciudad Juárez</field>
+            <field name="country" ref="base.mx" />
+        </record>
+        <record id="borders_front_4" model="eml.borders">
+            <field name="active">True</field>
+            <field name="name">El Paso</field>
+            <field name="country" ref="base.mx" />
+        </record>
+        <record id="borders_front_5" model="eml.borders">
+            <field name="active">True</field>
+            <field name="name">Laredo</field>
+            <field name="country" ref="base.mx" />
+        </record>
+        <record id="borders_front_6" model="eml.borders">
+            <field name="active">True</field>
+            <field name="name">Matamoros</field>
+            <field name="country" ref="base.mx" />
+        </record>
+        <record id="borders_front_7" model="eml.borders">
+            <field name="active">True</field>
+            <field name="name">Nuevo Laredo</field>
+            <field name="country" ref="base.mx" />
+        </record>
+        <record id="borders_front_8" model="eml.borders">
+            <field name="active">True</field>
+            <field name="name">San Ysidro</field>
+            <field name="country" ref="base.mx" />
+        </record>
+        <record id="borders_front_9" model="eml.borders">
+            <field name="active">True</field>
+            <field name="name">Suchiate</field>
+            <field name="country" ref="base.mx" />
+        </record>
+        <record id="borders_front_10" model="eml.borders">
+            <field name="active">True</field>
+            <field name="name">Tijuana</field>
+            <field name="country" ref="base.mx" />
+        </record>
+    </data>
+</odoo>
