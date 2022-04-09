@@ -40,33 +40,42 @@
                                 <field name="name" />
                             </h1>
                         </div>
-                        <field name="active" invisible="1" />
-                        <field name="operation_type" />
-                        <field name="service_type" />
-                        <field name="move_type" />
-                        <field name="transportation_type" />
-                        <field name="transportation_border" attrs="{'invisible': [('transportation_type', '!=', 'ground')]}" />
-                        <field name="volumen" />
-                        <field name="weight" />
-                        <field name="weight_chargeable" />
-                        <field name="pza_num" />
-                        <field name="origin" />
-                        <field name="destiny" />
-                        <field name="start_date" />
-                        <field name="end_date" />
-                        <field name="partner_id" />
-                        <field name="responsable_id" widget="many2one_avatar_user" />
-                        <field name="ref" />
-                        <field name="pickup" />
-                        <field name="delivery" />
-                        <field name="load" />
-                        <field name="unload" />
-                        <field name="master" />
-                        <field name="house" />
-                        <field name="incoterm_id" />
-                        <field name="amount" />
-                        <field name="currency_id" />
-                        <field name="note" />
+                    </group>
+                    <group name="info" col="2">
+                        <group name="info_left">
+                            <field name="active" invisible="1" />
+                            <field name="operation_type" />
+                            <field name="service_type" />
+                            <field name="move_type" />
+                            <field name="transportation_type" />
+                            <field name="transportation_border" attrs="{'invisible': [('transportation_type', '!=', 'ground')]}" />
+                            <field name="volumen" />
+                            <field name="weight" />
+                            <field name="weight_chargeable" />
+                            <field name="pza_num" />
+                            <field name="origin" />
+                            <field name="destiny" />
+                            <field name="start_date" />
+                            <field name="end_date" />
+                        </group>
+                        <group name="info_right">
+                            <field name="partner_id" />
+                            <field name="responsable_id" widget="many2one_avatar_user" />
+                            <field name="ref" />
+                            <field name="pickup" />
+                            <field name="delivery" />
+                            <field name="load" />
+                            <field name="unload" />
+                            <field name="master" />
+                            <field name="house" />
+                            <field name="fw_origen" attrs="{'invisible': [('move_type', '!=', 'import')]}" />
+                            <field name="fw_destino" attrs="{'invisible': [('move_type', '!=', 'export')]}" />
+                            <field name="mudancero_destino" attrs="{'invisible': [('service_type', '!=', 'moving')]}" />
+                            <field name="incoterm_id" />
+                            <field name="amount" />
+                            <field name="currency_id" />
+                            <field name="note" />
+                        </group>
                     </group>
                     <notebook>
                         <page string="Contenedores" name="containers_root">
@@ -163,20 +172,7 @@
             </p>
         </field>
     </record>
-
-    <menuitem id="menu_eml_root"
-              name="Logimpex"
-              sequence="10"/>
-
-    <menuitem id="menu_eml_config"
-              name="Configuración"
-              parent="menu_eml_root"
-              sequence="30"/>
-
-    <menuitem id="menu_eml_expedientes"
-              name="Expedientes"
-              parent="menu_eml_root"
-              action="action_eml_expedientes"
-              sequence="10"/>
-
+    <menuitem id="menu_eml_root" name="Logimpex" sequence="10" />
+    <menuitem id="menu_eml_config" name="Configuración" parent="menu_eml_root" sequence="30" />
+    <menuitem id="menu_eml_expedientes" name="Expedientes" parent="menu_eml_root" action="action_eml_expedientes" sequence="10" />
 </odoo>

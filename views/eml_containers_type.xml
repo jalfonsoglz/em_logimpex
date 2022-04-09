@@ -54,8 +54,7 @@
             </search>
         </field>
     </record>
-
-     <record id="action_eml_containers_type" model="ir.actions.act_window">
+    <record id="action_eml_containers_type" model="ir.actions.act_window">
         <field name="name">Contenedores</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">eml.containers.type</field>
@@ -67,11 +66,5 @@
             </p>
         </field>
     </record>
-
-        <menuitem id="menu_eml_config_containers_type"
-              name="Configurar Tipo de Contenedor"
-              parent="menu_eml_config"
-              action="action_eml_containers_type"
-              sequence="20"/>
-
+    <menuitem id="menu_eml_config_containers_type" name="Configurar Tipo de Contenedor" parent="menu_eml_config" action="action_eml_containers_type" sequence="20" />
 </odoo>

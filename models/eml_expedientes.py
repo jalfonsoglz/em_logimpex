@@ -50,6 +50,9 @@ class EMLExpedientes(models.Model):
 	master = fields.Char(string='Master')
 	house = fields.Char(string='House')
 	incoterm_id = fields.Many2one('account.incoterms', string='Incoterms')
+	fw_origen = fields.Char(string='FW Origen')
+	fw_destino = fields.Char(string='FW Destino')
+	mudancero_destino = fields.Char(string='Mudancero Destino')
 
 	# Campos de Documentación del Embarque
 	doc_embarque = fields.Binary(string="Documentos de Embarque")

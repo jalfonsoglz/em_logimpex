@@ -12,7 +12,6 @@
             </tree>
         </field>
     </record>
-
     <record id="operation_type_form" model="ir.ui.view">
         <field name="name">eml.operation.type.form</field>
         <field name="model">eml.operation.type</field>
@@ -49,8 +48,7 @@
             </search>
         </field>
     </record>
-
-         <record id="action_eml_operation_type" model="ir.actions.act_window">
+    <record id="action_eml_operation_type" model="ir.actions.act_window">
         <field name="name">Tipo de Operación</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">eml.operation.type</field>
@@ -62,11 +60,5 @@
             </p>
         </field>
     </record>
-
-        <menuitem id="menu_eml_config_operation"
-              name="Configurar Tipos de Operación"
-              parent="menu_eml_config"
-              action="action_eml_operation_type"
-              sequence="10"/>
-
+    <menuitem id="menu_eml_config_operation" name="Configurar Tipos de Operación" parent="menu_eml_config" action="action_eml_operation_type" sequence="10" />
 </odoo>
