@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models
+from odoo import api, fields, models, _
 
 
 class EMLExpedientes(models.Model):
@@ -13,7 +13,8 @@ class EMLExpedientes(models.Model):
 
 	# Información General del Expediente
 	active = fields.Boolean(string='Activo', default=True)
-	name = fields.Char(string='Nombre', required=True)
+	name = fields.Char(string='Nombre', required=True, copy=False, readonly=True,
+	                   default=lambda self: _('Nuevo expediente'))
 	operation_type = fields.Many2one('eml.operation.type', string='Tipo de Operación', required=True)
 	service_type = fields.Selection([('load', 'Cargo'), ('moving', 'Mudanza')],
 	                                string='Cargo / Mudanza', required=True)
@@ -57,3 +58,12 @@ class EMLExpedientes(models.Model):
 	doc_blawbbol = fields.Binary(string="BL / AWB / BOL")
 	doc_cert_origen = fields.Binary(string="Certificado de Origen")
 	doc_ficha_tecnica = fields.Binary(string="Ficha Técnica")
+
+	@api.model
+	def create(self, vals):
+		if not vals.get('note'):
+			vals['note'] = 'Nuevo expediente'
+			if vals.get('name', _('Nuevo expediente')) == _('Nuevo expediente'):
+				vals['name'] = self.env['ir.sequence'].next_by_code('eml.expedientes.sequence') or _('Nuevo expediente')
+				res = super(EMLExpedientes, self).create(vals)
+				return res
