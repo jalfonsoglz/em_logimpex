@@ -22,6 +22,7 @@
         'security/ir.model.access.csv',
         # Views
         'views/eml_expedientes.xml',
+        'views/eml_mis_expedientes.xml',
         'views/eml_operation_type.xml',
         'views/eml_containers_type.xml',
         'views/eml_borders.xml',
