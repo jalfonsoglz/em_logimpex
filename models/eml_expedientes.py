@@ -62,6 +62,9 @@ class EMLExpedientes(models.Model):
 	doc_cert_origen = fields.Binary(string="Certificado de Origen")
 	doc_ficha_tecnica = fields.Binary(string="Ficha Técnica")
 
+	# Lineas de Contenedores
+
+
 	@api.model
 	def create(self, vals):
 		if not vals.get('note'):

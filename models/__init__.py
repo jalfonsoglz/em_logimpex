@@ -7,3 +7,5 @@ from . import eml_operation_type
 from . import eml_containers
 from . import eml_seaports_airports
 from . import eml_expedientes
+from . import eml_docs
+from . import eml_docs_tags

@@ -78,7 +78,7 @@
                         </group>
                     </group>
                     <notebook>
-                        <page string="Contenedores" name="containers_root">
+                        <page string="Contenedores" name="containers">
                         </page>
                         <page string="Documentación" name="expedientes_docs_root">
                             <group name="expedientes_docs">
@@ -172,7 +172,9 @@
             </p>
         </field>
     </record>
+
     <menuitem id="menu_eml_root" name="Logimpex" sequence="10" />
     <menuitem id="menu_eml_config" name="Configuración" parent="menu_eml_root" sequence="30" />
     <menuitem id="menu_eml_expedientes" name="Expedientes" parent="menu_eml_root" action="action_eml_expedientes" sequence="10" />
+    <menuitem id="menu_eml_docs" name="Documentos" parent="menu_eml_root" action="action_eml_docs" sequence="30" />
 </odoo>

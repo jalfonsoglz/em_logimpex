@@ -27,11 +27,14 @@
         'views/eml_borders.xml',
         'views/eml_seaports_airports.xml',
         'views/eml_containers.xml',
+        'views/eml_docs.xml',
+        'views/eml_docs_tags.xml',
         # Data
         'data/eml_containers_type.xml',
         'data/eml_borders.xml',
         'data/eml_operation_type.xml',
         'data/eml_seaports_airports.xml',
+        'data/eml_tags.xml'
         # Sequence
         'data/ir_sequence_data.xml'
         # Reports

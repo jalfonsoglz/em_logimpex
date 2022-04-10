@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="docs_tags_tree" model="ir.ui.view">
+        <field name="name">eml.docs.tags.tree</field>
+        <field name="model">eml.docs.tags</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name" readonly="1" />
+                <field name="color" widget="color_picker" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="docs_tags_form" model="ir.ui.view">
+        <field name="name">eml.docs.tags.form</field>
+        <field name="model">eml.docs.tags</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet string="Partner_Documents_Tags">
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" required="1" placeholder="Nombre del documento..." />
+                        </h1>
+                    </div>
+                    <field name="color" widget="color_picker" />
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="docs_tags_search" model="ir.ui.view">
+        <field name="name">eml.docs.tags.search</field>
+        <field name="model">eml.docs.tags</field>
+        <field name="arch" type="xml">
+            <search string="Etiquetas de Documentos">
+                <field name="name" />
+            </search>
+        </field>
+    </record>
+
+    <record id="action_eml_docs_tags" model="ir.actions.act_window">
+        <field name="name">Etiquetas de Documentos</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">eml.docs.tags</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first record!
+            </p>
+        </field>
+    </record>
+</odoo>
