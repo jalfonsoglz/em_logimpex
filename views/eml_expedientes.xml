@@ -172,7 +172,7 @@
             </p>
         </field>
     </record>
-    <menuitem id="menu_eml_root" name="Logimpex" web_icon="eml.logimpex,static/description/icon.png" sequence="10"  />
+    <menuitem id="menu_eml_root" name="Logimpex" web_icon="em_logimpex,static/description/icon.png" sequence="10"  />
     <menuitem id="menu_eml_config" name="Configuración" parent="menu_eml_root" sequence="40" />
     <menuitem id="menu_eml_expedientes" name="Expedientes" parent="menu_eml_root" action="action_eml_expedientes" sequence="10" />
 
