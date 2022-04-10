@@ -8,8 +8,8 @@ class EMLDocs(models.Model):
 	_order = 'name'
 
 	name = fields.Char(string='Nombre', required=True)
-	partner_id = fields.Many2one('res.partner', string='Cliente', required=True, index=True, tracking=True)
+	partner_id = fields.Many2one('res.partner', string='Cliente', required=True, index=True)
 	document = fields.Binary(string='Documento', copy=False)
 	document_filename = fields.Char(string='Nombre del documento', copy=False)
 	document_tag = fields.Many2many('eml.docs.tags', string='Etiquetas', copy=False)
-	note = fields.Text(string='Descripción', copy=False, tracking=True)
+	note = fields.Text(string='Descripción', copy=False)

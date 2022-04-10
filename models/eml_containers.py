@@ -21,5 +21,5 @@ class EMLContainers(models.Model):
     weight = fields.Float(string='Peso (kg)', tracking=True)
     precinto = fields.Integer(string='Precinto', tracking=True)
     bultos = fields.Integer(string='Bultos', tracking=True)
-    percent_usage = fields.Float(string='% de Uso', default="100", racking=True)
+    percent_usage = fields.Float(string='% de Uso', default="100", tracking=True)
     note = fields.Text(string='Descripción', tracking=True)
