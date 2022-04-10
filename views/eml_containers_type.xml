@@ -66,5 +66,5 @@
             </p>
         </field>
     </record>
-    <menuitem id="menu_eml_config_containers_type" name="Configurar Tipo de Contenedor" parent="menu_eml_config" action="action_eml_containers_type" sequence="20" />
+    <menuitem id="menu_eml_config_containers_type" name="Configurar Tipo de Contenedor" parent="menu_eml_config" action="action_eml_containers_type" sequence="30" />
 </odoo>

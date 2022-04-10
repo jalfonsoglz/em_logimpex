@@ -60,5 +60,5 @@
             </p>
         </field>
     </record>
-    <menuitem id="menu_eml_config_operation" name="Configurar Tipos de Operación" parent="menu_eml_config" action="action_eml_operation_type" sequence="10" />
+    <menuitem id="menu_eml_config_operation" name="Configurar Tipos de Operación" parent="menu_eml_config" action="action_eml_operation_type" sequence="20" />
 </odoo>

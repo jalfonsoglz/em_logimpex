@@ -34,9 +34,9 @@
         'data/eml_borders.xml',
         'data/eml_operation_type.xml',
         'data/eml_seaports_airports.xml',
-        'data/eml_tags.xml'
+        'data/eml_tags.xml',
         # Sequence
-        'data/ir_sequence_data.xml'
+        'data/ir_sequence_data.xml',
         # Reports
     ],
     'demo': [],

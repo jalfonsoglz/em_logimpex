@@ -72,4 +72,6 @@
         </field>
     </record>
 
+    <menuitem id="menu_eml_documentos" name="Documentos" parent="menu_eml_root" action="action_eml_docs" sequence="30" />
+
 </odoo>

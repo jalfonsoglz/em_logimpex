@@ -50,4 +50,5 @@
             </p>
         </field>
     </record>
+    <menuitem id="menu_eml_config_docs_tagss" name="Etiquetas de Documentos" parent="menu_eml_config" action="action_eml_docs_tags" sequence="10" />
 </odoo>

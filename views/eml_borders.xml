@@ -62,5 +62,5 @@
             </p>
         </field>
     </record>
-    <menuitem id="menu_eml_config_borders" name="Configurar Fronteras" parent="menu_eml_config" action="action_eml_borders" sequence="40" />
+    <menuitem id="menu_eml_config_borders" name="Configurar Fronteras" parent="menu_eml_config" action="action_eml_borders" sequence="50" />
 </odoo>

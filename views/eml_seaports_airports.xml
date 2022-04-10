@@ -71,5 +71,5 @@
             </p>
         </field>
     </record>
-    <menuitem id="menu_eml_config_seaports_airports" name="Configurar Puertos Marítimos y Aeropuertos" parent="menu_eml_config" action="action_eml_seaports_airports" sequence="30" />
+    <menuitem id="menu_eml_config_seaports_airports" name="Configurar Puertos Marítimos y Aeropuertos" parent="menu_eml_config" action="action_eml_seaports_airports" sequence="40" />
 </odoo>
