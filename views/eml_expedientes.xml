@@ -79,6 +79,9 @@
                     </group>
                     <notebook>
                         <page string="Contenedores" name="containers">
+                            <group name="contenedores_lines">
+                                <field name="containers_line" widget="many2many" />
+                            </group>
                         </page>
                         <page string="Documentación" name="expedientes_docs_root">
                             <group name="expedientes_docs">
@@ -149,6 +152,13 @@
                     <filter string="Incoterms" name="incoterm_id" context="{'group_by':'incoterm_id'}" />
                     <filter string="Moneda" name="currency_id" context="{'group_by':'currency_id'}" />
                 </group>
+                <searchpanel>
+                    <field name="operation_type" icon="fa-briefcase" enable_counters="1" />
+                    <field name="service_type" icon="fa-cogs" enable_counters="1" />
+                    <field name="move_type" icon="fa-globe" enable_counters="1" />
+                    <field name="transportation_type" icon="fa-ship" enable_counters="1" />
+                    <field name="responsable_id" icon="fa-user-circle" enable_counters="1" />
+                </searchpanel>
             </search>
         </field>
     </record>
