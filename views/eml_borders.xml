@@ -24,7 +24,7 @@
                     </div>
                     <group>
                         <field name="active" invisible="1" />
-                        <field name="country" />
+                        <field name="country" options="{'no_create': True}" />
                         <field name="note" placeholder="Notas..." />
                     </group>
                 </sheet>

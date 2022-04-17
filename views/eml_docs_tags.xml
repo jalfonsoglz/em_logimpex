@@ -5,7 +5,7 @@
         <field name="model">eml.docs.tags</field>
         <field name="arch" type="xml">
             <tree editable="bottom">
-                <field name="name" readonly="1" />
+                <field name="name" />
                 <field name="color" widget="color_picker" />
             </tree>
         </field>

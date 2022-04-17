@@ -29,7 +29,7 @@
                         <field name="active" />
                         <field name="code" />
                         <field name="category" />
-                        <field name="country" />
+                        <field name="country" options="{'no_create': True}" />
                         <field name="note" />
                     </group>
                 </sheet>
