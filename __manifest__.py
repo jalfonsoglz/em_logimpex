@@ -8,7 +8,7 @@
     'author': "Alfonso Gonzalez (alfonso@ptree.com.mx)",
     'website': "https://ptree.com.mx/",
     'category': 'Customizations',
-    'version': '15.0.0.0.2',
+    'version': '15.0.0.0.3',
     'license': "AGPL-3",
     'sequence': "-100",
     'depends': [
@@ -20,6 +20,8 @@
         # Security
         'security/logimpex_security.xml',
         'security/ir.model.access.csv',
+        # Imports
+        'data/eml.seaports.airports.csv',
         # Views
         'views/eml_expedientes.xml',
         'views/eml_mis_expedientes.xml',
@@ -34,7 +36,6 @@
         'data/eml_containers_type.xml',
         'data/eml_borders.xml',
         'data/eml_operation_type.xml',
-        'data/eml_seaports_airports.xml',
         'data/eml_tags.xml',
         # Sequence
         'data/ir_sequence_data.xml',

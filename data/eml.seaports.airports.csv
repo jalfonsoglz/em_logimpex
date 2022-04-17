@@ -1,0 +1,737 @@
+id,name,active,code,category,country
+seaports_airports_0001,Abidjan,true,IVABJ,Puerto,CI
+seaports_airports_0002,Acajutla,true,ESACJ,Puerto,SV
+seaports_airports_0003,Acapulco,true,MXACP,Puerto,MX
+seaports_airports_0004,Accra,true,GHACC,Puerto,GH
+seaports_airports_0005,Adelaide,true,ASPDL,Puerto,AU
+seaports_airports_0006,Agria,true,GRARI,Puerto,GR
+seaports_airports_0007,Al Fuhayhil,true,KUMHD,Puerto,KW
+seaports_airports_0008,Al Kuwayt,true,KUALK,Puerto,KW
+seaports_airports_0009,Alabama,true,USALA,Puerto,US
+seaports_airports_0010,Albany,true,ASALY,Puerto,AU
+seaports_airports_0011,Alberton,true,CACPQ,Puerto,CA
+seaports_airports_0012,Algeciras,true,SPAGS,Puerto,ES
+seaports_airports_0013,Almirante Brown,true,ARABN,Puerto,AR
+seaports_airports_0014,Altamira,true,MXAEM,Puerto,MX
+seaports_airports_0015,Amsterdam,true,NLAMS,Puerto,NL
+seaports_airports_0016,Anchorage,true,USANC,Puerto,US
+seaports_airports_0017,Angra (Harbour),true,POARQ,Puerto,PT
+seaports_airports_0018,Antigua,true,UKSTJ,Puerto,AG
+seaports_airports_0019,Antofagasta,true,CIAFA,Puerto,CL
+seaports_airports_0020,Antwerp,true,BEANW,Puerto,BE
+seaports_airports_0021,Ao Phuket,true,THAOP,Puerto,TH
+seaports_airports_0022,Apapa,true,NILAG,Puerto,NG
+seaports_airports_0023,Aracaju,true,BRARC,Puerto,BR
+seaports_airports_0024,Arica,true,CIARA,Puerto,CL
+seaports_airports_0025,Aruba,true,NLOAS,Puerto,NL
+seaports_airports_0026,Asuncion,true,PAASU,Puerto,PY
+seaports_airports_0027,Athens,true,GRPIR,Puerto,GR
+seaports_airports_0028,Auckland,true,NZAUC,Puerto,NZ
+seaports_airports_0029,Azores,true,POHOR,Puerto,PT
+seaports_airports_0030,Bahia,true,BRBAH,Puerto,BR
+seaports_airports_0031,Bahia Blanca,true,ARBBL,Puerto,AR
+seaports_airports_0032,Bahia San Blas,true,ARSBC,Puerto,AR
+seaports_airports_0033,Bahia San Gregorio,true,CIBAC,Puerto,CL
+seaports_airports_0034,Bahia San Sebastian,true,ARBSX,Puerto,AR
+seaports_airports_0035,Balboa,true,PNBLB,Puerto,PA
+seaports_airports_0036,Baltimore,true,USBLT,Puerto,US
+seaports_airports_0037,Banghazi,true,LYBNZ,Puerto,LY
+seaports_airports_0038,Bangkok,true,THBNK,Puerto,TH
+seaports_airports_0039,Barbados,true,BBBWN,Puerto,BB
+seaports_airports_0040,Barcelona,true,SPBRE,Puerto,ES
+seaports_airports_0041,Bari,true,ITBPI,Puerto,IT
+seaports_airports_0042,Barquito-Chañaral,true,CICLM,Puerto,CL
+seaports_airports_0043,Barranqueras,true,ARBRQ,Puerto,AR
+seaports_airports_0044,Barranquilla,true,COBQA,Puerto,CO
+seaports_airports_0045,Bass Harbour,true,THBSH,Puerto,TH
+seaports_airports_0046,Bayonne,true,FRBYE,Puerto,FR
+seaports_airports_0047,Belem,true,BRPAA,Puerto,BR
+seaports_airports_0048,Belfast,true,UKBFT,Puerto,GB
+seaports_airports_0049,Belize,true,UKBEZ,Puerto,BZ
+seaports_airports_0050,Bello Horizonte,true,BRHOR,Puerto,BR
+seaports_airports_0051,Benito Juarez,true,MXBJZ,Puerto,MX
+seaports_airports_0052,Biarritz,true,FRBRZ,Puerto,FR
+seaports_airports_0053,Bilbao,true,SPBBO,Puerto,ES
+seaports_airports_0054,Birminghan,true,UKBIR,Puerto,GB
+seaports_airports_0055,Bogota,true,COBGT,Puerto,CO
+seaports_airports_0056,Bolonia,true,ITBOL,Puerto,IT
+seaports_airports_0057,Bombay,true,INBQM,Puerto,IN
+seaports_airports_0058,Boqueron,true,CUCMN,Puerto,CU
+seaports_airports_0059,Boston,true,USBOQ,Puerto,US
+seaports_airports_0060,Boston UK,true,UKBOS,Puerto,GB
+seaports_airports_0061,Boulogne-Sur-Mer,true,FRBSM,Puerto,FR
+seaports_airports_0062,Bremen,true,GEBMN,Puerto,DE
+seaports_airports_0063,Bremerhaven,true,GEBHV,Puerto,DE
+seaports_airports_0064,Brescia,true,ITBRE,Puerto,IT
+seaports_airports_0065,Brest,true,FRBES,Puerto,FR
+seaports_airports_0066,Brighton,true,UKBIG,Puerto,GB
+seaports_airports_0067,Brindisi,true,ITBIB,Puerto,IT
+seaports_airports_0068,Brisbane,true,ASBBN,Puerto,AU
+seaports_airports_0069,Bristol,true,UKBRI,Puerto,GB
+seaports_airports_0070,Brooklyn,true,USBBD,Puerto,US
+seaports_airports_0071,Brunei Town,true,MYBNU,Puerto,MY
+seaports_airports_0072,Brussels,true,BEBXL,Puerto,BE
+seaports_airports_0073,Buchanan,true,LIBCH,Puerto,LR
+seaports_airports_0074,Buenaventura,true,COBFA,Puerto,CO
+seaports_airports_0075,Buenos Aires,true,ARBAI,Puerto,AR
+seaports_airports_0076,Cabedello,true,BRCBL,Puerto,BR
+seaports_airports_0077,Cabo Negro,true,CICNX,Puerto,CL
+seaports_airports_0078,Cadiz,true,SPCAZ,Puerto,ES
+seaports_airports_0079,Caen,true,FRCNQ,Puerto,FR
+seaports_airports_0080,Cagliari,true,ITCGI,Puerto,IT
+seaports_airports_0081,Calais,true,FRCAL,Puerto,FR
+seaports_airports_0082,Calcutta,true,INCAT,Puerto,IN
+seaports_airports_0083,Caldera,true,CSCDR,Puerto,CR
+seaports_airports_0084,Caleta Cordoba,true,ARCDB,Puerto,AR
+seaports_airports_0085,Caleta Olivia,true,AROLV,Puerto,AR
+seaports_airports_0086,Cali,true,COCAL,Puerto,CO
+seaports_airports_0087,Callao,true,PECAO,Puerto,PE
+seaports_airports_0088,Callo,true,ECPQY,Puerto,EC
+seaports_airports_0089,Campana,true,ARCMA,Puerto,AR
+seaports_airports_0090,Campeche,true,MXCCE,Puerto,MX
+seaports_airports_0091,Canelones,true,UYCAN,Puerto,UY
+seaports_airports_0092,Cannes,true,FRCNN,Puerto,FR
+seaports_airports_0093,Cape Coast,true,GHCPC,Puerto,GH
+seaports_airports_0094,Cape Town,true,SFCTO,Puerto,ZA
+seaports_airports_0095,Caracas,true,VECCV,Puerto,VE
+seaports_airports_0096,Cardiff,true,UKCDF,Puerto,GB
+seaports_airports_0097,Carmelo,true,UYCAR,Puerto,UY
+seaports_airports_0098,Carmen De Patagones,true,ARCDP,Puerto,AR
+seaports_airports_0099,Carrasco,true,UYCAO,Puerto,UY
+seaports_airports_0100,Carro Largo,true,UYCAL,Puerto,UY
+seaports_airports_0101,Cartagena,true,COCGA,Puerto,CO
+seaports_airports_0102,Cartagena ES,true,SPCAF,Puerto,ES
+seaports_airports_0103,Casablanca,true,MOCSA,Puerto,MA
+seaports_airports_0104,Castellammare,true,ITCTM,Puerto,IT
+seaports_airports_0105,Catania,true,ITCAI,Puerto,IT
+seaports_airports_0106,Ceara,true,BRPDM,Puerto,BR
+seaports_airports_0107,Chacabuco,true,CIPCH,Puerto,CL
+seaports_airports_0108,Chan Chiang,true,CHCNG,Puerto,CN
+seaports_airports_0109,Changchun,true,CHANG,Puerto,CN
+seaports_airports_0110,Charleston,true,USCHR,Puerto,US
+seaports_airports_0111,Charlotte,true,USRTR,Puerto,US
+seaports_airports_0112,Cherbourg,true,FRCEG,Puerto,FR
+seaports_airports_0113,Chicago,true,USCIG,Puerto,US
+seaports_airports_0114,Chiu Chiang,true,CHCXX,Puerto,CN
+seaports_airports_0115,Chiwan,true,CHWAN,Puerto,CN
+seaports_airports_0116,Chonchi,true,CICHO,Puerto,CL
+seaports_airports_0117,Christchurch,true,NZPFT,Puerto,NZ
+seaports_airports_0118,Chung Ching,true,CHCUG,Puerto,CN
+seaports_airports_0119,Cienfuegos,true,CUCNF,Puerto,CU
+seaports_airports_0120,Cisnes,true,CICIS,Puerto,CL
+seaports_airports_0121,Cleveland,true,USCVD,Puerto,US
+seaports_airports_0122,Colina,true,CICLN,Puerto,CL
+seaports_airports_0123,Colon,true,PNCXT,Puerto,PA
+seaports_airports_0124,Colón,true,ARCOL,Puerto,AR
+seaports_airports_0125,Colonia,true,UYCOA,Puerto,UY
+seaports_airports_0126,Coloso,true,CICOL,Puerto,CL
+seaports_airports_0127,Comodoro Rivadavia,true,ARCDD,Puerto,AR
+seaports_airports_0128,Conakry,true,GVCOY,Puerto,GN
+seaports_airports_0129,Concepcion CH,true,CITLC,Puerto,CL
+seaports_airports_0130,Concepcion,true,PACNP,Puerto,PY
+seaports_airports_0131,Conception Del Uruguay,true,ARCDY,Puerto,AR
+seaports_airports_0132,Concordia,true,ARCKA,Puerto,AR
+seaports_airports_0133,Copenhagen,true,DACPG,Puerto,DK
+seaports_airports_0134,Coquimbo,true,CICQO,Puerto,CL
+seaports_airports_0135,Corinto,true,NUCTX,Puerto,NI
+seaports_airports_0136,Corrientes,true,ARCOR,Puerto,AR
+seaports_airports_0137,Cozumel,true,MXCZM,Puerto,MX
+seaports_airports_0138,Cristobal,true,PNCRS,Puerto,PA
+seaports_airports_0139,Curacao,true,NLWMS,Puerto,NL
+seaports_airports_0140,Dakar,true,SGDAK,Puerto,SN
+seaports_airports_0141,Dalian,true,CHDLN,Puerto,CN
+seaports_airports_0142,Davenport,true,USDAV,Puerto,US
+seaports_airports_0143,Debreeka,true,GVDEB,Puerto,GN
+seaports_airports_0144,Decepcion,true,ARPFO,Puerto,AR
+seaports_airports_0145,Diamante,true,ARDIA,Puerto,AR
+seaports_airports_0146,Djibouti,true,SODJB,Puerto,SO
+seaports_airports_0147,Dominica,true,FRRSE,Puerto,DM
+seaports_airports_0148,Douala,true,CMDUA,Puerto,CM
+seaports_airports_0149,Dreger Harbour,true,GVDGH,Puerto,GN
+seaports_airports_0150,Durban,true,SFDUR,Puerto,ZA
+seaports_airports_0151,Dusseldorf,true,GEDDF,Puerto,DE
+seaports_airports_0152,East London,true,SFELN,Puerto,ZA
+seaports_airports_0153,El Ferrol,true,SPELF,Puerto,ES
+seaports_airports_0154,Elizabethport,true,USEZP,Puerto,US
+seaports_airports_0155,Empedrado,true,AREDO,Puerto,AR
+seaports_airports_0156,Encarnacion,true,PAENO,Puerto,PY
+seaports_airports_0157,Esmeraldas,true,ECEDA,Puerto,EC
+seaports_airports_0158,Esquina,true,ARESO,Puerto,AR
+seaports_airports_0159,Estambul,true,TUIST,Puerto,TR
+seaports_airports_0160,Felixstowe,true,UKFXW,Puerto,GB
+seaports_airports_0161,Ferrol,true,SPFER,Puerto,ES
+seaports_airports_0162,Florianopolis,true,BRFLO,Puerto,BR
+seaports_airports_0163,Forcados,true,NIFOC,Puerto,NG
+seaports_airports_0164,Formosa,true,ARPFA,Puerto,AR
+seaports_airports_0165,Fort De France,true,FRFTF,Puerto,MQ
+seaports_airports_0166,Fort Lauderdale,true,USFTL,Puerto,US
+seaports_airports_0167,Fos Sur Mer,true,FRFSM,Puerto,FR
+seaports_airports_0168,Frankfurt,true,GEFFU,Puerto,DE
+seaports_airports_0169,Fray Bentos,true,UYFBN,Puerto,UY
+seaports_airports_0170,Freeport,true,USFRP,Puerto,US
+seaports_airports_0171,Freetown,true,SLFTN,Puerto,SL
+seaports_airports_0172,Fremantle,true,ASFRM,Puerto,AU
+seaports_airports_0173,Fuzhou,true,CHFUZ,Puerto,CN
+seaports_airports_0174,Galveston,true,USGVS,Puerto,US
+seaports_airports_0175,Gand,true,BEGNT,Puerto,BE
+seaports_airports_0176,Gatwick,true,UKGAT,Puerto,GB
+seaports_airports_0177,Gdansk,true,PLGDK,Puerto,PL
+seaports_airports_0178,Gdynia,true,PLGDY,Puerto,PL
+seaports_airports_0179,General Alvear,true,ARAVE,Puerto,AR
+seaports_airports_0180,General Belgrano,true,ARBEL,Puerto,AR
+seaports_airports_0181,General San Martin,true,ARGSM,Puerto,AR
+seaports_airports_0182,Genova,true,ITGEN,Puerto,IT
+seaports_airports_0183,Gent,true,BEGEN,Puerto,BE
+seaports_airports_0184,George Town GY,true,UKGGT,Puerto,GY
+seaports_airports_0185,George Town,true,MYGTW,Puerto,MY
+seaports_airports_0186,Gijon,true,SPGIJ,Puerto,ES
+seaports_airports_0187,Gloucester,true,UKGCT,Puerto,GB
+seaports_airports_0188,Guadalajara,true,MXGUA,Puerto,MX
+seaports_airports_0189,Guangzhou,true,CHGUA,Puerto,CN
+seaports_airports_0190,Guanta,true,VEGUA,Puerto,VE
+seaports_airports_0191,Guayaquil,true,ECGUQ,Puerto,EC
+seaports_airports_0192,Haiphong,true,VNHAH,Puerto,VN
+seaports_airports_0193,Halifax,true,CAHAL,Puerto,CA
+seaports_airports_0194,Hamata,true,EGRGU,Puerto,EG
+seaports_airports_0195,Hamburgo,true,GEHAM,Puerto,DE
+seaports_airports_0196,Hanoi,true,VNHAN,Puerto,VN
+seaports_airports_0197,Havre,true,FRLEH,Puerto,FR
+seaports_airports_0198,Helsingfors,true,FIHEL,Puerto,FI
+seaports_airports_0199,Hernandarias,true,ARHES,Puerto,AR
+seaports_airports_0200,Hiroshima,true,JAHRI,Puerto,JP
+seaports_airports_0201,Ho Chi Minh (Saigon),true,VNHCM,Puerto,VN
+seaports_airports_0202,Hohenau,true,PAHHU,Puerto,PY
+seaports_airports_0203,Hong Kong,true,CHHON,Puerto,CN
+seaports_airports_0204,Ibicuy,true,ARIBC,Puerto,AR
+seaports_airports_0205,Ibiza,true,SPIBI,Puerto,ES
+seaports_airports_0206,Ilheus,true,BRILH,Puerto,BR
+seaports_airports_0207,Ilo,true,PEILO,Puerto,PE
+seaports_airports_0208,Imbituba,true,BRIMB,Puerto,BR
+seaports_airports_0209,Inchon,true,INCHO,Puerto,IN
+seaports_airports_0210,Iquique,true,CIIQQ,Puerto,CL
+seaports_airports_0211,Iquitos,true,PEIQU,Puerto,PE
+seaports_airports_0212,Itajai,true,BRITJ,Puerto,BR
+seaports_airports_0213,Itapua,true,PAITA,Puerto,PY
+seaports_airports_0214,Izmir,true,TUIZR,Puerto,TR
+seaports_airports_0215,Jackson Bay,true,CAJKB,Puerto,CA
+seaports_airports_0216,Jakarta,true,IDJAK,Puerto,ID
+seaports_airports_0217,Jervis Bay,true,ASJRB,Puerto,AU
+seaports_airports_0218,Johannesburg,true,SFJOH,Puerto,ZA
+seaports_airports_0219,Jose Ignacio Terminal,true,UYJIT,Puerto,UY
+seaports_airports_0220,Juan Fernandez,true,CIJFZ,Puerto,CL
+seaports_airports_0221,Kagoshima,true,JAKGK,Puerto,JP
+seaports_airports_0222,Kaliningrado,true,URKGB,Puerto,RU
+seaports_airports_0223,Kaoshsiung,true,TWKSG,Puerto,TW
+seaports_airports_0224,Keelung=Chilung,true,TWCIL,Puerto,TW
+seaports_airports_0225,Kobe,true,JAKBH,Puerto,JP
+seaports_airports_0226,Kotka,true,FIKOT,Puerto,FI
+seaports_airports_0227,Kronshtadt,true,URKSH,Puerto,RU
+seaports_airports_0228,La Ceiba,true,HOLCE,Puerto,HN
+seaports_airports_0229,La Coruña,true,SPLCU,Puerto,ES
+seaports_airports_0230,La Guaira,true,VELGX,Puerto,VE
+seaports_airports_0231,La Paloma,true,UYPLO,Puerto,UY
+seaports_airports_0232,La Plata,true,ARLPL,Puerto,AR
+seaports_airports_0233,La Spezia,true,ITLSZ,Puerto,IT
+seaports_airports_0234,La Valetta,true,MTVLE,Puerto,MT
+seaports_airports_0235,Labrador,true,CAWMH,Puerto,CA
+seaports_airports_0236,Las Palmas,true,SPPEZ,Puerto,ES
+seaports_airports_0237,Lazaro Cardenas,true,MXLCD,Puerto,MX
+seaports_airports_0238,Leeds,true,UKLEE,Puerto,GB
+seaports_airports_0239,Libreville,true,GBLBR,Puerto,GA
+seaports_airports_0240,Lieja,true,BELIE,Puerto,BE
+seaports_airports_0241,Lille,true,FRLIL,Puerto,FR
+seaports_airports_0242,Lima,true,PELIM,Puerto,PE
+seaports_airports_0243,Limon,true,CSLIM,Puerto,CR
+seaports_airports_0244,Lirquen,true,CILQW,Puerto,CL
+seaports_airports_0245,Lisboa,true,POLIB,Puerto,PT
+seaports_airports_0246,Liverpool,true,UKLVP,Puerto,GB
+seaports_airports_0247,Livingston,true,GTLVO,Puerto,GT
+seaports_airports_0248,Livorno,true,ITLEG,Puerto,IT
+seaports_airports_0249,Lobito,true,AOLOB,Puerto,AO
+seaports_airports_0250,Lome,true,TOLOM,Puerto,TG
+seaports_airports_0251,Londres,true,UKLNR,Puerto,GB
+seaports_airports_0252,Los Angeles,true,USLOS,Puerto,US
+seaports_airports_0253,Luanda,true,AOLUA,Puerto,AO
+seaports_airports_0254,Lung Kou,true,CHLGK,Puerto,CN
+seaports_airports_0255,Luque,true,PALUQ,Puerto,PY
+seaports_airports_0256,Lyon,true,FRLYN,Puerto,FR
+seaports_airports_0257,Maceio,true,BRMCE,Puerto,BR
+seaports_airports_0258,Madras,true,INMDR,Puerto,IN
+seaports_airports_0259,Madrid,true,SPMAD,Puerto,ES
+seaports_airports_0260,Malaga,true,SPMGA,Puerto,ES
+seaports_airports_0261,Maldonado,true,UYMDO,Puerto,UY
+seaports_airports_0262,Malmo,true,SWMMO,Puerto,SE
+seaports_airports_0263,Manaos,true,BRMXO,Puerto,BR
+seaports_airports_0264,Manchester,true,UKMCT,Puerto,GB
+seaports_airports_0265,Mangalore,true,INMQR,Puerto,IN
+seaports_airports_0266,Manila,true,RPMNY,Puerto,PH
+seaports_airports_0267,Manta,true,ECMTA,Puerto,EC
+seaports_airports_0268,Manzanillo,true,MXMZN,Puerto,MX
+seaports_airports_0269,Mar Del Plata,true,ARMPL,Puerto,AR
+seaports_airports_0270,Maracaibo,true,VEMAR,Puerto,VE
+seaports_airports_0271,Matanzas,true,CUMZS,Puerto,CU
+seaports_airports_0272,Melbourne,true,IIOXX,Puerto,AU
+seaports_airports_0273,Melilla,true,MOMFI,Puerto,MA
+seaports_airports_0274,Mersin,true,TUMER,Puerto,TR
+seaports_airports_0275,Messina,true,ITMES,Puerto,IT
+seaports_airports_0276,México,true,MXMEX,Puerto,MX
+seaports_airports_0277,Miami,true,USMIA,Puerto,US
+seaports_airports_0278,Milan,true,ITMIL,Puerto,IT
+seaports_airports_0279,Mississippi,true,USMIS,Puerto,US
+seaports_airports_0280,Mogadiscio,true,SOMOG,Puerto,SO
+seaports_airports_0281,Moji,true,JAMOJ,Puerto,JP
+seaports_airports_0282,Monrovia,true,LIMVI,Puerto,LR
+seaports_airports_0283,Montevideo,true,UYMVD,Puerto,UY
+seaports_airports_0284,Montreal,true,CAMON,Puerto,CA
+seaports_airports_0285,Moscu,true,URMOS,Puerto,RU
+seaports_airports_0286,Nagasaki,true,JANAG,Puerto,JP
+seaports_airports_0287,Nagoya,true,JANGY,Puerto,JP
+seaports_airports_0288,Naha,true,JANAH,Puerto,JP
+seaports_airports_0289,Napoles,true,ITNAP,Puerto,IT
+seaports_airports_0290,Narvik,true,NONAR,Puerto,NO
+seaports_airports_0291,Natal,true,BRNAT,Puerto,BR
+seaports_airports_0292,Necochea,true,ARNEC,Puerto,AR
+seaports_airports_0293,New Brunswick,true,CASZJ,Puerto,CA
+seaports_airports_0294,New Delhi,true,INNDH,Puerto,IN
+seaports_airports_0295,New Jersey,true,USNJY,Puerto,US
+seaports_airports_0296,New Orleans,true,USNWO,Puerto,US
+seaports_airports_0297,New York,true,USNYO,Puerto,US
+seaports_airports_0298,Newark,true,USPWK,Puerto,US
+seaports_airports_0299,Newport,true,USNET,Puerto,US
+seaports_airports_0300,Ningbo,true,CHNGO,Puerto,CN
+seaports_airports_0301,Norfolk,true,USNFK,Puerto,US
+seaports_airports_0302,Nova Scotia,true,CAPCT,Puerto,CA
+seaports_airports_0303,Nueva Palmira,true,UYNVP,Puerto,UY
+seaports_airports_0304,Oakland,true,USOAK,Puerto,US
+seaports_airports_0305,Obligado,true,PAOBP,Puerto,PY
+seaports_airports_0306,Odessa,true,URODS,Puerto,UA
+seaports_airports_0307,Okinawa,true,JAOKI,Puerto,JP
+seaports_airports_0308,Ontario,true,CAONT,Puerto,CA
+seaports_airports_0309,Oporto,true,POPJQ,Puerto,PT
+seaports_airports_0310,Oran,true,AGORA,Puerto,DZ
+seaports_airports_0311,Orly,true,FRORL,Puerto,FR
+seaports_airports_0312,Orsay,true,FRORS,Puerto,FR
+seaports_airports_0313,Osaka,true,JAOSA,Puerto,JP
+seaports_airports_0314,Oslo,true,NOSLO,Puerto,NO
+seaports_airports_0315,Osorno,true,CIOSO,Puerto,CL
+seaports_airports_0316,Ottawa,true,CAOTT,Puerto,CA
+seaports_airports_0317,Paita,true,PEPAI,Puerto,PE
+seaports_airports_0318,Palermo,true,ITPAL,Puerto,IT
+seaports_airports_0319,Panama City,true,PNPFZ,Puerto,PA
+seaports_airports_0320,Pangkor,true,MYPKR,Puerto,MY
+seaports_airports_0321,Paramaribo,true,NSPRB,Puerto,SR
+seaports_airports_0322,Parana,true,ARPNA,Puerto,AR
+seaports_airports_0323,Paranagua,true,BRPGU,Puerto,BR
+seaports_airports_0324,Paris,true,FRPAR,Puerto,FR
+seaports_airports_0325,Patache,true,CIPAT,Puerto,CL
+seaports_airports_0326,Peking,true,CHPKI,Puerto,CN
+seaports_airports_0327,Pepel,true,SLPEP,Puerto,SL
+seaports_airports_0328,Perth,true,UKPTH,Puerto,AU
+seaports_airports_0329,Philadelphia,true,USPHL,Puerto,US
+seaports_airports_0330,Pilar,true,PAPIL,Puerto,PY
+seaports_airports_0331,Point Fortin,true,TDPTF,Puerto,TT
+seaports_airports_0332,Point Lisas,true,TDPNS,Puerto,TT
+seaports_airports_0333,Pointe A Pierre,true,TDPPR,Puerto,TT
+seaports_airports_0334,Port Elizabeth,true,SFPFL,Puerto,ZA
+seaports_airports_0335,Port Everglades,true,USPVG,Puerto,US
+seaports_airports_0336,Port Glasgow,true,UKPGW,Puerto,GB
+seaports_airports_0337,Port Harcourt,true,NIPHR,Puerto,NG
+seaports_airports_0338,Port Limon,true,CSPFW,Puerto,CR
+seaports_airports_0339,Port Of Spain,true,TDPOP,Puerto,TT
+seaports_airports_0340,Port Said,true,EGPQZ,Puerto,EG
+seaports_airports_0341,Port Sudan,true,SDPUD,Puerto,SD
+seaports_airports_0342,Portland,true,UKPKX,Puerto,GB
+seaports_airports_0343,Porto Alegre,true,BRPJW,Puerto,BR
+seaports_airports_0344,Portsmouth,true,UKPTM,Puerto,GB
+seaports_airports_0345,Pucon,true,CIPUC,Puerto,CL
+seaports_airports_0346,Puerto Antequera,true,PAPAN,Puerto,PY
+seaports_airports_0347,Puerto Belgrano,true,ARPBE,Puerto,AR
+seaports_airports_0348,Puerto Bermejo,true,ARPBJ,Puerto,AR
+seaports_airports_0349,Puerto Bolivar,true,ECPBV,Puerto,EC
+seaports_airports_0350,Puerto Cabello,true,VEPYU,Puerto,VE
+seaports_airports_0351,Puerto Cabezas,true,NUPBZ,Puerto,NI
+seaports_airports_0352,Puerto Castilla,true,HOPQC,Puerto,HN
+seaports_airports_0353,Puerto Cortes,true,HOPYZ,Puerto,HN
+seaports_airports_0354,Puerto Deseado,true,ARPQD,Puerto,AR
+seaports_airports_0355,Puerto Goya,true,ARXPO,Puerto,AR
+seaports_airports_0356,Puerto Ibicuy,true,ARPIY,Puerto,AR
+seaports_airports_0357,Puerto Ingeniero White,true,ARPIW,Puerto,AR
+seaports_airports_0358,Puerto Madryn,true,ARPJY,Puerto,AR
+seaports_airports_0359,Puerto Manati,true,CUXPA,Puerto,CU
+seaports_airports_0360,Puerto Montt,true,CIPXM,Puerto,CL
+seaports_airports_0361,Puerto Ordaz,true,VEPDZ,Puerto,VE
+seaports_airports_0362,Puerto Paita,true,PEXPP,Puerto,PE
+seaports_airports_0363,Puerto Pilcomayo,true,ARPPY,Puerto,AR
+seaports_airports_0364,Puerto Piramide,true,ARPRD,Puerto,AR
+seaports_airports_0365,Puerto Plata,true,DRXPQ,Puerto,DO
+seaports_airports_0366,Puerto Quequen,true,ARPQQ,Puerto,AR
+seaports_airports_0367,Puerto Quetzal,true,GTQTZ,Puerto,GT
+seaports_airports_0368,Puerto San Carlos,true,ARXZF,Puerto,AR
+seaports_airports_0369,Puerto Sara,true,PAPSA,Puerto,PY
+seaports_airports_0370,Puerto Villa Franca,true,PAXQW,Puerto,PY
+seaports_airports_0371,Puerto Villa Oliva,true,PAXQE,Puerto,PY
+seaports_airports_0372,Puerto Villa Rosario,true,PAXQF,Puerto,PY
+seaports_airports_0373,Punta Arenas,true,CIPAR,Puerto,CL
+seaports_airports_0374,Punta Pereyra,true,UYPTP,Puerto,UY
+seaports_airports_0375,Pusan,true,KSPUS,Puerto,KR
+seaports_airports_0376,Qingdao,true,CHQIN,Puerto,CN
+seaports_airports_0377,Quebec,true,CAQBC,Puerto,CA
+seaports_airports_0378,Quebec Harbour,true,CAQHR,Puerto,CA
+seaports_airports_0379,Quito,true,ECQUI,Puerto,EC
+seaports_airports_0380,Rabat,true,MORAB,Puerto,MA
+seaports_airports_0381,Rada La Plata,true,ARRLP,Puerto,AR
+seaports_airports_0382,Ramallo,true,ARXPW,Puerto,AR
+seaports_airports_0383,Ras Gharib,true,EGRGA,Puerto,EG
+seaports_airports_0384,Ras Gimsah,true,EGRSG,Puerto,EG
+seaports_airports_0385,Rashid,true,EGRSH,Puerto,EG
+seaports_airports_0386,Recalada,true,ARRCD,Puerto,AR
+seaports_airports_0387,Reconquista,true,ARPRQ,Puerto,AR
+seaports_airports_0388,Rijeka,true,IVOXX,Puerto,CI
+seaports_airports_0389,Rio Bueno,true,CIRBO,Puerto,CL
+seaports_airports_0390,Rio De Janeiro,true,BRRIO,Puerto,BR
+seaports_airports_0391,Rio Gallegos,true,ARRGG,Puerto,AR
+seaports_airports_0392,Rio Grande,true,ARRGD,Puerto,AR
+seaports_airports_0393,Rio Grande BR,true,BRRGN,Puerto,BR
+seaports_airports_0394,Robert Port,true,LIRBP,Puerto,LR
+seaports_airports_0395,Roma,true,ITROM,Puerto,IT
+seaports_airports_0396,Rosario,true,ARROS,Puerto,AR
+seaports_airports_0397,Rotterdam,true,NLROT,Puerto,NL
+seaports_airports_0398,S.Caetano Do Sul,true,BRSCS,Puerto,BR
+seaports_airports_0399,Salto,true,UYSLT,Puerto,UY
+seaports_airports_0400,Salvador,true,BRSVD,Puerto,BR
+seaports_airports_0401,San Antonio AR,true,ARSLJ,Puerto,AR
+seaports_airports_0402,San Antonio CH,true,CISOW,Puerto,CL
+seaports_airports_0403,San Antonio,true,PASAN,Puerto,PY
+seaports_airports_0404,San Antonio-Alije,true,ARALJ,Puerto,AR
+seaports_airports_0405,San Diego,true,USSDW,Puerto,US
+seaports_airports_0406,San Francisco,true,USSFC,Puerto,US
+seaports_airports_0407,San Jose CR,true,CSSJO,Puerto,CR
+seaports_airports_0408,San Jose,true,GTSJS,Puerto,GT
+seaports_airports_0409,San Juan,true,USSJU,Puerto,PR
+seaports_airports_0410,San Juan Del Sur,true,NUSJL,Puerto,NI
+seaports_airports_0411,San Julian,true,ARSJQ,Puerto,AR
+seaports_airports_0412,San Lorenzo AR,true,ARSJT,Puerto,AR
+seaports_airports_0413,San Lorenzo HN,true,HOSJW,Puerto,HN
+seaports_airports_0414,San Lorenzo,true,PASLZ,Puerto,PY
+seaports_airports_0415,San Lorenzo VZ,true,VESJR,Puerto,VE
+seaports_airports_0416,San Martin,true,ARSMV,Puerto,AR
+seaports_airports_0417,San Matias-Alije,true,ARASM,Puerto,AR
+seaports_airports_0418,San Pablo,true,BRSPA,Puerto,BR
+seaports_airports_0419,San Pedro,true,ARXSP,Puerto,AR
+seaports_airports_0420,San Sebastian,true,SPSSE,Puerto,ES
+seaports_airports_0421,San Vicente,true,CISVC,Puerto,CL
+seaports_airports_0422,Sandvik,true,SWSWK,Puerto,SE
+seaports_airports_0423,Santa Catarina,true,BRSTC,Puerto,BR
+seaports_airports_0424,Santa Cruz,true,ARSXZ,Puerto,AR
+seaports_airports_0425,Santa Fe,true,ARSFG,Puerto,AR
+seaports_airports_0426,Santa Lucia,true,CUSFU,Puerto,CU
+seaports_airports_0427,Santa Marta,true,COSXF,Puerto,CO
+seaports_airports_0428,Santiago,true,CISGO,Puerto,CL
+seaports_airports_0429,Santiago De Cuba,true,CUSIU,Puerto,CU
+seaports_airports_0430,Santos,true,BRSTS,Puerto,BR
+seaports_airports_0431,Sao Francisco,true,BRSFS,Puerto,BR
+seaports_airports_0432,Sawakin,true,SDSUA,Puerto,SD
+seaports_airports_0433,Seattle,true,USSJA,Puerto,US
+seaports_airports_0434,Setubal,true,POSBL,Puerto,PT
+seaports_airports_0435,Sevastopol,true,URSXX,Puerto,RU
+seaports_airports_0436,Shanghai,true,CHSHA,Puerto,CN
+seaports_airports_0437,Shinho,true,KNSMP,Puerto,KP
+seaports_airports_0438,Simon Bolivar,true,VESBO,Puerto,VE
+seaports_airports_0439,Singapur,true,IIOOV,Puerto,SG
+seaports_airports_0440,Sirte,true,LYSRT,Puerto,LY
+seaports_airports_0441,Skopelos,true,GRSQO,Puerto,GR
+seaports_airports_0442,Soerabaja,true,IDSUY,Puerto,ID
+seaports_airports_0443,Sofia,true,BUSOF,Puerto,BG
+seaports_airports_0444,Sopot,true,PLZOP,Puerto,PL
+seaports_airports_0445,Soriano,true,UYSOO,Puerto,UY
+seaports_airports_0446,Sorong,true,GVSOX,Puerto,GN
+seaports_airports_0447,Sorrento,true,ITSOR,Puerto,IT
+seaports_airports_0448,Southampton,true,UKSOU,Puerto,GB
+seaports_airports_0449,St Louis,true,SGSTL,Puerto,SN
+seaports_airports_0450,Stockholm,true,SWSTO,Puerto,SE
+seaports_airports_0451,Suape,true,BRSUA,Puerto,BR
+seaports_airports_0452,Suez Canal,true,EGSUC,Puerto,EG
+seaports_airports_0453,Surat,true,INSRA,Puerto,IN
+seaports_airports_0454,Sydney,true,ASSDN,Puerto,AU
+seaports_airports_0455,Tacna,true,PETAC,Puerto,PE
+seaports_airports_0456,Tai Chung,true,TWCHG,Puerto,TW
+seaports_airports_0457,Taiwan,true,TWTAI,Puerto,TW
+seaports_airports_0458,Talcahuano,true,CITAL,Puerto,CL
+seaports_airports_0459,Tampa,true,USTMP,Puerto,US
+seaports_airports_0460,Tampico,true,MXTPC,Puerto,MX
+seaports_airports_0461,Tangier,true,MOTAN,Puerto,MA
+seaports_airports_0462,Tarabulus (Tripoli),true,LYTRS,Puerto,LY
+seaports_airports_0463,Taranto,true,ITTRA,Puerto,IT
+seaports_airports_0464,Tegucigalpa,true,HOTEG,Puerto,HN
+seaports_airports_0465,Temuco,true,CITEM,Puerto,CL
+seaports_airports_0466,Tenerife,true,SPTUR,Puerto,ES
+seaports_airports_0467,Thule,true,DATHU,Puerto,DK
+seaports_airports_0468,Tianjin,true,CHTIA,Puerto,CN
+seaports_airports_0469,Tilbury,true,UKTDX,Puerto,GB
+seaports_airports_0470,Tobruch,true,LYTUP,Puerto,LY
+seaports_airports_0471,Tokyo,true,JATOK,Puerto,JP
+seaports_airports_0472,Tongoy,true,CITON,Puerto,CL
+seaports_airports_0473,Toronto,true,CATOR,Puerto,CA
+seaports_airports_0474,Toulouse,true,FRTOU,Puerto,FR
+seaports_airports_0475,Trenton,true,CATTO,Puerto,CA
+seaports_airports_0476,Tubarao,true,BRTBR,Puerto,BR
+seaports_airports_0477,Tunis,true,TSTUN,Puerto,TN
+seaports_airports_0478,Turku,true,FITUR,Puerto,FI
+seaports_airports_0479,Ushuaia,true,ARUSU,Puerto,AR
+seaports_airports_0480,Vado Ligure,true,ITVDL,Puerto,IT
+seaports_airports_0481,Valdivia,true,CIVVA,Puerto,CL
+seaports_airports_0482,Valencia,true,SPVLC,Puerto,ES
+seaports_airports_0483,Valparaiso,true,CIVLP,Puerto,CL
+seaports_airports_0484,Varna,true,BUVAR,Puerto,BG
+seaports_airports_0485,Varsovia,true,PLVAR,Puerto,PL
+seaports_airports_0486,Ventana,true,CIVEN,Puerto,CL
+seaports_airports_0487,Veracruz,true,MXVRC,Puerto,MX
+seaports_airports_0488,Victoria BR,true,BRVTR,Puerto,BR
+seaports_airports_0489,Victoria,true,CAVIC,Puerto,CA
+seaports_airports_0490,Vigo,true,SPVGO,Puerto,ES
+seaports_airports_0491,Villa Constitucion,true,ARVCO,Puerto,AR
+seaports_airports_0492,Villa Elisa,true,PAVEL,Puerto,PY
+seaports_airports_0493,Villa Hayes,true,PAVHS,Puerto,PY
+seaports_airports_0494,Volos,true,GRVOL,Puerto,GR
+seaports_airports_0495,Wadi Feiran,true,EGWAD,Puerto,EG
+seaports_airports_0496,Walvis Bay,true,SFWAL,Puerto,ZA
+seaports_airports_0497,Wellington,true,NZWEL,Puerto,NZ
+seaports_airports_0498,Wenzhou,true,CHWZU,Puerto,CN
+seaports_airports_0499,Willemstad,true,NLWST,Puerto,NL
+seaports_airports_0500,Winnipeg,true,CAWNP,Puerto,CA
+seaports_airports_0501,Xiamen,true,CHXMN,Puerto,CN
+seaports_airports_0502,Yantai,true,CHYAN,Puerto,CN
+seaports_airports_0503,Yarmouth,true,CAYRM,Puerto,CA
+seaports_airports_0504,Yokohama,true,JAYOK,Puerto,JP
+seaports_airports_0505,Zarate,true,ARZAR,Puerto,AR
+seaports_airports_0506,Zeebrugge,true,BEZEE,Puerto,BE
+seaports_airports_0507,Aero Club Orán,true,ORA,Aeropuerto,AR
+seaports_airports_0508,Aeródromo Balmaceda,true,BBA,Aeropuerto,CL
+seaports_airports_0509,Aeródromo De La Independencia,true,QRC,Aeropuerto,CL
+seaports_airports_0510,Aeródromo Ricardo García Posada,true,ESR,Aeropuerto,CL
+seaports_airports_0511,Aeroparque Jorge Newbery,true,AEP,Aeropuerto,AR
+seaports_airports_0512,Aeropuerto Adolfo Suárez Madrid-Barajas,true,MAD,Aeropuerto,ES
+seaports_airports_0513,Aeropuerto Brigadier Mayor César Raúl Ojeda,true,LUQ,Aeropuerto,AR
+seaports_airports_0514,Aeropuerto Capitán Vicente Almandos Almonacid,true,IRJ,Aeropuerto,AR
+seaports_airports_0515,Aeropuerto Carriel Sur,true,CCP,Aeropuerto,CL
+seaports_airports_0516,Aeropuerto Cerro Moreno,true,ANF,Aeropuerto,CL
+seaports_airports_0517,Aeropuerto Clorinda,true,CLX,Aeropuerto,AR
+seaports_airports_0518,Aeropuerto Comodoro Pierrestegui,true,COC,Aeropuerto,AR
+seaports_airports_0519,Aeropuerto Coronel Felipe Varela,true,CTC,Aeropuerto,AR
+seaports_airports_0520,Aeropuerto De Albacete,true,ABC,Aeropuerto,ES
+seaports_airports_0521,Aeropuerto De Ámsterdam-Schiphol,true,AMS,Aeropuerto,NL
+seaports_airports_0522,Aeropuerto De Andorra-La Seu,true,LEU,Aeropuerto,ES
+seaports_airports_0523,Aeropuerto De Bamiyán,true,BIN,Aeropuerto,AF
+seaports_airports_0524,Aeropuerto De Barcelona-El Prat,true,BCN,Aeropuerto,ES
+seaports_airports_0525,Aeropuerto De Basilea-Mulhouse-Friburgo,true,MLH​,Aeropuerto,FR
+seaports_airports_0526,Aeropuerto De Berlín-Tempelhof,true,THF,Aeropuerto,DE
+seaports_airports_0527,Aeropuerto De Bilbao,true,BIO,Aeropuerto,ES
+seaports_airports_0528,Aeropuerto De Bost,true,BST,Aeropuerto,AF
+seaports_airports_0529,Aeropuerto De Budapest-Ferenc Liszt,true,BUD,Aeropuerto,HU
+seaports_airports_0530,Aeropuerto De Burdeos-Mérignac,true,BOD,Aeropuerto,FR
+seaports_airports_0531,Aeropuerto De Castellon,true,CDT,Aeropuerto,ES
+seaports_airports_0532,Aeropuerto De Cork,true,ORK,Aeropuerto,IE
+seaports_airports_0533,Aeropuerto De Corvo,true,CVU,Aeropuerto,PT
+seaports_airports_0534,Aeropuerto De Curuzú Cuatiá,true,UZU,Aeropuerto,AR
+seaports_airports_0535,Aeropuerto De Edimburgo,true,EDI,Aeropuerto,GB
+seaports_airports_0536,Aeropuerto De Eindhoven,true,EIN,Aeropuerto,NL
+seaports_airports_0537,Aeropuerto De Estocolmo-Arlanda,true,ARN,Aeropuerto,SE
+seaports_airports_0538,Aeropuerto De Estrasburgo,true,SXB,Aeropuerto,FR
+seaports_airports_0539,Aeropuerto De Faro,true,FAO,Aeropuerto,PT
+seaports_airports_0540,Aeropuerto De Fayzabad,true,FBD,Aeropuerto,AF
+seaports_airports_0541,Aeropuerto De Florencia,true,FLR,Aeropuerto,IT
+seaports_airports_0542,Aeropuerto De Flores,true,FLW,Aeropuerto,PT
+seaports_airports_0543,Aeropuerto De Fráncfort Del Meno,true,FRA,Aeropuerto,DE
+seaports_airports_0544,Aeropuerto De Fráncfort-Hahn,true,HHN,Aeropuerto,DE
+seaports_airports_0545,Aeropuerto De Francisco Sá Carneiro,true,OPO,Aeropuerto,PT
+seaports_airports_0546,Aeropuerto De General Pico,true,GPO,Aeropuerto,AR
+seaports_airports_0547,Aeropuerto De Gibraltar,true,GIB,Aeropuerto,GB
+seaports_airports_0548,Aeropuerto De Graciosa,true,GRW,Aeropuerto,PT
+seaports_airports_0549,Aeropuerto De Granada,true,GRX,Aeropuerto,ES
+seaports_airports_0550,Aeropuerto De Gualeguaychú,true,GHU,Aeropuerto,AR
+seaports_airports_0551,Aeropuerto De Hamburgo,true,HAM,Aeropuerto,DE
+seaports_airports_0552,Aeropuerto De Hannover,true,HAJ,Aeropuerto,DE
+seaports_airports_0553,Aeropuerto De Heathrow,true,LHR,Aeropuerto,GB
+seaports_airports_0554,Aeropuerto De Heligoland,true,HGL,Aeropuerto,DE
+seaports_airports_0555,Aeropuerto De Helsinki-Vantaa,true,HEL,Aeropuerto,FI
+seaports_airports_0556,Aeropuerto De Herat,true,HEA,Aeropuerto,AF
+seaports_airports_0557,Aeropuerto De Horta,true,HOR,Aeropuerto,PT
+seaports_airports_0558,Aeropuerto De Hubli,true,HBX,Aeropuerto,IN
+seaports_airports_0559,Aeropuerto De Ibiza,true,IBZ,Aeropuerto,ES
+seaports_airports_0560,Aeropuerto De Inverness,true,INV,Aeropuerto,GB
+seaports_airports_0561,Aeropuerto De Iqaluit,true,YFB,Aeropuerto,CA
+seaports_airports_0562,Aeropuerto De Ivalo,true,IVL,Aeropuerto,FI
+seaports_airports_0563,Aeropuerto De Jalalabad,true,JAA,Aeropuerto,AF
+seaports_airports_0564,Aeropuerto De Jerez,true,XRY,Aeropuerto,ES
+seaports_airports_0565,Aeropuerto De Jersey,true,JER,Aeropuerto,GB
+seaports_airports_0566,Aeropuerto De Jessore,true,JSR,Aeropuerto,BD
+seaports_airports_0567,Aeropuerto De Kaliningrado-Jrabrovo,true,KGD,Aeropuerto,RU
+seaports_airports_0568,Aeropuerto De La Isla Norfolk (En),true,NLK,Aeropuerto,AU
+seaports_airports_0569,Aeropuerto De Lajes,true,TER,Aeropuerto,PT
+seaports_airports_0570,Aeropuerto De Lieja,true,LGG,Aeropuerto,BE
+seaports_airports_0571,Aeropuerto De Londres-Luton,true,LTN,Aeropuerto,GB
+seaports_airports_0572,Aeropuerto De Málaga-Costa Del Sol,true,AGP,Aeropuerto,ES
+seaports_airports_0573,Aeropuerto De Manta,true,MEC,Aeropuerto,EC
+seaports_airports_0574,Aeropuerto De Marrakech-Menara,true,RAK,Aeropuerto,MA
+seaports_airports_0575,Aeropuerto De Melilla,true,MLN,Aeropuerto,ES
+seaports_airports_0576,Aeropuerto De Milán-Malpensa,true,MXP,Aeropuerto,IT
+seaports_airports_0577,Aeropuerto De Mont-Joli,true,YYY,Aeropuerto,CA
+seaports_airports_0578,Aeropuerto De Monte Caseros,true,MCS,Aeropuerto,AR
+seaports_airports_0579,Aeropuerto De Montreal-Saint Hubert,true,YHU,Aeropuerto,CA
+seaports_airports_0580,Aeropuerto De Nápoles-Capodichino,true,NAP,Aeropuerto,IT
+seaports_airports_0581,Aeropuerto De Nicosia,true,NIC,Aeropuerto,CY
+seaports_airports_0582,Aeropuerto De Pamplona,true,PNA,Aeropuerto,ES
+seaports_airports_0583,Aeropuerto De París-Charles De Gaulle,true,CDG,Aeropuerto,FR
+seaports_airports_0584,Aeropuerto De París-Orly,true,ORY,Aeropuerto,FR
+seaports_airports_0585,Aeropuerto De Pico,true,PIX,Aeropuerto,PT
+seaports_airports_0586,Aeropuerto De Podgorica,true,TGD,Aeropuerto,ME
+seaports_airports_0587,Aeropuerto De Portela,true,LIS,Aeropuerto,PT
+seaports_airports_0588,Aeropuerto De Porto Santo,true,PXO,Aeropuerto,PT
+seaports_airports_0589,Aeropuerto De Presidencia Roque Sáenz Peña,true,PRQ,Aeropuerto,AR
+seaports_airports_0590,Aeropuerto De Puerto Argentino/Stanley,true,PSY,Aeropuerto,GB
+seaports_airports_0591,Aeropuerto De Puerto Barrios “Aeropuerto Internacional La Tierra De Dios”,true,PBR,Aeropuerto,GT
+seaports_airports_0592,Aeropuerto De Qikiqtarjuaq,true,YVM,Aeropuerto,CA
+seaports_airports_0593,Aeropuerto De Resolute Bay,true,YRB,Aeropuerto,CA
+seaports_airports_0594,Aeropuerto De Reus,true,REU,Aeropuerto,ES
+seaports_airports_0595,Aeropuerto De Roma-Fiumicino,true,FCO,Aeropuerto,IT
+seaports_airports_0596,Aeropuerto De Sabadell,true,QSA,Aeropuerto,ES
+seaports_airports_0597,Aeropuerto De Santa Maria,true,SMA,Aeropuerto,PT
+seaports_airports_0598,Aeropuerto De Santa Rosa,true,RSA,Aeropuerto,AR
+seaports_airports_0599,Aeropuerto De São Jorge,true,SJZ,Aeropuerto,PT
+seaports_airports_0600,Aeropuerto De Sauce Viejo,true,SFN,Aeropuerto,AR
+seaports_airports_0601,Aeropuerto De Sevilla,true,SVQ,Aeropuerto,ES
+seaports_airports_0602,Aeropuerto De Tenerife Norte,true,TFN,Aeropuerto,ES
+seaports_airports_0603,Aeropuerto De Tenerife Sur,true,TFS,Aeropuerto,ES
+seaports_airports_0604,Aeropuerto De Toncontín,true,TGU,Aeropuerto,HN
+seaports_airports_0605,Aeropuerto De Toulouse Blagnac,true,TLS,Aeropuerto,FR
+seaports_airports_0606,Aeropuerto De Trieste - Friuli Venezia Giulia,true,TRS,Aeropuerto,IT
+seaports_airports_0607,Aeropuerto De Turku,true,TUR,Aeropuerto,FI
+seaports_airports_0608,Aeropuerto De Valencia,true,VLC,Aeropuerto,ES
+seaports_airports_0609,Aeropuerto De Viena-Schwechat,true,VIE,Aeropuerto,AT
+seaports_airports_0610,Aeropuerto De Vigo,true,VGO,Aeropuerto,ES
+seaports_airports_0611,Aeropuerto De Villa Reynolds,true,VME,Aeropuerto,AR
+seaports_airports_0612,Aeropuerto De Villanubla,true,VLL,Aeropuerto,ES
+seaports_airports_0613,Aeropuerto De Viracopos,true,VCP,Aeropuerto,BR
+seaports_airports_0614,Aeropuerto De Vitoria Da Conquista,true,VDC,Aeropuerto,BR
+seaports_airports_0615,Aeropuerto De Zagreb-Pleso,true,ZAG,Aeropuerto,HR
+seaports_airports_0616,Aeropuerto De Zaragoza,true,ZAZ,Aeropuerto,ES
+seaports_airports_0617,Aeropuerto Del Iberá,true,MDX,Aeropuerto,AR
+seaports_airports_0618,Aeropuerto Doctor Fuster,true,PJC,Aeropuerto,PY
+seaports_airports_0619,Aeropuerto Dr. Diego Nicolás Díaz Colodrero,true,OYA,Aeropuerto,AR
+seaports_airports_0620,Aeropuerto General Enrique Mosconi/Tartagal,true,TTG,Aeropuerto,AR
+seaports_airports_0621,Aeropuerto General Justo José De Urquiza,true,PRA,Aeropuerto,AR
+seaports_airports_0622,Aeropuerto Internacional Afonso Pena,true,CWB,Aeropuerto,BR
+seaports_airports_0623,Aeropuerto Internacional Arturo Merino Benítez,true,SCL,Aeropuerto,CL
+seaports_airports_0624,Aeropuerto Internacional Astor Piazzolla,true,MDQ,Aeropuerto,AR
+seaports_airports_0625,Aeropuerto Internacional Atatürk,true,IST,Aeropuerto,TR
+seaports_airports_0626,Aeropuerto Internacional Augusto C. Sandino,true,MGA,Aeropuerto,NI
+seaports_airports_0627,Aeropuerto Internacional Ben Gurión,true,TLV,Aeropuerto,IL
+seaports_airports_0628,Aeropuerto Internacional Benito Juárez,true,MEX,Aeropuerto,MX
+seaports_airports_0629,Aeropuerto Internacional Bonilla Aragón,true,CLO,Aeropuerto,CO
+seaports_airports_0630,Aeropuerto Internacional Chacalluta,true,ARI,Aeropuerto,CL
+seaports_airports_0631,Aeropuerto Internacional Chicago-O'Hare,true,ORD,Aeropuerto,US
+seaports_airports_0632,Aeropuerto Internacional Comodoro Ricardo Salomón,true,LGS,Aeropuerto,AR
+seaports_airports_0633,Aeropuerto Internacional Cristiano Ronaldo,true,FNC,Aeropuerto,PT
+seaports_airports_0634,Aeropuerto Internacional Daniel Oduber,true,LIR,Aeropuerto,CR
+seaports_airports_0635,Aeropuerto Internacional De Astaná,true,TSE,Aeropuerto,KZ
+seaports_airports_0636,Aeropuerto Internacional De Carrasco,true,MVD,Aeropuerto,UY
+seaports_airports_0637,Aeropuerto Internacional De Colonia/Bonn Konrad Adenauer,true,CGN,Aeropuerto,DE
+seaports_airports_0638,Aeropuerto Internacional De Dubái,true,DXB,Aeropuerto,AE
+seaports_airports_0639,Aeropuerto Internacional De El Salvador San Óscar Arnulfo Romero Y Galdámez,true,SAL,Aeropuerto,SV
+seaports_airports_0640,Aeropuerto Internacional De Filadelfia,true,PHL,Aeropuerto,US
+seaports_airports_0641,Aeropuerto Internacional De Formosa,true,FMA,Aeropuerto,AR
+seaports_airports_0642,Aeropuerto Internacional De Guadalajara,true,GDL,Aeropuerto,MX
+seaports_airports_0643,Aeropuerto Internacional De Györ-Pér,true,QGY,Aeropuerto,HU
+seaports_airports_0644,Aeropuerto Internacional De Halifax-Stanfield,true,YHZ,Aeropuerto,CA
+seaports_airports_0645,Aeropuerto Internacional De Haneda,true,HND,Aeropuerto,JP
+seaports_airports_0646,Aeropuerto Internacional De Hong Kong,true,HKG,Aeropuerto,CN
+seaports_airports_0647,Aeropuerto Internacional De Honiara,true,HIR,Aeropuerto,SB
+seaports_airports_0648,Aeropuerto Internacional De Honolulu,true,HNL,Aeropuerto,US
+seaports_airports_0649,Aeropuerto Internacional De Incheon,true,ICN,Aeropuerto,KR
+seaports_airports_0650,Aeropuerto Internacional De Jardines Del Rey,true,CCC,Aeropuerto,CU
+seaports_airports_0651,Aeropuerto Internacional De Kabul,true,KBL,Aeropuerto,AF
+seaports_airports_0652,Aeropuerto Internacional De Kandahar,true,KDH,Aeropuerto,AF
+seaports_airports_0653,Aeropuerto Internacional De Keflavík,true,KEF,Aeropuerto,IS
+seaports_airports_0654,Aeropuerto Internacional De La Región De Murcia,true,RMU,Aeropuerto,ES
+seaports_airports_0655,Aeropuerto Internacional De Los Ángeles,true,LAX,Aeropuerto,US
+seaports_airports_0656,Aeropuerto Internacional De Macao,true,MFM,Aeropuerto,CN
+seaports_airports_0657,Aeropuerto Internacional De Maiquetía Simón Bolívar,true,CCS,Aeropuerto,VE
+seaports_airports_0658,Aeropuerto Internacional De Miami,true,MIA,Aeropuerto,US
+seaports_airports_0659,Aeropuerto Internacional De Moscú-Domodédovo,true,DME,Aeropuerto,RU
+seaports_airports_0660,Aeropuerto Internacional De Múnich-Franz Josef Strauss,true,MUC,Aeropuerto,DE
+seaports_airports_0661,Aeropuerto Internacional De Ottawa,true,YOW,Aeropuerto,CA
+seaports_airports_0662,Aeropuerto Internacional De Paso De Los Libres,true,AOL,Aeropuerto,AR
+seaports_airports_0663,Aeropuerto Internacional De Punta Cana,true,PUJ,Aeropuerto,DO
+seaports_airports_0664,Aeropuerto Internacional De Punta Del Este,true,PDP,Aeropuerto,UY
+seaports_airports_0665,Aeropuerto Internacional De Resistencia,true,RES,Aeropuerto,AR
+seaports_airports_0666,Aeropuerto Internacional De Sacramento,true,SFM,Aeropuerto,US
+seaports_airports_0667,Aeropuerto Internacional De Salta Martín Miguel De Güemes,true,SLA,Aeropuerto,AR
+seaports_airports_0668,Aeropuerto Internacional De San Fernando,true,FDO,Aeropuerto,AR
+seaports_airports_0669,Aeropuerto Internacional De São Paulo-Guarulhos,true,GRU,Aeropuerto,BR
+seaports_airports_0670,Aeropuerto Internacional De Sibiu,true,SBZ,Aeropuerto,RO
+seaports_airports_0671,Aeropuerto Internacional De Singapur-Changi,true,SIN,Aeropuerto,SG
+seaports_airports_0672,Aeropuerto Internacional De Taiwán Taoyuan,true,TPE,Aeropuerto,TW
+seaports_airports_0673,Aeropuerto Internacional De Tocumen,true,PTY,Aeropuerto,PA
+seaports_airports_0674,Aeropuerto Internacional De Vancouver,true,YVR,Aeropuerto,CA
+seaports_airports_0675,Aeropuerto Internacional De Wellington,true,WLG,Aeropuerto,NZ
+seaports_airports_0676,Aeropuerto Internacional De Yerba-Zarzis,true,DJE,Aeropuerto,TN
+seaports_airports_0677,Aeropuerto Internacional Diego Aracena,true,IQQ,Aeropuerto,CL
+seaports_airports_0678,Aeropuerto Internacional Doctor Fernando Piragine Niveyro,true,CNQ,Aeropuerto,AR
+seaports_airports_0679,Aeropuerto Internacional El Dorado,true,BOG,Aeropuerto,CO
+seaports_airports_0680,Aeropuerto Internacional Eleftherios Venizelos,true,ATH,Aeropuerto,GR
+seaports_airports_0681,Aeropuerto Internacional General Ignacio Pesqueira García,true,HMO,Aeropuerto,MX
+seaports_airports_0682,Aeropuerto Internacional General Roberto Fierro Villalobos,true,CUU,Aeropuerto,MX
+seaports_airports_0683,Aeropuerto Internacional Gob. Ramón Trejo Noel,true,RGA,Aeropuerto,AR
+seaports_airports_0684,Aeropuerto Internacional Gobernador Francisco Gabrielli,true,MDZ,Aeropuerto,AR
+seaports_airports_0685,Aeropuerto Internacional Guaraní,true,AGT,Aeropuerto,PY
+seaports_airports_0686,Aeropuerto Internacional Hamad,true,DOH,Aeropuerto,QA
+seaports_airports_0687,Aeropuerto Internacional Ing. Ambrosio Taravella,true,COR,Aeropuerto,AR
+seaports_airports_0688,Aeropuerto Internacional James Armstrong Richardson,true,YWG,Aeropuerto,CA
+seaports_airports_0689,Aeropuerto Internacional James M. Cox-Dayton,true,DAY,Aeropuerto,US
+seaports_airports_0690,Aeropuerto Internacional Jean-Lesage De Quebec,true,YQB,Aeropuerto,CA
+seaports_airports_0691,Aeropuerto Internacional John F. Kennedy,true,JFK,Aeropuerto,US
+seaports_airports_0692,Aeropuerto Internacional Jorge Chávez,true,LIM,Aeropuerto,PE
+seaports_airports_0693,Aeropuerto Internacional José Francisco Peña Gómez,true,SDQ,Aeropuerto,DO
+seaports_airports_0694,Aeropuerto Internacional Jose Joaquin De Olmedo,true,GYE,Aeropuerto,EC
+seaports_airports_0695,Aeropuerto Internacional José María Cordova,true,MDE,Aeropuerto,CO
+seaports_airports_0696,Aeropuerto Internacional José Martí,true,HAV,Aeropuerto,CU
+seaports_airports_0697,Aeropuerto Internacional Juan Santamaría,true,SJO,Aeropuerto,CR
+seaports_airports_0698,Aeropuerto Internacional Kingsford Smith,true,SYD,Aeropuerto,AU
+seaports_airports_0699,Aeropuerto Internacional La Aurora,true,GUA,Aeropuerto,GT
+seaports_airports_0700,Aeropuerto Internacional Macedonia,true,SKG,Aeropuerto,GR
+seaports_airports_0701,Aeropuerto Internacional Malvinas Argentinas,true,USH,Aeropuerto,AR
+seaports_airports_0702,Aeropuerto Internacional Mariano Escobedo,true,MTY,Aeropuerto,MX
+seaports_airports_0703,Aeropuerto Internacional Mariscal Lamar,true,CUE,Aeropuerto,EC
+seaports_airports_0704,Aeropuerto Internacional Mariscal Sucre,true,UIO,Aeropuerto,EC
+seaports_airports_0705,Aeropuerto Internacional Mataveri,true,IPC,Aeropuerto,CL
+seaports_airports_0706,Aeropuerto Internacional Ministro Pistarini,true,EZE,Aeropuerto,AR
+seaports_airports_0707,Aeropuerto Internacional Mohammed V,true,CMN,Aeropuerto,MA
+seaports_airports_0708,Aeropuerto Internacional Mundo Maya,true,FRS,Aeropuerto,GT
+seaports_airports_0709,Aeropuerto Internacional Pierre Elliott Trudeau,true,YUL,Aeropuerto,CA
+seaports_airports_0710,Aeropuerto Internacional Pinto Martins,true,FOR,Aeropuerto,BR
+seaports_airports_0711,Aeropuerto Internacional Presidente Carlos Ibáñez Del Campo,true,PUQ,Aeropuerto,CL
+seaports_airports_0712,Aeropuerto Internacional Quatro De Fevereiro,true,LAD,Aeropuerto,AO
+seaports_airports_0713,Aeropuerto Internacional Ramon Villeda Morales,true,SAP,Aeropuerto,HN
+seaports_airports_0714,Aeropuerto Internacional Reina Beatrix,true,AUA,Aeropuerto,NL
+seaports_airports_0715,Aeropuerto Internacional Rey Khalid,true,RUH,Aeropuerto,SA
+seaports_airports_0716,Aeropuerto Internacional Rosario,true,ROS,Aeropuerto,AR
+seaports_airports_0717,Aeropuerto Internacional Silvio Pettirossi,true,ASU,Aeropuerto,PY
+seaports_airports_0718,Aeropuerto Internacional Suboficial Ayudante Santiago Germano,true,AFA,Aeropuerto,AR
+seaports_airports_0719,Aeropuerto Internacional Teniente Luis Candelaria,true,BRC,Aeropuerto,AR
+seaports_airports_0720,Aeropuerto Internacional Termas De Río Hondo,true,RHD,Aeropuerto,AR
+seaports_airports_0721,Aeropuerto Internacional Toronto Pearson,true,YYZ,Aeropuerto,CA
+seaports_airports_0722,Aeropuerto Internacional Valle Del Conlara,true,RLO,Aeropuerto,AR
+seaports_airports_0723,Aeropuerto Internacional Viru Viru,true,VVI,Aeropuerto,BO
+seaports_airports_0724,Aeropuerto João Paulo Ii,true,PDL,Aeropuerto,PT
+seaports_airports_0725,Aeropuerto Nacional De Kálimnos,true,JKL,Aeropuerto,GR
+seaports_airports_0726,Aeropuerto Regional Del Condado De Eagle,true,EGE,Aeropuerto,US
+seaports_airports_0727,Aeropuerto Sir Gaëtan Duval,true,RRG,Aeropuerto,MU
+seaports_airports_0728,Aeropuerto Teniente Amín Ayub González,true,ENO,Aeropuerto,PY
+seaports_airports_0729,Aeropuerto Urbano Charles B. Wheeler,true,MKC,Aeropuerto,US
+seaports_airports_0730,Aeropuerto Vicecomodoro Ángel De La Paz Aragonés,true,SDE,Aeropuerto,AR
+seaports_airports_0731,Aeropuerto William P. Hobby,true,HOU,Aeropuerto,US
+seaports_airports_0732,Base Aérea De Bagram,true,BPM,Aeropuerto,AF
+seaports_airports_0733,Base Aérea De Beja,true,BYJ,Aeropuerto,PT
+seaports_airports_0734,Base Aérea De Monte Agradable,true,MPN,Aeropuerto,GB
+seaports_airports_0735,"Las Vegas, Mc Carran International Airport",true,LAS,Aeropuerto,US
+seaports_airports_0736,Orlando International Airport,true,MCO,Aeropuerto,US
