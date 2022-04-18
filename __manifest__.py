@@ -14,7 +14,9 @@
     'depends': [
         'base',
         'mail',
-        'account'
+        'account',
+        'project',
+        'sale_management'
     ],
     'data': [
         # Security
@@ -32,6 +34,7 @@
         'views/eml_containers.xml',
         'views/eml_docs.xml',
         'views/eml_docs_tags.xml',
+        'views/project.project.xml',
         # Data
         'data/eml_containers_type.xml',
         'data/eml_borders.xml',

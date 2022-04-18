@@ -15,16 +15,16 @@
                 <field name="destiny" />
                 <field name="start_date" />
                 <field name="end_date" />
-                <field name="partner_id" />
-                <field name="responsable_id" />
-                <field name="ref" />
-                <field name="load" />
-                <field name="unload" />
-                <field name="master" />
-                <field name="house" />
-                <field name="incoterm_id" />
-                <field name="amount" />
-                <field name="currency_id" />
+                <field name="partner_id" optional="show"/>
+                <field name="responsable_id" optional="show"/>
+                <field name="ref" optional="show"/>
+                <field name="load" optional="show"/>
+                <field name="unload" optional="show"/>
+                <field name="master" optional="show"/>
+                <field name="house" optional="show"/>
+                <field name="incoterm_id" optional="show"/>
+                <field name="amount" optional="show"/>
+                <field name="currency_id" optional="show"/>
             </tree>
         </field>
     </record>

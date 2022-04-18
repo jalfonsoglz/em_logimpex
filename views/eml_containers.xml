@@ -8,10 +8,10 @@
                 <field name="name" />
                 <field name="containers_type" />
                 <field name="condition" />
-                <field name="weight" />
+                <field name="weight" sum="Peso Total"/>
                 <field name="precinto" />
-                <field name="bultos" />
-                <field name="percent_usage" />
+                <field name="bultos" sum="Total de Bultos"/>
+                <field name="percent_usage" sum="Total de % de Uso" />
             </tree>
         </field>
     </record>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="eml_project_project_inherit_form" model="ir.ui.view">
+        <field name="name">project.project.inherit</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project" />
+        <field name="arch" type="xml">
+            <field name="partner_id" position="after">
+                <field name="eml_expediente" string="Expediente" />
+            </field>
+        </field>
+    </record>
+<!--    <record id="crm_lead_kanban_lead_inherit" model="ir.ui.view">-->
+<!--        <field name="name">project.project.inherit</field>-->
+<!--        <field name="model">project.project</field>-->
+<!--        <field name="inherit_id" ref="crm.crm_case_kanban_view_leads" />-->
+<!--        <field name="arch" type="xml">-->
+<!--            <xpath expr="//kanban//templates//t//div//div//t//field" position="after">-->
+<!--                <field name="currency_id" string="Moneda" />-->
+<!--            </xpath>-->
+<!--        </field>-->
+<!--    </record>-->
+</odoo>
