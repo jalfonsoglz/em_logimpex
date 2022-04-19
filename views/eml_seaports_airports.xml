@@ -25,11 +25,15 @@
                             <field name="name" required="1" placeholder="Nombre del puerto o aeropuerto..." />
                         </h1>
                     </div>
-                    <group string="Información General">
-                        <field name="active" />
-                        <field name="code" />
-                        <field name="category" />
-                        <field name="country" options="{'no_create': True}" />
+                    <group string="Información General" col="2">
+                        <group>
+                            <field name="active" />
+                            <field name="code" />
+                        </group>
+                        <group>
+                            <field name="category" />
+                            <field name="country" options="{'no_create': True}" />
+                        </group>
                         <field name="note" />
                     </group>
                 </sheet>
