@@ -24,10 +24,14 @@
                         </h1>
                     </div>
                     <group>
-                        <field name="active" />
-                        <field name="code" />
-                        <field name="size" />
-                        <field name="teu" />
+                        <group>
+                            <field name="active" />
+                            <field name="code" />
+                        </group>
+                        <group>
+                            <field name="size" />
+                            <field name="teu" />
+                        </group>
                         <field name="note" placeholder="Notas..." />
                     </group>
                 </sheet>
