@@ -43,6 +43,7 @@
         # Sequence
         'data/ir_sequence_data.xml',
         # Reports
+        #
     ],
     'demo': [],
     'installable': True,
