@@ -6,25 +6,25 @@
         <field name="arch" type="xml">
             <tree sample="1">
                 <field name="name" />
-                <field name="operation_type" />
+                <field name="operation_type" options="{'no_create': True}" />
                 <field name="service_type" />
                 <field name="move_type" />
                 <field name="transportation_type" />
                 <field name="transportation_border" attrs="{'invisible': [('transportation_type', '!=', 'ground')]}" />
-                <field name="origin" />
-                <field name="destiny" />
+                <field name="origin" options="{'no_create': True}"/>
+                <field name="destiny" options="{'no_create': True}"/>
                 <field name="start_date" />
                 <field name="end_date" />
                 <field name="partner_id" optional="show"/>
-                <field name="responsable_id" optional="show"/>
+                <field name="responsable_id" optional="show" options="{'no_create': True}"/>
                 <field name="ref" optional="show"/>
-                <field name="load" optional="show"/>
-                <field name="unload" optional="show"/>
+                <field name="load" optional="show" options="{'no_create': True}"/>
+                <field name="unload" optional="show" options="{'no_create': True}"/>
                 <field name="master" optional="show"/>
                 <field name="house" optional="show"/>
-                <field name="incoterm_id" optional="show"/>
+                <field name="incoterm_id" optional="show" options="{'no_create': True}"/>
                 <field name="amount" optional="show"/>
-                <field name="currency_id" optional="show"/>
+                <field name="currency_id" optional="show" options="{'no_create': True}"/>
             </tree>
         </field>
     </record>
