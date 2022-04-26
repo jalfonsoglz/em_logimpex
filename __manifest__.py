@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Extension Module Logimpex",
-    'summary': """Extension Module Logimpex""",
+    'name': "Logimpex - Extension Module",
+    'summary': """Logimpex - Extension Module""",
     'description': """
-    Extension Module Logimpex
+    Logimpex - Extension Module
     """,
     'author': "Alfonso Gonzalez (alfonso@ptree.com.mx)",
     'website': "https://ptree.com.mx/",
     'category': 'Customizations',
     'version': '15.0.0.0.4',
     'license': "AGPL-3",
-    'sequence': "-100",
+    'sequence': "-80",
     'depends': [
         'base',
         'mail',
