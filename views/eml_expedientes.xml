@@ -80,7 +80,7 @@
                     <notebook>
                         <page string="Contenedores" name="containers">
                             <group name="contenedores_lines">
-                                <field name="containers_line" widget="many2many" nolabel="1"/>
+                                <field name="containers_line" widget="one2many" nolabel="1"/>
                             </group>
                         </page>
                         <page string="Documentación" name="expedientes_docs_root">

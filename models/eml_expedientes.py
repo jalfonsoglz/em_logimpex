@@ -73,3 +73,4 @@ class EMLExpedientes(models.Model):
 				vals['name'] = self.env['ir.sequence'].next_by_code('eml.expedientes.sequence') or _('Nuevo expediente')
 				res = super(EMLExpedientes, self).create(vals)
 				return res
+
