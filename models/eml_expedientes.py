@@ -31,14 +31,18 @@ class EMLExpedientes(models.Model):
 	pza_num = fields.Integer(string='# de Piezas')
 	amount = fields.Monetary(string='Valor')
 	currency_id = fields.Many2one('res.currency', string='Moneda')
-	note = fields.Text(string='Descripción')
+	note = fields.Text(string='Notas')
 
 	# Información de Origen / Destino / Viaje
 	origin = fields.Many2one('res.country', string='Origen', required=True)
 	destiny = fields.Many2one('res.country', string='Destino', required=True)
-	start_date = fields.Date(string='Fecha Inicio', default=fields.Date.today, required=True)
-	end_date = fields.Date(string='Fecha Fin', default=fields.Date.today)
+	start_date = fields.Date(string='Fecha Est. Inicio', default=fields.Date.today, required=True)
+	end_date = fields.Date(string='Fecha Est. Fin', default=fields.Date.today)
 	partner_id = fields.Many2one('res.partner', string='Cliente')
+	invoice_partner_id = fields.Many2one('res.partner', string='Cliente a Facturar')
+	vendor_id = fields.Many2one('res.partner', string='Vendedor')
+	agent_id = fields.Many2one('res.partner', string='Agente')
+	agent_mx_id = fields.Many2one('res.partner', string='Agente en México')
 	responsable_id = fields.Many2one('res.users', string='Responsable')
 
 	# Información de Seguimiento
@@ -63,7 +67,14 @@ class EMLExpedientes(models.Model):
 	doc_ficha_tecnica = fields.Binary(string="Ficha Técnica")
 
 	# Líneas de Contenedores
+	buque_id = fields.Char(string='Buque')
+	travel_id = fields.Char(string='Número de Viaje')
+	internal_ref = fields.Char(string='Referencia Interna')
+	external_ref = fields.Char(string='Referencia Externa')
 	containers_line = fields.Many2many('eml.containers')
+
+	# Counter Projects
+	expedientes_count = fields.Integer(compute='_compute_projects_count', string='Proyectos')
 
 	@api.model
 	def create(self, vals):
@@ -73,4 +84,3 @@ class EMLExpedientes(models.Model):
 				vals['name'] = self.env['ir.sequence'].next_by_code('eml.expedientes.sequence') or _('Nuevo expediente')
 				res = super(EMLExpedientes, self).create(vals)
 				return res
-

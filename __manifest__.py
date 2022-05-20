@@ -8,7 +8,7 @@
     'author': "Alfonso Gonzalez (alfonso@ptree.com.mx)",
     'website': "https://ptree.com.mx/",
     'category': 'Customizations',
-    'version': '15.0.0.0.5',
+    'version': '15.0.0.0.6',
     'license': "AGPL-3",
     'sequence': "-80",
     'depends': [

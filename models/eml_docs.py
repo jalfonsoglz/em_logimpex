@@ -13,3 +13,8 @@ class EMLDocs(models.Model):
 	document_filename = fields.Char(string='Nombre del documento', copy=False)
 	document_tag = fields.Many2many('eml.docs.tags', string='Etiquetas', copy=False)
 	note = fields.Text(string='Descripción', copy=False)
+
+	@api.model
+	def create(self, vals):
+		vals['name'] = document
+		return super(EMLDocs, self).create(vals)

@@ -36,7 +36,8 @@
                         </group>
                     </group>
                     <group name="document_viewer">
-                        <field filename="document_filename" name="document" widget="pdf_viewer" />
+                        <field name="document" filename="document_filename" widget="pdf_viewer" />
+                        <field name="document_filename" invisible="1" />
                     </group>
                 </sheet>
             </form>

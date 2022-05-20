@@ -11,20 +11,20 @@
                 <field name="move_type" />
                 <field name="transportation_type" />
                 <field name="transportation_border" attrs="{'invisible': [('transportation_type', '!=', 'ground')]}" />
-                <field name="origin" options="{'no_create': True}"/>
-                <field name="destiny" options="{'no_create': True}"/>
+                <field name="origin" options="{'no_create': True}" />
+                <field name="destiny" options="{'no_create': True}" />
                 <field name="start_date" />
                 <field name="end_date" />
-                <field name="partner_id" optional="show"/>
-                <field name="responsable_id" optional="show" options="{'no_create': True}"/>
-                <field name="ref" optional="show"/>
-                <field name="load" optional="show" options="{'no_create': True}"/>
-                <field name="unload" optional="show" options="{'no_create': True}"/>
-                <field name="master" optional="show"/>
-                <field name="house" optional="show"/>
-                <field name="incoterm_id" optional="show" options="{'no_create': True}"/>
-                <field name="amount" optional="show"/>
-                <field name="currency_id" optional="show" options="{'no_create': True}"/>
+                <field name="partner_id" optional="show" />
+                <field name="responsable_id" optional="show" options="{'no_create': True}" />
+                <field name="ref" optional="show" />
+                <field name="load" optional="show" options="{'no_create': True}" />
+                <field name="unload" optional="show" options="{'no_create': True}" />
+                <field name="master" optional="show" />
+                <field name="house" optional="show" />
+                <field name="incoterm_id" optional="show" options="{'no_create': True}" />
+                <field name="amount" optional="show" />
+                <field name="currency_id" optional="show" options="{'no_create': True}" />
             </tree>
         </field>
     </record>
@@ -41,10 +41,10 @@
                             </h1>
                         </div>
                     </group>
-                    <group name="info" col="2">
+                    <group name="info" cols="2" string="Datos Generales">
                         <group name="info_left">
                             <field name="active" invisible="1" />
-                            <field name="operation_type" />
+                            <field name="operation_type" options="{'no_create': True}" />
                             <field name="service_type" />
                             <field name="move_type" />
                             <field name="transportation_type" />
@@ -53,34 +53,49 @@
                             <field name="weight" />
                             <field name="weight_chargeable" />
                             <field name="pza_num" />
-                            <field name="origin" />
-                            <field name="destiny" />
+                            <field name="origin" options="{'no_create': True}" />
+                            <field name="destiny" options="{'no_create': True}" />
+                            <field name="agent_id" options="{'no_create': True}" domain="[('category_id', '=', 'Agente')]" />
+
                             <field name="start_date" />
                             <field name="end_date" />
                         </group>
                         <group name="info_right">
                             <field name="partner_id" />
-                            <field name="responsable_id" widget="many2one_avatar_user" />
+                            <field name="invoice_partner_id" />
+                            <field name="vendor_id" domain="[('category_id', '=', 'Vendedor')]" />
+                            <field name="responsable_id" widget="many2one_avatar_user" options="{'no_create': True}" />
                             <field name="ref" />
                             <field name="pickup" />
                             <field name="delivery" />
-                            <field name="load" />
-                            <field name="unload" />
+                            <field name="load" options="{'no_create': True}" />
+                            <field name="unload" options="{'no_create': True}" />
                             <field name="master" />
                             <field name="house" />
                             <field name="fw_origen" attrs="{'invisible': [('move_type', '!=', 'import')]}" />
                             <field name="fw_destino" attrs="{'invisible': [('move_type', '!=', 'export')]}" />
                             <field name="mudancero_destino" attrs="{'invisible': [('service_type', '!=', 'moving')]}" />
-                            <field name="incoterm_id" />
+                            <field name="incoterm_id" options="{'no_create': True}" />
                             <field name="amount" />
-                            <field name="currency_id" />
-                            <field name="note" />
+                            <field name="currency_id" options="{'no_create': True}" />
+                        </group>
+                        <group name="info2" cols="2" string="Datos Adicionales">
+                            <group name="info2_left">
+                                <field name="agent_mx_id" options="{'no_create': True}" domain="[('category_id', '=', 'Agente')]" />
+                                <field name="buque_id" />
+                                <field name="travel_id" />
+                                <field name="internal_ref" />
+                                <field name="external_ref" />
+                            </group>
+                            <group name="info2_right">
+                                    <field name="note" />
+                            </group>
                         </group>
                     </group>
                     <notebook>
                         <page string="Contenedores" name="containers">
                             <group name="contenedores_lines">
-                                <field name="containers_line" widget="one2many" nolabel="1"/>
+                                <field name="containers_line" widget="one2many" nolabel="1" />
                             </group>
                         </page>
                         <page string="Documentación" name="expedientes_docs_root">
@@ -182,7 +197,7 @@
             </p>
         </field>
     </record>
-    <menuitem id="menu_eml_root" name="Logimpex" web_icon="em_logimpex,static/description/icon.png" sequence="10"  />
+    <menuitem id="menu_eml_root" name="Logimpex" web_icon="em_logimpex,static/description/icon.png" sequence="10" />
     <menuitem id="menu_eml_config" name="Configuración" parent="menu_eml_root" sequence="40" />
     <menuitem id="menu_eml_expedientes" name="Expedientes" parent="menu_eml_root" action="action_eml_expedientes" sequence="10" />
     <menuitem id="menu_eml_expedientes_all" name="Todos los Expedientes" parent="menu_eml_expedientes" action="action_eml_expedientes" sequence="10" />

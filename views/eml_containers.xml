@@ -29,7 +29,7 @@
                     <group col="2">
                         <group>
                             <field name="active" invisible="1" />
-                            <field name="containers_type" />
+                            <field name="containers_type" options="{'no_create': True}"/>
                             <field name="condition" />
                             <field name="weight" />
                             <field name="percent_usage" />
