@@ -46,7 +46,7 @@ class EMLExpedientes(models.Model):
 	responsable_id = fields.Many2one('res.users', string='Responsable')
 
 	# Información de Seguimiento
-	ref = fields.Char(string='Referencia Interna')
+	ref = fields.Char(string='Referencia')
 	pickup = fields.Char(string='Recolección')
 	load = fields.Many2one('eml.seaports.airports', string='Carga')
 	unload = fields.Many2one('eml.seaports.airports', string='Descarga')

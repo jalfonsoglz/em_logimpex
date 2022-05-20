@@ -56,7 +56,6 @@
                             <field name="origin" options="{'no_create': True}" />
                             <field name="destiny" options="{'no_create': True}" />
                             <field name="agent_id" options="{'no_create': True}" domain="[('category_id', '=', 'Agente')]" />
-
                             <field name="start_date" />
                             <field name="end_date" />
                         </group>
@@ -79,17 +78,17 @@
                             <field name="amount" />
                             <field name="currency_id" options="{'no_create': True}" />
                         </group>
-                        <group name="info2" cols="2" string="Datos Adicionales">
-                            <group name="info2_left">
-                                <field name="agent_mx_id" options="{'no_create': True}" domain="[('category_id', '=', 'Agente')]" />
-                                <field name="buque_id" />
-                                <field name="travel_id" />
-                                <field name="internal_ref" />
-                                <field name="external_ref" />
-                            </group>
-                            <group name="info2_right">
-                                    <field name="note" />
-                            </group>
+                    </group>
+                    <group name="info2" cols="2" string="Datos Adicionales">
+                        <group name="info2_left">
+                            <field name="agent_mx_id" options="{'no_create': True}" domain="[('category_id', '=', 'Agente')]" />
+                            <field name="buque_id" />
+                            <field name="travel_id" />
+                            <field name="internal_ref" />
+                            <field name="external_ref" />
+                        </group>
+                        <group name="info2_right">
+                            <field name="note" />
                         </group>
                     </group>
                     <notebook>
