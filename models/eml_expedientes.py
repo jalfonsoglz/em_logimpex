@@ -46,7 +46,6 @@ class EMLExpedientes(models.Model):
 	responsable_id = fields.Many2one('res.users', string='Responsable')
 
 	# Información de Seguimiento
-	ref = fields.Char(string='Referencia')
 	pickup = fields.Char(string='Recolección')
 	load = fields.Many2one('eml.seaports.airports', string='Carga')
 	unload = fields.Many2one('eml.seaports.airports', string='Descarga')
@@ -67,14 +66,20 @@ class EMLExpedientes(models.Model):
 	doc_ficha_tecnica = fields.Binary(string="Ficha Técnica")
 
 	# Líneas de Contenedores
-	buque_id = fields.Char(string='Buque')
+	buque_id = fields.Many2one('eml.buques', string='Buque')
 	travel_id = fields.Char(string='Número de Viaje')
-	internal_ref = fields.Char(string='Referencia Interna')
-	external_ref = fields.Char(string='Referencia Externa')
+	internal_ref = fields.Char(string='Ref. Interna')
+	external_ref = fields.Char(string='Ref. Externa')
 	containers_line = fields.Many2many('eml.containers')
+	account_move_lines = fields.Many2many('account.move')
 
 	# Counter Projects
 	expedientes_count = fields.Integer(compute='_compute_projects_count', string='Proyectos')
+
+	# Información Adicional
+	project_id = fields.Many2one('project.project', string='Proyecto')
+	account_analytic_id = fields.Many2one('account.analytic.account', string='Cuenta analítica')
+	more_info = fields.Boolean(default=False)
 
 	@api.model
 	def create(self, vals):
@@ -84,3 +89,23 @@ class EMLExpedientes(models.Model):
 				vals['name'] = self.env['ir.sequence'].next_by_code('eml.expedientes.sequence') or _('Nuevo expediente')
 				res = super(EMLExpedientes, self).create(vals)
 				return res
+
+	def action_create_project_analytic_account(self):
+		vals = {
+			'name': self.display_name,
+			'partner_id': self.partner_id.id,
+			'user_id': self.responsable_id.id,
+			'date_start': self.start_date,
+			'date': self.end_date,
+			'analytic_account_id': self.account_analytic_id.id
+		}
+		self.env['project.project'].create(vals)
+		vals = {
+			'name': self.display_name,
+			'partner_id': self.partner_id.id,
+		}
+		self.env['account.analytic.account'].create(vals)
+		msj = "<b>¡Se ha creado un proyecto y una cuenta analítica!</b>"
+		self.message_post(body=msj)
+		for rec in self:
+			rec.more_info = True

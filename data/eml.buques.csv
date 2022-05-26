@@ -1,0 +1,351 @@
+id,name,active
+buques__0001, AS CLEOPATRA,true
+buques__0002,AALDERDIJK ,true
+buques__0003,ADRIAN SCHULTE,true
+buques__0004,ADRIATIC HIGHWAY,true
+buques__0005,AEGIALI,true
+buques__0006,AGIOS MINA ,true
+buques__0007,AGIOS MINAS,true
+buques__0008,ALDEBARAN,true
+buques__0009,ALEXANDRA,true
+buques__0010,ALEXIS,true
+buques__0011,ALLEGORIA,true
+buques__0012,ALLEGRO,true
+buques__0013,ALTAMIRA EXPRESS,true
+buques__0014,ANTON SCHULTE,true
+buques__0015,APL BARCELONA,true
+buques__0016,APL HOLLAND,true
+buques__0017,APL MINNESOTA,true
+buques__0018,APL NEW JERSEY,true
+buques__0019,APL NORWAY,true
+buques__0020,APL SANTIAGO,true
+buques__0021,AS PATRIA,true
+buques__0022,ASTRID SCHULTE,true
+buques__0023,ATHENS GLORY,true
+buques__0024,ATLANTIC GREEN,true
+buques__0025,AVERA,true
+buques__0026,BALAO,true
+buques__0027,BARCELONA EXPRESS,true
+buques__0028,BATIR,true
+buques__0029,BF CONFIANZA,true
+buques__0030,BILBAO BRIDGE,true
+buques__0031,BREMEN BELLE,true
+buques__0032,BREMEN EXPRESS,true
+buques__0033,BRUSSELS,true
+buques__0034,BUXCLIFF,true
+buques__0035,BUXCOAST,true
+buques__0036,CAP ANDREAS,true
+buques__0037,CAP CORTES,true
+buques__0038,CAP SAN ANTONIO,true
+buques__0039,CAP SAN ARTEMISSIO,true
+buques__0040,CAP SAN AUGUSTIN,true
+buques__0041,CAP SAN LAZARO,true
+buques__0042,CAP SAN LORENZO,true
+buques__0043,CAP SAN MALEAS,true
+buques__0044,CAP SAN MARCO,true
+buques__0045,CAP SAN NICOLAS,true
+buques__0046,CAP SAN VICENTE,true
+buques__0047,CAPE AKRITAS,true
+buques__0048,CARDIFF,true
+buques__0049,CAROLINA STAR,true
+buques__0050,CARTAGENA EXPRESS,true
+buques__0051,CAUQUENES,true
+buques__0052,CAUTIN,true
+buques__0053,CC CHATEAU D ,true
+buques__0054,CCNI ARAUCO,true
+buques__0055,CELEBRATION,true
+buques__0056,CHACABUCO,true
+buques__0057,CHANA BHUM,true
+buques__0058,CHICAGO EXPRESS,true
+buques__0059,CIEM CICERO,true
+buques__0060,CISNES,true
+buques__0061,CMA CGM ALCAZAR,true
+buques__0062,CMA CGM CHATEAU DIF,true
+buques__0063,CMA CGM CHATEAU D'IF,true
+buques__0064,CMA CGM LAMARTINE,true
+buques__0065,CMA CGM MISSISSIPPI,true
+buques__0066,CMA CGM MUNDRA,true
+buques__0067,CMA CGM MUSSET,true
+buques__0068,CMA CGM NABUCO,true
+buques__0069,CMA CGM NERVAL,true
+buques__0070,CMA CGM NIAGARA,true
+buques__0071,CMA CGM TANYA,true
+buques__0072,CMA CGM TARPON,true
+buques__0073,CMA CGM THALASSA,true
+buques__0074,CMA CGM THAMES,true
+buques__0075,CMA CGM TIGRIS,true
+buques__0076,CMA CGM TOSCANA,true
+buques__0077,CMA CGM TUTICORIN,true
+buques__0078,CMA CGM WHITE SHARK,true
+buques__0079,CMA CMG FLORIDA,true
+buques__0080,CONSTANTIA,true
+buques__0081,CONSTANTIA,true
+buques__0082,COPIAPO,true
+buques__0083,CORCOVADO,true
+buques__0084,COSCO DURBAN,true
+buques__0085,COSCO HAMBURG ,true
+buques__0086,COSCO THAILAND,true
+buques__0087,COYHAIQUE,true
+buques__0088,CSCL ASIA,true
+buques__0089,CSL MANHATTAN,true
+buques__0090,DANAE C,true
+buques__0091,DIMITRA ,true
+buques__0092,DIMITRA C,true
+buques__0093,DONG YUN 088,true
+buques__0094,DOOWOO FAMILY,true
+buques__0095,DP LEGACY,true
+buques__0096,DUESSELDORF EXPRESS,true
+buques__0097,E.R. BERLIN,true
+buques__0098,E.R. CANADA,true
+buques__0099,E.R. DENMARK,true
+buques__0100,E.R. LONDON,true
+buques__0101,E.R. SEOUL,true
+buques__0102,EASTER ISLAND,true
+buques__0103,EM ATHENES,true
+buques__0104,EUROPE,true
+buques__0105,EVER LIBRA,true
+buques__0106,EVER LISSOME 0553,true
+buques__0107,EVER LOADING 0535,true
+buques__0108,EVER LYRIC,true
+buques__0109,EVER REFINE,true
+buques__0110,EVER SIGMA,true
+buques__0111,EVER ULTRA ,true
+buques__0112,EVER URANUS,true
+buques__0113,EVER URBAN,true
+buques__0114,EXPRESS BRAZIL,true
+buques__0115,EXPRESS FRANCE,true
+buques__0116,FRANCOISE GILOT,true
+buques__0117,FRISIA WISMAR,true
+buques__0118,GENOA,true
+buques__0119,GSL CHATEAU D´IF,true
+buques__0120,GSL CHATEAU D'IF,true
+buques__0121,HALIFAX EXPRESS,true
+buques__0122,HAMMONIA MASILA,true
+buques__0123,HAMMONIA MASSILIA,true
+buques__0124,HAMMONIA SAPHIRE,true
+buques__0125,HANJIN SEATTLE,true
+buques__0126,HANSA GRANITE,true
+buques__0127,HELLA,true
+buques__0128,HERTA,true
+buques__0129,HMM BLESSING,true
+buques__0130,HONG AN TAI ,true
+buques__0131,HUA HAI,true
+buques__0132,HUI HAI LONG,true
+buques__0133,HYUNDAI PRIVILEGE,true
+buques__0134,ILIOS,true
+buques__0135,IRENES RAINBOW,true
+buques__0136,IRENES WAVE,true
+buques__0137,IRENES WAVW,true
+buques__0138,ITAL UNIVERSO ,true
+buques__0139,ITAL USODIMARE,true
+buques__0140,JAMILA,true
+buques__0141,JIN LONG 38,true
+buques__0142,JONNI RITSCHER,true
+buques__0143,KATHERINE,true
+buques__0144,KKOTA RAKYAT,true
+buques__0145,KOBE EXPRESS,true
+buques__0146,KOKURA,true
+buques__0147,KOTA  CEPAT,true
+buques__0148,KOTA CAHAYA,true
+buques__0149,KOTA CANTIK,true
+buques__0150,KOTA SEJARAH,true
+buques__0151,KRISTINA,true
+buques__0152,LILLY SCHULTE,true
+buques__0153,LLOYD DON GIOVANNI,true
+buques__0154,LOG-IN JACARANDA,true
+buques__0155,LONDON EXPRESS,true
+buques__0156,LONG BEACH EXPRESS,true
+buques__0157,LUTETIA,true
+buques__0158,MAERKS BUTON,true
+buques__0159,MAERSK BALI,true
+buques__0160,MAERSK BATAM,true
+buques__0161,MAERSK BATU,true
+buques__0162,MAERSK BRANI,true
+buques__0163,MAERSK BRANI,true
+buques__0164,MAERSK BRATAN,true
+buques__0165,MAERSK BULAN,true
+buques__0166,MAERSK BUTON,true
+buques__0167,MAERSK DENVER,true
+buques__0168,MAERSK GIRONDE,true
+buques__0169,MAERSK HUACHO,true
+buques__0170,MAERSK KARLSKRONA,true
+buques__0171,MAERSK KINGSTON,true
+buques__0172,MAERSK LETICIA,true
+buques__0173,MAERSK NESTON,true
+buques__0174,MAERSK NEWHAVEN,true
+buques__0175,MAERSK NIAMEY,true
+buques__0176,MAERSK SENANG,true
+buques__0177,MAERSK YANGTZE,true
+buques__0178,MAIRA,true
+buques__0179,MAIRA XL,true
+buques__0180,MAPOCHO,true
+buques__0181,MARY,true
+buques__0182,MAULLIN,true
+buques__0183,MCC SHANGHAI,true
+buques__0184,MEDITERRANEAN BRIDGE,true
+buques__0185,MEDITERRANEAN EXPRESS,true
+buques__0186,MEERA,true
+buques__0187,MIMMI SCHULTE,true
+buques__0188,MINERVA,true
+buques__0189,MIRACULOUS ACE,true
+buques__0190,MIRAMARIN ,true
+buques__0191,MIZAR,true
+buques__0192,MOL BELIEF,true
+buques__0193,MOL EMISSARY,true
+buques__0194,MOL GLIDE,true
+buques__0195,MOL GRATITUDE,true
+buques__0196,MOLLY SCHULTE,true
+buques__0197,MONTE ACONCAGUA,true
+buques__0198,MONTE AZUL,true
+buques__0199,MONTE CERVANTES,true
+buques__0200,MONTE PASCOAL,true
+buques__0201,MONTE ROSA,true
+buques__0202,MONTE VERDE,true
+buques__0203,MSC ALGECIRAS,true
+buques__0204,MSC ALICANTE,true
+buques__0205,MSC ALTAMIRA,true
+buques__0206,MSC AMALFI,true
+buques__0207,MSC BARBARA,true
+buques__0208,MSC BARCELONA,true
+buques__0209,MSC BEIJING,true
+buques__0210,MSC CADIZ,true
+buques__0211,MSC CANBERRA,true
+buques__0212,MSC CARMEN,true
+buques__0213,MSC CELINE,true
+buques__0214,MSC CHARLESTON,true
+buques__0215,MSC CLAUDIA,true
+buques__0216,MSC CORUNA,true
+buques__0217,MSC DESIREE ,true
+buques__0218,MSC DIEGO,true
+buques__0219,MSC EARTH,true
+buques__0220,MSC ELBE,true
+buques__0221,MSC ELODIE,true
+buques__0222,MSC ERMINIA,true
+buques__0223,MSC FAITH,true
+buques__0224,MSC GENEVA,true
+buques__0225,MSC HANNAH,true
+buques__0226,MSC JENNY ,true
+buques__0227,MSC JUDITH,true
+buques__0228,MSC KATYAYNI,true
+buques__0229,MSC Kwangyang,true
+buques__0230,MSC LAURA,true
+buques__0231,MSC LAUSANNE,true
+buques__0232,MSC LORETTA,true
+buques__0233,MSC LUCY,true
+buques__0234,MSC LUDOVICA,true
+buques__0235,MSC MADRID,true
+buques__0236,MSC MANYA,true
+buques__0237,MSC MARIA PIA,true
+buques__0238,MSC MARIANNA,true
+buques__0239,MSC METHONI,true
+buques__0240,MSC MICHAELA,true
+buques__0241,MSC NATASHA,true
+buques__0242,MSC PERLE,true
+buques__0243,MSC RIFAYA ,true
+buques__0244,MSC RUBY,true
+buques__0245,MSC SOLA,true
+buques__0246,MSC SORAYA,true
+buques__0247,MSC Spain,true
+buques__0248,MSC TORONTO,true
+buques__0249,MSC VANCOUVER,true
+buques__0250,MSC VANESSA,true
+buques__0251,MSC VIDHI,true
+buques__0252,MSC VIGO,true
+buques__0253,MSC VITTORIA,true
+buques__0254,MUNICH MAERSK,true
+buques__0255,MY NY,true
+buques__0256,NAVIGARE COLLECTOR ,true
+buques__0257,NAVIOS FELICITAS,true
+buques__0258,NAXOS,true
+buques__0259,NELSON,true
+buques__0260,NORASIA ALYA,true
+buques__0261,NORDIC MACAU,true
+buques__0262,NORTHERN DIPLOMAT,true
+buques__0263,NORTHERN GENERAL,true
+buques__0264,NORTHERN POWER,true
+buques__0265,NORTHERN PRACTISE,true
+buques__0266,NYK CLARA,true
+buques__0267,NYK DANIELLA,true
+buques__0268,NYK LAURA,true
+buques__0269,NYK MARIA,true
+buques__0270,NYK REMUS,true
+buques__0271,OAKLAND EXPRESS,true
+buques__0272,OLIVIA 1,true
+buques__0273,OLIVIA I,true
+buques__0274,OSAKA TOWER,true
+buques__0275,PACON,true
+buques__0276,PALENA,true
+buques__0277,POLAR ARGENTINA,true
+buques__0278,POLAR BRASIL,true
+buques__0279,POLAR CHILE,true
+buques__0280,POLAR COSTA RICA,true
+buques__0281,POLAR ECUADOR,true
+buques__0282,POLAR MEXICO,true
+buques__0283,REPUBLICA DEL BRASILE,true
+buques__0284,RHODOS,true
+buques__0285,RIO BLACKWATER,true
+buques__0286,RIO GRANDE EXPRESS,true
+buques__0287,RIO NEGRO,true
+buques__0288,ROBIN 4,true
+buques__0289,ROTTERDAM,true
+buques__0290,S SANTIAGO,true
+buques__0291,SAFMARINE BENGUELA,true
+buques__0292,SAN ANTONIO EXPRESS,true
+buques__0293,SAN FELIX,true
+buques__0294,SANTA VANESSA,true
+buques__0295,SANTA VIOLA,true
+buques__0296,SCORPIUS,true
+buques__0297,SEALAND ILLINOIS,true
+buques__0298,SEALAND MICHIGAN,true
+buques__0299,SEALAND WASHINGTON,true
+buques__0300,SEAMAX DARIEN,true
+buques__0301,SEASOAN BRAVO,true
+buques__0302,SEASPAN BEAUTY,true
+buques__0303,SEASPAN BEAUTY,true
+buques__0304,SEASPAN BRAVO,true
+buques__0305,SEASPAN LAHORE,true
+buques__0306,SEASPAN SAIGON,true
+buques__0307,SEATRADE RED,true
+buques__0308,SEATTLE EXPRESS,true
+buques__0309,SEROJA TIGA,true
+buques__0310,SHUN FENG,true
+buques__0311,SIEM CICERO,true
+buques__0312,SINAR SABANG,true
+buques__0313,SM CHARLESTON,true
+buques__0314,STADT JENA,true
+buques__0315,STINA,true
+buques__0316,SUI HAI YUN,true
+buques__0317,SWAN RIVER BRIDGE,true
+buques__0318,TABEA,true
+buques__0319,TEMPANOS,true
+buques__0320,TIAN CHANG HE,true
+buques__0321,TIRUA,true
+buques__0322,TOKYO EXPRESS,true
+buques__0323,TOLTEN,true
+buques__0324,TONG HAI,true
+buques__0325,TRINIDAD TRADER,true
+buques__0326,TUBUL,true
+buques__0327,TUCAPEL,true
+buques__0328,UASC BUBIYAN,true
+buques__0329,VALIANT,true
+buques__0330,VALOR,true
+buques__0331,VENETIKO,true
+buques__0332,VENEZIA,true
+buques__0333,VIRGINIA TRADER,true
+buques__0334,WAN HAI ,true
+buques__0335,WARNOW DOLPHIN,true
+buques__0336,WEC MONDRIAAN,true
+buques__0337,WEC VAN GOGH,true
+buques__0338,WHAN HAI ,true
+buques__0339,XIN FEI ZHOU,true
+buques__0340,XIN OU SHOU,true
+buques__0341,YM ANTWERP,true
+buques__0342,YM ENLIGHTENMENT,true
+buques__0343,YM ESSENCE ,true
+buques__0344,YM IMMENSE,true
+buques__0345,YM UNANIMITY,true
+buques__0346,YM UNIFORM,true
+buques__0347,YUE FU LONG ,true
+buques__0348,ZANTE,true
+buques__0349,ZIM CHICAGO,true
+buques__0350,ZIM NINGBO,true
