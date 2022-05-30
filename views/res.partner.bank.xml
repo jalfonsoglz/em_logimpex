@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="eml_res_partner_bank_inherit_tree" model="ir.ui.view">
+        <field name="name">res.partner.bank.tree.inherit</field>
+        <field name="model">res.partner.bank</field>
+        <field name="inherit_id" ref="base.view_partner_bank_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='bank_name']" position="after">
+                <field name="currency_id" groups="base.group_multi_currency" />
+            </xpath>
+        </field>
+</record>
+        <record id="eml_res_partner_inherit_form" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="account.view_partner_property_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='bank_id']" position="after">
+                <field name="currency_id" />
+            </xpath>
+        </field>
+</record>
+</odoo>

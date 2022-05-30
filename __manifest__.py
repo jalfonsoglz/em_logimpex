@@ -8,7 +8,7 @@
     'author': "Alfonso Gonzalez (alfonso@ptree.com.mx)",
     'website': "https://ptree.com.mx/",
     'category': 'Customizations',
-    'version': '15.0.0.1.0',
+    'version': '15.0.0.1.1',
     'license': "AGPL-3",
     'sequence': "-80",
     'depends': [
@@ -38,6 +38,7 @@
         'views/eml_docs_tags.xml',
         'views/project.project.xml',
         'views/account.move.xml',
+        'views/res.partner.bank.xml',
         # Data
         'data/eml_containers_type.xml',
         'data/eml_borders.xml',
