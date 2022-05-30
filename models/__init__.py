@@ -3,7 +3,7 @@
 from . import project_project
 from . import account_move
 from . import account_incoterms
-# from . import res_partner
+from . import res_partner
 # from . import res_partner_bank
 from . import eml_borders
 from . import eml_containers_type

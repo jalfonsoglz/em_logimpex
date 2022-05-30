@@ -39,6 +39,7 @@
         'views/project.project.xml',
         'views/account.move.xml',
         'views/res.partner.bank.xml',
+        'views/res.partner.xml',
         # Data
         'data/eml_containers_type.xml',
         'data/eml_borders.xml',
