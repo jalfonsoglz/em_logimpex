@@ -20,3 +20,10 @@ class EMLSeaportsAirports(models.Model):
 	],  string='Tipo', required=True, tracking=True, help='Elegir el tipo origen o destino')
 	country = fields.Many2one('res.country', string='País', required=True, tracking=True)
 	note = fields.Text(string='Descripción', copy=False, tracking=True)
+
+	def name_get(self):
+		result = []
+		for rec in self:
+			name = '[' + rec.code + '] ' + rec.name
+			result.append((rec.id, name))
+		return result

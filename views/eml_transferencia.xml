@@ -12,8 +12,8 @@
                 <field name="currency_id" />
                 <field name="concept" />
                 <field name="solicitante_id" />
-                <field name="autorizacion1_id" />
-                <field name="autorizacion2_id" />
+                <field name="auth_user1" />
+                <field name="auth_user2" />
                 <field name="anticipo" optional="show" />
                 <field name="anticipo_monto" optional="show" />
                 <field name="anticipo_currency_id" optional="show" />
@@ -32,23 +32,57 @@
                         </h1>
                     </div>
                     <group>
-                    <group>
-                        <field name="eml_expediente" options="{'no_create': True}" />
-                        <field name="fecha_pago" />
-                        <field name="monto" />
-                        <field name="currency_id" options="{'no_create': True}" />
-                        <field name="concept" />
+                        <group>
+                            <field name="partner_id" string="Beneficiario" />
+                            <field name="eml_expediente" options="{'no_create': True}" />
+                            <field name="country_id" options="{'no_create': True}" />
+                            <field name="partner_id_email" />
+                        </group>
+                        <group>
+                            <field name="solicitante_id" options="{'no_create': True}" />
+                            <field name="create_date" string="Fecha Elaboración" />
+                            <field name="fecha_pago" />
+                        </group>
                     </group>
                     <group>
-                        <field name="anticipo" />
-                        <field name="anticipo_monto" />
-                        <field name="anticipo_currency_id" options="{'no_create': True}" />
-                        <field name="solicitante_id" options="{'no_create': True}" />
-                        <field name="autorizacion1_id" options="{'no_create': True}" />
-                        <field name="authorization1" string="Autorizar Nivel 1"/>
-                        <field name="autorizacion2_id" options="{'no_create': True}" />
-                        <field name="authorization2" string="Autorizar Nivel 2" />
+                        <group string="Información del Beneficiario">
+                            <field name="partner_id_vat" />
+                            <field name="num_proveedor" />
+                            <field name="account_type" />
+                            <field name="account_id" />
+                        </group>
+                        <group string="Información Bancaria">
+                            <field name="partner_id_accounts" domain="[('partner_id', '=', partner_id)]" />
+                            <label for="partner_id_acc_bank" />
+                            <div>
+                                <field name="partner_id_acc_bank" class="oe_inline" />
+                                <span class="o_form_label" />
+                                <field name="partner_id_acc_c_bank" class="oe_inline" />
+                            </div>
+                            <field name="partner_id_acc_currency" />
+                            <field name="partner_id_acc_number" />
+                            <field name="partner_id_acc_clabe" />
+                        </group>
                     </group>
+                    <group>
+                        <group string="Anticipo">
+                            <field name="concept" />
+                            <label for="monto" />
+                            <div>
+                                <field name="monto" class="oe_inline" />
+                                <span class="o_form_label" />
+                                <field name="partner_id_acc_currency" class="oe_inline" />
+                            </div>
+                            <field name="anticipo" />
+                            <field name="anticipo_monto" />
+                            <field name="anticipo_currency_id" options="{'no_create': True}" />
+                        </group>
+                        <group string="Autorización">
+                            <field name="auth_user1" options="{'no_create': True}" />
+                            <field name="auth_check1" string="Autorizar Nivel 1" attrs="{'readonly': [('auth_user1','!=', '2')]}" />
+                            <field name="auth_user2" options="{'no_create': True}" />
+                            <field name="auth_check2" string="Autorizar Nivel 2" attrs="{'readonly': [('auth_user1','!=', '2')]}" />
+                        </group>
                     </group>
                 </sheet>
                 <!-- Chatter -->
@@ -70,8 +104,8 @@
                 <field name="monto" />
                 <field name="concept" />
                 <field name="solicitante_id" />
-                <field name="autorizacion1_id" />
-                <field name="autorizacion2_id" />
+                <field name="auth_user1" />
+                <field name="auth_user2" />
                 <separator />
                 <group expand="1" string="Group by">
                     <separator />
@@ -79,8 +113,8 @@
                     <filter string="Fecha de Pago" name="groupby_fecha_pago" context="{'group_by':'fecha_pago'}" />
                     <filter string="Moneda" name="groupby_currency_id" context="{'group_by':'currency_id'}" />
                     <filter string="Solicitante" name="groupby_solicitante_id" context="{'group_by':'solicitante_id'}" />
-                    <filter string="Autorización Nivel 1" name="groupby_autorizacion1_id" context="{'group_by':'autorizacion1_id'}" />
-                    <filter string="Autorización Nivel 2" name="groupby_autorizacion2_id" context="{'group_by':'autorizacion2_id'}" />
+                    <filter string="Autorización Nivel 1" name="groupby_auth_user1" context="{'group_by':'auth_user1'}" />
+                    <filter string="Autorización Nivel 2" name="groupby_auth_user2" context="{'group_by':'auth_user2'}" />
                 </group>
             </search>
         </field>
