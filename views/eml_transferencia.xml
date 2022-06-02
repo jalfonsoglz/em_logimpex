@@ -81,7 +81,7 @@
                             <field name="auth_user1" options="{'no_create': True}" />
                             <field name="auth_check1" string="Autorizar Nivel 1" attrs="{'readonly': [('auth_user1','!=', '2')]}" />
                             <field name="auth_user2" options="{'no_create': True}" />
-                            <field name="auth_check2" string="Autorizar Nivel 2" attrs="{'readonly': [('auth_user1','!=', '2')]}" />
+                            <field name="auth_check2" string="Autorizar Nivel 2" />
                         </group>
                     </group>
                 </sheet>

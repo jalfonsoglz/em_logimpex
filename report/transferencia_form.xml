@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_transferencia_form">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout" t-lang="o.solicitante_id.lang">
+                    <div class="page">
+                        <div class="oe_structure" />
+                        <h2 class="mt16">
+                            <t>
+                                <span>Solicitud # </span>
+                            </t>
+                            <span t-field="o.solicitud" />
+                        </h2>
+                        <br />
+                        <div class="row">
+                            <div class="col-6">
+                                <span>
+                                    <strong>Fecha de Elaboración:</strong>
+                                    <br />
+                                </span>
+                                <span t-field="o.create_date" />
+                            </div>
+                            <div class="col-6">
+                                <span>
+                                    <strong>Fecha de Programada de Pago:</strong>
+                                    <br />
+                                </span>
+                                <span t-field="o.fecha_pago" />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-6">
+                                <span>
+                                    <strong>Beneficiario:</strong>
+                                    <br />
+                                </span>
+                                <span t-field="o.partner_id" />
+                            </div>
+                            <div class="col-3">
+                                <span>
+                                    <strong>RFC:</strong>
+                                    <br />
+                                </span>
+                                <span t-field="o.partner_id_vat" />
+                            </div>
+                            <div class="col-3">
+                                <span>
+                                    <strong>Número de Proveedor:</strong>
+                                    <br />
+                                </span>
+                                <span t-field="o.num_proveedor" />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-4">
+                                <span>
+                                    <strong>Banco:</strong>
+                                    <br />
+                                </span>
+                                <span t-field="o.partner_id_acc_bank" />
+                            </div>
+                            <div class="col-4">
+                                <span>
+                                    <strong>Cuenta:</strong>
+                                    <br />
+                                </span>
+                                <span t-field="o.partner_id_acc_number" />
+                            </div>
+                            <div class="col-4">
+                                <span>
+                                    <strong>CLABE:</strong>
+                                    <br />
+                                </span>
+                                <span t-field="o.partner_id_acc_clabe" />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-5">
+                                <span>
+                                    <strong>Monto a Transferir:</strong>
+                                    <br />
+                                </span>
+                                <span t-field="o.monto" /> <span t-field="o.partner_id_acc_currency" />
+                            </div>
+                            <div class="col-5">
+                                <span>
+                                    <strong>Monto del Anticipo:</strong>
+                                    <br />
+                                </span>
+                                <span t-field="o.anticipo_monto" /> <span t-field="o.anticipo_currency_id" />
+                            </div>
+                            <div class="col-2">
+                                <span>
+                                    <strong>Anticipo:</strong>
+                                    <br />
+                                </span>
+                                <t t-if="o.anticipo">
+                                    <input type="checkbox" id="anticipo_checkbox" checked="checked" />
+                                </t>
+                                <t t-if="not o.anticipo">
+                                    <input type="checkbox" id="anticipo_checkbox" />
+                                </t>
+                            </div>
+                        </div>
+                        <br />
+                            <div style="position:absolute;top:850px; page-break-inside: avoid;">
+                                <div class="row">
+                                <div class="col-4">
+                                    <span>
+                                        <strong>Solicitante:</strong>
+                                        <br />
+                                    </span>
+                                    <div class="signature">
+                                        <br />
+                                        <br />
+                                        <div>__________________________________________</div>
+                                        <div>
+                                            <span t-field="o.solicitante_id.name" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <span>
+                                        <strong>Autorización Nivel 1:</strong>
+                                        <br />
+                                    </span>
+                                    <br />
+                                    <div class="signature">
+                                        <t t-if="o.auth_check1">
+                                            <input type="checkbox" id="auth_check1_checkbox" checked="checked" />
+                                        </t>
+                                        <t t-if="not o.auth_check1">
+                                            <input type="checkbox" id="auth_check1_checkbox" />
+                                        </t>
+                                        <div>
+                                            <span t-field="o.auth_user1.name" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <span>
+                                        <strong>Autorización Nivel 2:</strong>
+                                        <br />
+                                    </span>
+                                    <br />
+                                    <div class="signature">
+                                        <t t-if="o.auth_check2">
+                                            <input type="checkbox" id="auth_check2_checkbox" checked="checked" />
+                                        </t>
+                                        <t t-if="not o.auth_check2">
+                                            <input type="checkbox" id="auth_check2_checkbox" />
+                                        </t>
+                                        <div>
+                                            <span t-field="o.auth_user2.name" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

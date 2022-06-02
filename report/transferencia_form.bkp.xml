@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_transferencia_form">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="web.basic_layout">
+                <div class="page">
+                    <div class="oe_structure" />
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <table class="table table-condensed" style="border: 3px solid black !important;">
+                                <thead>
+                                    <tr>
+                                        <th>Fecha de Elaboración:</th>
+                                        <th>01/06/222</th>
+                                        <th></th>
+                                        <th>Programado para:</th>
+                                        <th>02/06/2022</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="5"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Beneficiario:</td>
+                                        <td>AGENCIA MARITIMA NAVEGACION DEL PACIFICO SA CV</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Banco:</td>
+                                        <td colspan="4">Monte dei Paschi di Siena SPA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cuenta:</td>
+                                        <td>6020436742</td>
+                                        <td>CLABE</td>
+                                        <td colspan="2">721 8000 6020 4367 42</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Monto:</td>
+                                        <td>60.0000</td>
+                                        <td>Moneda</td>
+                                        <td>MXN</td>
+                                        <td>Anticipo: Si/No</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Concepto:</td>
+                                        <td colspan="3">Lorem ipsum dolor sit amet, consectur elit.</td>
+                                        <td>5.000 MXN</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Número de Expediente</td>
+                                        <td>2022-0015</td>
+                                        <td></td>
+                                        <td>País:</td>
+                                        <td>México</td>
+                                    </tr>
+                                    <tr>
+                                        <td>RFC:</td>
+                                        <td>XAXX01010100</td>
+                                        <td></td>
+                                        <td>email:</td>
+                                        <td>dante.carrion@example.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Banco Extranjero:</td>
+                                        <td colspan="2">Monte dei Paschi di Siena SPA</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cuenta Extranjera:</td>
+                                        <td colspan="2">4</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Otra Ref:</td>
+                                        <td colspan="2"></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>ABA:</td>
+                                        <td colspan="2"></td>
+                                        <td>Branch:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>FEDWIRE ABA:</td>
+                                        <td colspan="2"></td>
+                                        <td>Bank Code:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>IBAN:</td>
+                                        <td colspan="2">IT 73 Z 01 030 01 414 000 000 000 004</td>
+                                        <td>Desk:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>BIC-SWIFT</td>
+                                        <td colspan="2">PASCITMMXXX</td>
+                                        <td>Última Revisión:</td>
+                                        <td>02/ago/21 {user}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dirección:</td>
+                                        <td colspan="2"></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Solicitante:</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Autorización Lvl 1:</td>
+                                        <td>Autorización Lvl 2:</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[nombre]</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>{nombre}</td>
+                                        <td>{nombre}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>{firma}</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>{firma}</td>
+                                        <td>{firma}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </t>
+    </template>
+</odoo>

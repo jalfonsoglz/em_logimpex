@@ -71,10 +71,12 @@ class EMLExpedientes(models.Model):
 	internal_ref = fields.Char(string='Ref. Interna')
 	external_ref = fields.Char(string='Ref. Externa')
 	containers_line = fields.Many2many('eml.containers')
-	account_move_lines = fields.Many2many('account.move')
+	# account_move_lines = fields.One2many('account.move.line')
 
 	# Counter Projects
-	expedientes_count = fields.Integer(compute='_compute_projects_count', string='Proyectos')
+	expedientes_count = fields.Integer(compute='_compute_project_count', string='Proyectos')
+	facturas_count = fields.Integer(compute='_compute_invoice_count', string='Facturas')
+	pagos_count = fields.Integer(compute='_compute_payment_count', string='Pagos')
 
 	# Información Adicional
 	project_id = fields.Many2one('project.project', string='Proyecto')
@@ -109,3 +111,48 @@ class EMLExpedientes(models.Model):
 		self.message_post(body=msj)
 		for rec in self:
 			rec.more_info = True
+
+	def _compute_invoice_count(self):
+		for rec in self:
+			invoice_count = self.env['account.move'].search_count([('partner_id', '=', rec.partner_id.id)])
+			rec.facturas_count = invoice_count
+
+	def action_view_invoices(self):
+		return {
+			'type': 'ir.actions.act_window',
+			'name': 'Facturas',
+			'res_model': 'account.move',
+			'domain': [('partner_id', '=', self.partner_id.id)],
+			'view_mode': 'tree,form',
+			'target': 'current',
+		}
+
+	def _compute_project_count(self):
+		for rec in self:
+			invoice_count = self.env['project.project'].search_count([('partner_id', '=', rec.partner_id.id)])
+			rec.expedientes_count = invoice_count
+
+	def action_view_projects(self):
+		return {
+			'type': 'ir.actions.act_window',
+			'name': 'Proyectos',
+			'res_model': 'project.project',
+			'domain': [('partner_id', '=', self.partner_id.id)],
+			'view_mode': 'tree,form',
+			'target': 'current',
+		}
+
+	def _compute_payment_count(self):
+		for rec in self:
+			payment_count = self.env['account.payment'].search_count([('partner_id', '=', rec.partner_id.id)])
+			rec.pagos_count = payment_count
+
+	def action_view_payments(self):
+		return {
+			'type': 'ir.actions.act_window',
+			'name': 'Pagos',
+			'res_model': 'account.payment',
+			'domain': [('partner_id', '=', self.partner_id.id)],
+			'view_mode': 'tree,form',
+			'target': 'current',
+		}

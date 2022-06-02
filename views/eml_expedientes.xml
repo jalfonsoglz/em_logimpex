@@ -37,12 +37,17 @@
                     <button name="action_create_project_analytic_account" string="Crear Proyecto y Cuenta Analítica" type="object" class="oe_highlight" attrs="{'invisible': [('more_info', '=', True)]}"/>
                 </header>
                 <sheet>
-<!--                    <div class="oe_button_box" name="button_box">-->
-<!--                        <button class="oe_stat_button" name="action_open_projects"-->
-<!--                        type="object" icon="fa-book">-->
-<!--                            <field name="projects_count" string="Proyectos" widget="statinfo"/>-->
-<!--                        </button>-->
-<!--                    </div>-->
+                    <div class="oe_button_box" name="button_box">
+                        <button class="oe_stat_button" type="object" name="action_view_projects" icon="fa-book" attrs="{'invisible': [('expedientes_count', '=', 0)]}">
+                            <field string="Proyectos" name="expedientes_count" widget="statinfo"/>
+                        </button>
+                        <button class="oe_stat_button" type="object" name="action_view_invoices" icon="fa-pencil-square-o" attrs="{'invisible': [('facturas_count', '=', 0)]}">
+                            <field string="Facturas" name="facturas_count" widget="statinfo"/>
+                        </button>
+                        <button class="oe_stat_button" type="object" name="action_view_payments" icon="fa-credit-card" attrs="{'invisible': [('pagos_count', '=', 0)]}">
+                            <field string="Pagos" name="pagos_count" widget="statinfo"/>
+                        </button>
+                    </div>
                     <group>
                         <div class="oe_title">
                             <h1>
@@ -52,8 +57,6 @@
                     </group>
                     <group name="info" cols="2" string="Datos Generales">
                         <group name="info_left">
-                            <field name="active" invisible="1" />
-                            <field name="more_info" invisible="1" />
                             <field name="create_date" string="Emisión" />
                             <field name="operation_type" options="{'no_create': True}" />
                             <field name="service_type" />
@@ -107,11 +110,11 @@
                                 <field name="containers_line" widget="one2many" nolabel="1" />
                             </group>
                         </page>
-                        <page string="Asientos Contables" name="containers">
-                            <group name="account_move_lines">
-                                <field name="account_move_lines" widget="one2many" nolabel="1" />
-                            </group>
-                        </page>
+<!--                        <page string="Asientos Contables" name="containers">-->
+<!--                            <group name="account_move_lines">-->
+<!--                                <field name="account_move_lines" widget="one2many" domain="[('partner_id', '=', 'partner_id')]" />-->
+<!--                            </group>-->
+<!--                        </page>-->
                         <page string="Documentación" name="expedientes_docs_root">
                             <group name="expedientes_docs">
                                 <group name="expedientes_docs_left">
@@ -128,6 +131,8 @@
                         </page>
                         <page string="Información Adicional" name="more_info">
                             <group>
+                                <field name="active" invisible="1" />
+                                <field name="more_info" invisible="1" />
                                 <field name="project_id" options="{'no_create': True}"/>
                                 <field name="account_analytic_id" options="{'no_create': True}" />
                             </group>

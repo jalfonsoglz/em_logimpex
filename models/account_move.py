@@ -16,4 +16,5 @@ class AccountMoveInherit(models.Model):
     @api.model
     def create(self, vals):
         vals['eml_folio_fact'] = self.env['ir.sequence'].next_by_code('eml.control.proveedores.sequence')
-        return super(AccountMoveInherit, self).create(vals)
+        res = super(AccountMoveInherit, self).create(vals)
+        return res
