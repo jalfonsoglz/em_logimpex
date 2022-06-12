@@ -8,7 +8,7 @@
     'author': "Alfonso Gonzalez (alfonso@ptree.com.mx)",
     'website': "https://ptree.com.mx/",
     'category': 'Customizations',
-    'version': '15.0.0.1.3',
+    'version': '15.0.0.1.5',
     'license': "AGPL-3",
     'sequence': "-80",
     'depends': [
@@ -25,6 +25,9 @@
         # Imports
         'data/eml.seaports.airports.csv',
         'data/eml.buques.csv',
+        # Reports
+        'report/report.xml',
+        'report/transferencia_form.xml',
         # Views
         'views/eml_expedientes.xml',
         'views/eml_operation_type.xml',
@@ -47,12 +50,9 @@
         'data/eml_tags.xml',
         # Sequence
         'data/ir_sequence_data.xml',
-        # Reports
-        'report/transferencia_form.xml',
-        'report/report.xml',
     ],
     'demo': [],
     'installable': True,
     'application': True,
-    'auto_install': True,
+    'auto_install': False,
 }

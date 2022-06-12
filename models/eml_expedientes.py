@@ -114,15 +114,15 @@ class EMLExpedientes(models.Model):
 
 	def _compute_invoice_count(self):
 		for rec in self:
-			invoice_count = self.env['account.move'].search_count([('partner_id', '=', rec.partner_id.id)])
+			invoice_count = self.env['account.move.line'].search_count(['&', ('partner_id', '=', self.partner_id.id), ('analytic_account_id', '=', self.account_analytic_id.id), ('parent_state', '!=', 'draft')])
 			rec.facturas_count = invoice_count
 
 	def action_view_invoices(self):
 		return {
 			'type': 'ir.actions.act_window',
 			'name': 'Facturas',
-			'res_model': 'account.move',
-			'domain': [('partner_id', '=', self.partner_id.id)],
+			'res_model': 'account.move.line',
+			'domain': ['&', ('partner_id', '=', self.partner_id.id), ('analytic_account_id', '=', self.account_analytic_id.id), ('parent_state', '!=', 'draft')],
 			'view_mode': 'tree,form',
 			'target': 'current',
 		}

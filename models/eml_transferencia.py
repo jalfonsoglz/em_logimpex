@@ -32,7 +32,7 @@ class EMLTransferencia(models.Model):
     partner_id_acc_clabe = fields.Char(
         related='partner_id_accounts.l10n_mx_edi_clabe', string='CLABE', readonly=True)
     partner_id_acc_currency = fields.Many2one(
-        related='partner_id_accounts.currency_id', string='Moneda', readonly=True)
+        related='partner_id_accounts.currency_id', string='Moneda de la Cuenta', readonly=True)
     monto = fields.Monetary(string='Monto')
     currency_id = fields.Many2one('res.currency', string='Moneda')
     forma_pago_id = fields.Many2one('account.move', string='Forma de Pago')

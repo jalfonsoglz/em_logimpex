@@ -33,22 +33,22 @@
                     </div>
                     <group>
                         <group>
-                            <field name="partner_id" string="Beneficiario" />
                             <field name="eml_expediente" options="{'no_create': True}" />
+                            <field name="partner_id" string="Beneficiario" />
                             <field name="country_id" options="{'no_create': True}" />
                             <field name="partner_id_email" />
                         </group>
                         <group>
                             <field name="solicitante_id" options="{'no_create': True}" />
-                            <field name="create_date" string="Fecha Elaboración" />
                             <field name="fecha_pago" />
+                            <field name="create_date" string="Fecha Elaboración" />
                         </group>
                     </group>
                     <group>
                         <group string="Información del Beneficiario">
+                            <field name="account_type" invisible="1"/>
                             <field name="partner_id_vat" />
                             <field name="num_proveedor" />
-                            <field name="account_type" />
                             <field name="account_id" />
                         </group>
                         <group string="Información Bancaria">
@@ -67,21 +67,33 @@
                     <group>
                         <group string="Anticipo">
                             <field name="concept" />
+                            <field name="anticipo" />
                             <label for="monto" />
                             <div>
                                 <field name="monto" class="oe_inline" />
                                 <span class="o_form_label" />
                                 <field name="partner_id_acc_currency" class="oe_inline" />
                             </div>
-                            <field name="anticipo" />
-                            <field name="anticipo_monto" />
-                            <field name="anticipo_currency_id" options="{'no_create': True}" />
+                            <label for="anticipo_monto" />
+                            <div>
+                                <field name="anticipo_monto" class="oe_inline" />
+                                <span class="o_form_label" />
+                                <field name="anticipo_currency_id" class="oe_inline" />
+                            </div>
                         </group>
                         <group string="Autorización">
-                            <field name="auth_user1" options="{'no_create': True}" />
-                            <field name="auth_check1" string="Autorizar Nivel 1" attrs="{'readonly': [('auth_user1','!=', '2')]}" />
-                            <field name="auth_user2" options="{'no_create': True}" />
-                            <field name="auth_check2" string="Autorizar Nivel 2" />
+                            <label for="auth_user1" />
+                            <div>
+                                <field name="auth_check1" class="oe_inline" attrs="{'readonly': [('auth_user1','!=', '2')]}" />
+                                <span class="o_form_label" />
+                                <field name="auth_user1" class="oe_inline"  />
+                            </div>
+                            <label for="auth_user2" />
+                            <div>
+                                <field name="auth_check2" class="oe_inline" attrs="{'readonly': [('auth_user1','!=', '2')]}" />
+                                <span class="o_form_label" />
+                                <field name="auth_user2" class="oe_inline" />
+                            </div>
                         </group>
                     </group>
                 </sheet>
