@@ -76,6 +76,7 @@ class EMLExpedientes(models.Model):
 	# Counter Projects
 	expedientes_count = fields.Integer(compute='_compute_project_count', string='Proyectos')
 	facturas_count = fields.Integer(compute='_compute_invoice_count', string='Facturas')
+	transferencias_count = fields.Integer(compute='_compute_transfer_count', string='Transferencias')
 	pagos_count = fields.Integer(compute='_compute_payment_count', string='Pagos')
 
 	# Información Adicional
@@ -114,7 +115,10 @@ class EMLExpedientes(models.Model):
 
 	def _compute_invoice_count(self):
 		for rec in self:
-			invoice_count = self.env['account.move.line'].search_count(['&', ('partner_id', '=', self.partner_id.id), ('analytic_account_id', '=', self.account_analytic_id.id), ('parent_state', '!=', 'draft')])
+			invoice_count = self.env['account.move.line'].search_count(
+				['&', ('partner_id', '=', self.partner_id.id),
+				 ('analytic_account_id', '=', self.account_analytic_id.id),
+				 ('parent_state', '!=', 'draft')])
 			rec.facturas_count = invoice_count
 
 	def action_view_invoices(self):
@@ -122,14 +126,18 @@ class EMLExpedientes(models.Model):
 			'type': 'ir.actions.act_window',
 			'name': 'Facturas',
 			'res_model': 'account.move.line',
-			'domain': ['&', ('partner_id', '=', self.partner_id.id), ('analytic_account_id', '=', self.account_analytic_id.id), ('parent_state', '!=', 'draft')],
+			'domain': ['&', ('partner_id', '=', self.partner_id.id),
+			           ('analytic_account_id', '=', self.account_analytic_id.id),
+			           ('parent_state', '!=', 'draft')],
 			'view_mode': 'tree,form',
 			'target': 'current',
 		}
 
 	def _compute_project_count(self):
 		for rec in self:
-			invoice_count = self.env['project.project'].search_count([('partner_id', '=', rec.partner_id.id)])
+			invoice_count = self.env['project.project'].search_count(
+				['&', ('partner_id', '=', rec.partner_id.id), ('eml_expediente', '=', rec.name)]
+			)
 			rec.expedientes_count = invoice_count
 
 	def action_view_projects(self):
@@ -137,7 +145,7 @@ class EMLExpedientes(models.Model):
 			'type': 'ir.actions.act_window',
 			'name': 'Proyectos',
 			'res_model': 'project.project',
-			'domain': [('partner_id', '=', self.partner_id.id)],
+			'domain': ['&', ('partner_id', '=', self.partner_id.id), ('eml_expediente', '=', self.name)],
 			'view_mode': 'tree,form',
 			'target': 'current',
 		}
@@ -153,6 +161,23 @@ class EMLExpedientes(models.Model):
 			'name': 'Pagos',
 			'res_model': 'account.payment',
 			'domain': [('partner_id', '=', self.partner_id.id)],
+			'view_mode': 'tree,form',
+			'target': 'current',
+		}
+
+	def _compute_transfer_count(self):
+		for rec in self:
+			transfers_count = self.env['eml.transferencia'].search_count(
+				['&', ('partner_id', '=', rec.partner_id.id), ('eml_expediente', '=', rec.name)]
+			)
+			rec.transferencias_count = transfers_count
+
+	def action_view_transfers(self):
+		return {
+			'type': 'ir.actions.act_window',
+			'name': 'Transferencias',
+			'res_model': 'eml.transferencia',
+			'domain': ['&', ('partner_id', '=', self.partner_id.id), ('eml_expediente', '=', self.name)],
 			'view_mode': 'tree,form',
 			'target': 'current',
 		}

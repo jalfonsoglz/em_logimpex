@@ -44,6 +44,9 @@
                         <button class="oe_stat_button" type="object" name="action_view_invoices" icon="fa-pencil-square-o" attrs="{'invisible': [('facturas_count', '=', 0)]}">
                             <field string="Facturas" name="facturas_count" widget="statinfo"/>
                         </button>
+                        <button class="oe_stat_button" type="object" name="action_view_transfers" icon="fa-exchange" attrs="{'invisible': [('transferencias_count', '=', 0)]}">
+                            <field string="Transferencias" name="transferencias_count" widget="statinfo"/>
+                        </button>
                         <button class="oe_stat_button" type="object" name="action_view_payments" icon="fa-credit-card" attrs="{'invisible': [('pagos_count', '=', 0)]}">
                             <field string="Pagos" name="pagos_count" widget="statinfo"/>
                         </button>
@@ -70,8 +73,11 @@
                             <field name="origin" options="{'no_create': True}" />
                             <field name="destiny" options="{'no_create': True}" />
                             <field name="agent_id" options="{'no_create': True}" domain="[('category_id', '=', 'Agente')]" />
-                            <field name="start_date" />
-                            <field name="end_date" />
+                            <field name="start_date" widget="daterange"
+                                   options="{'related_end_date': 'end_date'}"/>
+                            <field name="end_date" widget="daterange"
+                                   options="{'related_start_date': 'start_date'}"/>
+
                         </group>
                         <group name="info_right">
                             <field name="partner_id" />
@@ -208,16 +214,56 @@
     <record id="expedientes_view_gantt" model="ir.ui.view">
         <field name="name">eml.expedientes.gantt</field>
         <field name="model">eml.expedientes</field>
+        <field name="priority">10</field>
         <field name="arch" type="xml">
-            <gantt date_start="start_date" date_stop="end_date" default_group_by='partner_id'>
+            <gantt date_start="start_date"
+                   date_stop="end_date"
+                   color="id"
+                   default_scale="month"
+                   thumbnails="{'responsable_id': 'avatar_128'}"
+                   default_group_by="name"
+                   display_unavailability="1" >
+                <templates>
+                    <div t-name="gantt-popover">
+                        <div t-if="responsable_id"><strong>Responsable — </strong> <t t-out="responsable_id"/></div>
+                        <div t-if="partner_id"><strong>Cliente — </strong> <t t-esc="partner_id[1]"/></div>
+                        <div><t t-esc="userTimezoneStartDate.format('l LT ')"/><i class="fa fa-long-arrow-right" title="Arrow"/><t t-esc="userTimezoneStopDate.format(' l LT')"/></div>
+<!--                        <div class="text-danger mt-2" t-if="planning_overlap">-->
+<!--                            <t t-esc="planning_overlap"/> other task<span t-if="planning_overlap &gt; 1">s</span> for this employee at the same time.-->
+<!--                        </div>-->
+                    </div>
+                </templates>
+                <field name="responsable_id"/>
+                <field name="partner_id"/>
+<!--                <field name="planning_overlap"/>-->
             </gantt>
         </field>
     </record>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <record id="action_eml_expedientes" model="ir.actions.act_window">
         <field name="name">Expedientes</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">eml.expedientes</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">tree,form,gantt</field>
         <field name="context">{}</field>
         <field name="help" type="html">
             <p class="o_view_nocontent_smiling_face">

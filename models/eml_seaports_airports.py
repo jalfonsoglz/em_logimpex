@@ -8,8 +8,8 @@ class EMLSeaportsAirports(models.Model):
 	_inherit = ['mail.thread']
 	_name = 'eml.seaports.airports'
 	_description = 'Configurar Puertos Marítimos y Aeropuertos'
-	_rec_name = 'name'
-	_order = 'name'
+	_rec_name = 'code'
+	_order = 'code'
 
 	active = fields.Boolean(string='Activo', default=True, tracking=True)
 	name = fields.Char(string='Nombre', required=True, help='Nombre a mostrar en el listado', tracking=True)

@@ -7,7 +7,8 @@
             <field name="report_type">qweb-pdf</field>
             <field name="report_name">em_logimpex.report_transferencia_form</field>
             <field name="report_file">em_logimpex.report_transferencia_form</field>
-            <field name="binding_model_id" ref="model_eml_transferencia" />
+            <field name="print_report_name">'Solicitud de Transferencia - %s' % (object.name)</field>
+            <field name="binding_model_id" ref="em_logimpex.model_eml_transferencia" />
             <field name="binding_type">report</field>
         </record>
     </data>

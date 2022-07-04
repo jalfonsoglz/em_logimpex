@@ -56,3 +56,4 @@ class EMLTransferencia(models.Model):
         vals['solicitud'] = self.env['ir.sequence'].next_by_code('eml.transferencias.sequence')
         res = super(EMLTransferencia, self).create(vals)
         return res
+
